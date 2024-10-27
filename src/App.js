@@ -8,7 +8,7 @@ import NewsPage from './pages/page/NewsPage.js'
 
 function App() {
     return (
-        <Router>
+        <Router basename="/ai-market-dashboard">
             <div className="bg-gray-900 min-h-screen text-gray-100 font-sans flex flex-col">
                 <Header />
                 <main className="flex-grow p-4 sm:p-6 mx-auto w-full max-w-screen-xl">
