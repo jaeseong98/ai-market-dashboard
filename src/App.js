@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom'
 import Header from './layouts/Header.js'
 import Footer from './layouts/Footer.js'
 import MarketsPage from './pages/page/MarketPage.js'
@@ -13,7 +13,9 @@ function App() {
                 <Header />
                 <main className="flex-grow p-4 sm:p-6 mx-auto w-full max-w-screen-xl">
                     <Routes>
-                        <Route path="/ai-market-dashboard" element={<MarketsPage />} />
+                        {/* 루트 경로를 /markets로 리다이렉트 */}
+                        <Route path="/" element={<Navigate to="/markets" replace />} />
+                        <Route path="/markets" element={<MarketsPage />} />
                         <Route path="/economics" element={<EconomicsPage />} />
                         <Route path="/news" element={<NewsPage />} />
                     </Routes>
