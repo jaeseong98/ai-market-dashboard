@@ -13,7 +13,7 @@ function App() {
                 <Header />
                 <main className="flex-grow p-4 sm:p-6 mx-auto w-full max-w-screen-xl">
                     <Routes>
-                        <Route path="/" element={<MarketsPage />} />
+                        <Route path="/ai-market-dashboard" element={<MarketsPage />} />
                         <Route path="/economics" element={<EconomicsPage />} />
                         <Route path="/news" element={<NewsPage />} />
                     </Routes>
