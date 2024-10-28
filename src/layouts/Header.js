@@ -9,7 +9,7 @@ const Header = () => (
                 <h1 className="text-2xl font-bold">미국 경제 대시보드</h1>
             </div>
             <nav className="flex space-x-6 ml-auto">
-                <Link to="/" className="text-gray-300 hover:text-white">Markets</Link>
+                <Link to="/markets" className="text-gray-300 hover:text-white">Markets</Link>
                 <Link to="/economics" className="text-gray-300 hover:text-white">Economics</Link>
                 <Link to="/news" className="text-gray-300 hover:text-white">News</Link>
             </nav>
