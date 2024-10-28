@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# AI Market Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fjaeseong98.github.io%2Fai-market-dashboard%2F)](https://jaeseong98.github.io/ai-market-dashboard/)
+[![Demo](https://img.shields.io/badge/Demo-Live%20Preview-blue)](https://jaeseong98.github.io/ai-market-dashboard/)
 
 ## Demo
 
