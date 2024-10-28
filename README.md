@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo
+
+프로젝트 데모를 확인하려면 다음 링크를 방문해주세요:
+[AI Market Dashboard Demo](https://jaeseong98.github.io/ai-market-dashboard/)
+
 ## Available Scripts
 
 In the project directory, you can run:
