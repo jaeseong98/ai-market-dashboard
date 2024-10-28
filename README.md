@@ -1,7 +1,11 @@
 # AI Market Dashboard
 
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fjaeseong98.github.io%2Fai-market-dashboard%2F)](https://jaeseong98.github.io/ai-market-dashboard/)
-[![Demo](https://img.shields.io/badge/Demo-Live%20Preview-blue)](https://jaeseong98.github.io/ai-market-dashboard/)
+<div align="center">
+  <h2>🚀 <a href="https://jaeseong98.github.io/ai-market-dashboard/">실시간 데모 보기</a></h2>
+  <p>AI 마켓 대시보드를 직접 체험해보세요!</p>
+</div>
+
+---
 
 ## Demo
 
