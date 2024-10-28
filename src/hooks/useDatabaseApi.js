@@ -48,7 +48,9 @@ export const useDatabaseApi = () => {
                         commodityRates: commodityRates || {}
                     });
                 } else {
-                    const response = await fetch('/ai-market-dashboard/static-data.json');
+                    // 프로덕션 환경에서는 baseURL을 고려한 경로 사용
+                    const staticDataPath = process.env.PUBLIC_URL + '/static-data.json';
+                    const response = await fetch(staticDataPath);
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }

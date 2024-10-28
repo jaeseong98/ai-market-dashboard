@@ -69,7 +69,7 @@ const ModelPrediction = () => {
 
     useEffect(() => {
         // public 폴더의 CSV 파일 직접 접근
-        Papa.parse('./ai-market-dashboard/lgb_result2.csv', {
+        Papa.parse(process.env.PUBLIC_URL + '/lgb_result2.csv', {
             download: true,
             header: true,
             complete: (results) => {

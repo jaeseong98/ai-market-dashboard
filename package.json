@@ -31,10 +31,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "cd .. && node generateStaticData.mjs && cd frontend && npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node ../generateStaticData.mjs && react-scripts start",
-    "build": "node ../generateStaticData.mjs && react-scripts build",
+    "start": "cd .. && node generateStaticData.mjs && cd frontend && react-scripts start",
+    "build": "cd .. && node generateStaticData.mjs && cd frontend && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
