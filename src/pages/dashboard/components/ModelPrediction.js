@@ -68,17 +68,21 @@ const ModelPrediction = () => {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        Papa.parse('/lgb_result2.csv', {
+        // public 폴더의 CSV 파일 직접 접근
+        Papa.parse('./ai-market-dashboard/lgb_result2.csv', {
             download: true,
             header: true,
             complete: (results) => {
                 const filteredData = results.data
-                    .filter(item => new Date(item.DATE_YMD) >= new Date('1990-01-01'))
-                    .sort((a, b) => new Date(a.DATE_YMD) - new Date(b.DATE_YMD))
-                setData(filteredData)
+                    .filter(item => item.DATE_YMD && new Date(item.DATE_YMD) >= new Date('1990-01-01'))
+                    .sort((a, b) => new Date(a.DATE_YMD) - new Date(b.DATE_YMD));
+                setData(filteredData);
+            },
+            error: (error) => {
+                console.error('Error parsing CSV:', error);
             }
-        })
-    }, [])
+        });
+    }, []);
 
     if (data.length === 0) {
         return <div>Loading...</div>

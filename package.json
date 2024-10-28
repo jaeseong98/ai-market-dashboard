@@ -33,7 +33,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "node ../generateStaticData.mjs && react-scripts start",
     "build": "node ../generateStaticData.mjs && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
