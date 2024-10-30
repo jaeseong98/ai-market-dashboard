@@ -177,7 +177,7 @@ const ModelPrediction = () => {
     return (
         <Card className="bg-gray-800 text-white">
             <CardHeader>
-                <h3 className="text-xl font-semibold mb-4 ml-2">🔮 미국 경기침체 예측</h3>
+                <h3 className="text-xl font-semibold mb-4 ml-2">📋 미국 경기침체 예측</h3>
             </CardHeader>
             <CardContent>
                 <div className="flex flex-col lg:flex-row items-stretch">

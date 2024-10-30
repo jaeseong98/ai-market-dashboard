@@ -393,27 +393,32 @@ const EconomicIndicators = React.memo(({ data }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-wrap items-center gap-2 mb-4">
-                        {uniqueCategories.map(category => (
-                            <Button
-                                key={category}
-                                onClick={() => {
-                                    setSelectedCategory(category)
-                                    setCurrentPage(1)
-                                }}
-                                className={`px-3 py-1 text-sm rounded ${
-                                    category === '추천'
-                                        ? selectedCategory === category
-                                            ? 'bg-yellow-600 text-white'
-                                            : 'bg-yellow-700 text-gray-200 hover:bg-yellow-600'
-                                        : selectedCategory === category
-                                            ? 'bg-blue-600 text-white'
-                                            : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-                                }`}
-                            >
-                                {category}
-                            </Button>
-                        ))}
+                    <div className="flex flex-col">
+                        <div className="flex flex-wrap items-center gap-2">
+                            {uniqueCategories.map(category => (
+                                <Button
+                                    key={category}
+                                    onClick={() => {
+                                        setSelectedCategory(category)
+                                        setCurrentPage(1)
+                                    }}
+                                    className={`px-3 py-1 text-sm rounded ${
+                                        category === '추천'
+                                            ? selectedCategory === category
+                                                ? 'bg-yellow-600 text-white'
+                                                : 'bg-yellow-700 text-gray-200 hover:bg-yellow-600'
+                                            : selectedCategory === category
+                                                ? 'bg-blue-600 text-white'
+                                                : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                                    }`}
+                                >
+                                    {category}
+                                </Button>
+                            ))}
+                        </div>
+                        <p className="text-center text-sm text-gray-400 font-bold tracking-wide mt-2 ">
+                            클릭 시 자세한 그래프를 볼 수 있습니다
+                        </p>
                     </div>
                 </CardHeader>
                 <CardContent className="bg-gray-900 p-4">
