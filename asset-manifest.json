@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://jaeseong98.github.io/ai-market-dashboard/static/css/main.7755f6fa.css",
-    "main.js": "https://jaeseong98.github.io/ai-market-dashboard/static/js/main.4d03453d.js",
+    "main.js": "https://jaeseong98.github.io/ai-market-dashboard/static/js/main.71408bb4.js",
     "static/js/453.9537af23.chunk.js": "https://jaeseong98.github.io/ai-market-dashboard/static/js/453.9537af23.chunk.js",
     "index.html": "https://jaeseong98.github.io/ai-market-dashboard/index.html",
     "main.7755f6fa.css.map": "https://jaeseong98.github.io/ai-market-dashboard/static/css/main.7755f6fa.css.map",
-    "main.4d03453d.js.map": "https://jaeseong98.github.io/ai-market-dashboard/static/js/main.4d03453d.js.map",
+    "main.71408bb4.js.map": "https://jaeseong98.github.io/ai-market-dashboard/static/js/main.71408bb4.js.map",
     "453.9537af23.chunk.js.map": "https://jaeseong98.github.io/ai-market-dashboard/static/js/453.9537af23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7755f6fa.css",
-    "static/js/main.4d03453d.js"
+    "static/js/main.71408bb4.js"
   ]
 }
