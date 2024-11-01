@@ -15,6 +15,10 @@ const MarketsPage = () => {
         error 
     } = useDatabaseApi();
 
+    const normalizedMarketIndices = {
+        data: Array.isArray(marketIndices) ? marketIndices : marketIndices?.data || []
+    };
+
     console.log('MarketPage - marketIndices:', marketIndices);
     console.log('MarketPage - fearGreedData:', fearGreedData);
 
@@ -37,15 +41,15 @@ const MarketsPage = () => {
         <div className="space-y-6">
             <div>
                 <h2 className="text-2xl font-bold">Markets</h2>
-                {marketIndices?.data?.[0]?.trading_date && (
+                {normalizedMarketIndices.data[0]?.trading_date && (
                     <div className="text-xs text-gray-400 mt-1">
-                        최근 업데이트: {new Date(marketIndices.data[0].trading_date).toLocaleDateString('ko-KR')}
+                        최근 업데이트: {new Date(normalizedMarketIndices.data[0].trading_date).toLocaleDateString('ko-KR')}
                     </div>
                 )}
             </div>
-            {marketIndices && marketIndices.data && marketIndices.data.length > 0 && (
+            {normalizedMarketIndices.data.length > 0 && (
                 <MarketChart 
-                    marketIndices={marketIndices}
+                    marketIndices={normalizedMarketIndices}
                     exchangeRates={exchangeRates}
                     commodityRates={commodityRates}
                 />
