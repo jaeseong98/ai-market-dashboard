@@ -22,7 +22,7 @@ export const useDatabaseApi = () => {
                 
                 if (process.env.NODE_ENV === 'production') {
                     // 프로덕션 환경: static-data.json 사용
-                    const response = await fetch(`${process.env.PUBLIC_URL}/static-data.json`);
+                    const response = await fetch(`${process.env.PUBLIC_URL}/ai-market-dashboard/static-data.json`);
                     staticData = await response.json();
                 } else {
                     // 개발 환경: API 직접 호출
