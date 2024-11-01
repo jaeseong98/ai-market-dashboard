@@ -30,20 +30,7 @@ const formatNumber = (value) => {
 }
 
 const MarketChart = ({ marketIndices, exchangeRates, commodityRates }) => {
-    console.log('MarketChart - Raw marketIndices:', marketIndices);
-    
-    // 데이터 구조 상세 검증
-    const validationResults = {
-        hasMarketIndices: !!marketIndices,
-        hasData: !!marketIndices?.data,
-        isArray: Array.isArray(marketIndices?.data),
-        dataLength: marketIndices?.data?.length,
-        sampleData: marketIndices?.data?.[0]
-    };
-    console.log('MarketChart - Validation Results:', validationResults);
-
     if (!marketIndices || !marketIndices.data || !Array.isArray(marketIndices.data)) {
-        console.log('Invalid market indices data');
         return <Card className="p-4">시장 데이터가 없습니다</Card>
     }
 
