@@ -117,14 +117,14 @@ const FearGreedIndex = ({ value, timeSeriesData = [] }) => {
 
     return (
         <>
-            <Card className="h-full flex flex-col">
-                <CardHeader>
-                    <h3 className="text-base font-semibold text-white">공포 & 탐욕 지수</h3>
+            <Card className="h-full">
+                <CardHeader className="p">
+                    <h3 className="text-lg font-semibold text-white">공포 & 탐욕 지수</h3>
                 </CardHeader>
                 <CardContent className="flex-grow flex flex-col justify-center">
                     <Tooltip content={tooltipContent}>
                         <div className="relative cursor-pointer" onClick={() => setShowTimeSeries(true)}>
-                            <svg viewBox="0 0 220 120" className="w-full h-auto">
+                            <svg viewBox="0 0 220 120" className="w-full h-[150px]">
                                 <defs>
                                     <linearGradient id="gauge-gradient" x1="0" x2="1" y1="0" y2="0">
                                         <stop offset="0%" stopColor="#FF4136" />
@@ -166,7 +166,7 @@ const FearGreedIndex = ({ value, timeSeriesData = [] }) => {
                             </svg>
                         </div>
                     </Tooltip>
-                    <div className="text-center mt-2">
+                    <div className="text-center mt-3">
                         <span className="text-3xl font-bold text-[#39d0b3]">{intValue !== null ? intValue : 'N/A'}</span>
                     </div>
                 </CardContent>

@@ -11,7 +11,8 @@ export const useDatabaseApi = () => {
         marketForecast: null,
         fearGreedData: [],
         exchangeRates: null,
-        commodityRates: null
+        commodityRates: null,
+        marketIndices: null
     });
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -20,6 +21,11 @@ export const useDatabaseApi = () => {
         const fetchData = async () => {
             try {
                 if (process.env.NODE_ENV === 'development') {
+                    // marketIndices 데이터만 먼저 가져와보기
+                    const marketIndicesRes = await axios.get(`${API_BASE_URL}/market-indices`);
+                    console.log('Market Indices Raw Response:', marketIndicesRes);
+                    
+                    // 나머지 데이터 가져오기
                     const [
                         economicIndicators,
                         newsSummary,
@@ -27,7 +33,7 @@ export const useDatabaseApi = () => {
                         marketForecast,
                         fearGreedData,
                         exchangeRates,
-                        commodityRates
+                        commodityRates,
                     ] = await Promise.all([
                         axios.get(`${API_BASE_URL}/economic-indicators`).then(res => res.data.data),
                         axios.get(`${API_BASE_URL}/news-summary`).then(res => res.data.data),
@@ -35,32 +41,27 @@ export const useDatabaseApi = () => {
                         axios.get(`${API_BASE_URL}/market-forecast`).then(res => res.data.data),
                         axios.get(`${API_BASE_URL}/fear-greed-data`).then(res => res.data),
                         axios.get(`${API_BASE_URL}/exchange-rates`).then(res => res.data.data || res.data),
-                        axios.get(`${API_BASE_URL}/commodity-rates`).then(res => res.data.data || res.data)
+                        axios.get(`${API_BASE_URL}/commodity-rates`).then(res => res.data.data || res.data),
                     ]);
 
-                    setData({
+                    const newData = {
                         economicIndicators,
                         newsSummary,
                         detailedMarketData,
                         marketForecast,
                         fearGreedData,
                         exchangeRates: exchangeRates || {},
-                        commodityRates: commodityRates || {}
-                    });
-                } else {
-                    // 프로덕션 환경에서는 baseURL을 고려한 경로 사용
-                    const staticDataPath = process.env.PUBLIC_URL + '/static-data.json';
-                    const response = await fetch(staticDataPath);
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    const staticData = await response.json();
-                    setData(staticData);
+                        commodityRates: commodityRates || {},
+                        marketIndices: marketIndicesRes.data  // 직접 할당
+                    };
+
+                    console.log('Setting data with marketIndices:', newData.marketIndices);
+                    setData(newData);
                 }
-                setLoading(false);
             } catch (err) {
                 console.error('Error fetching data:', err);
                 setError(err);
+            } finally {
                 setLoading(false);
             }
         };
@@ -68,5 +69,12 @@ export const useDatabaseApi = () => {
         fetchData();
     }, []);
 
-    return { ...data, loading, error };
+    // 반환하기 전에 marketIndices 확인
+    console.log('Returning marketIndices:', data.marketIndices);
+    
+    return {
+        ...data,
+        loading,
+        error
+    };
 };

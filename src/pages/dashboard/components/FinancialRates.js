@@ -8,6 +8,15 @@ const FinancialRates = ({ exchangeRates, commodityRates }) => {
     const [activeCategory, setActiveCategory] = useState('환율')
 
     const data = useMemo(() => {
+        if (!exchangeRates || !commodityRates) {
+            return {
+                환율: [],
+                원자재: [],
+                금속: [],
+                농산물: []
+            };
+        }
+
         return {
             환율: [
                 { name: '원/달러', rate: exchangeRates.usd_krw, change: exchangeRates.usd_krw_change, changePercent: exchangeRates.usd_krw_change_pct },
@@ -36,66 +45,27 @@ const FinancialRates = ({ exchangeRates, commodityRates }) => {
         };
     }, [exchangeRates, commodityRates]);
 
-    const renderCell = (item, key) => {
-        if (!item) return <td className="py-3 text-center">-</td>
-
-        let value, color
-        switch (key) {
-            case 'name':
-                return <td className="py-3 text-center w-1/4 truncate text-sm">{item.name}</td>
-            case 'rate':
-                value = formatValue(item.rate, true)
-                color = item.change >= 0 ? 'text-red-400' : 'text-blue-400'
-                return (
-                    <td className={`py-3 text-center w-1/4 truncate ${color} text-sm`}>
-                        {item.change >= 0 ? '▲' : '▼'} {value}
-                    </td>
-                )
-            case 'change':
-                value = formatValue(Math.abs(item.change), true)
-                color = item.change >= 0 ? 'text-red-400' : 'text-blue-400'
-                return (
-                    <td className={`py-3 text-center w-1/4 truncate ${color} text-sm`}>
-                        {item.change >= 0 ? '▲' : '▼'} {value}
-                    </td>
-                )
-            case 'changePercent':
-                value = formatValue(item.changePercent, true)
-                color = item.change >= 0 ? 'text-red-400' : 'text-blue-400'
-                return <td className={`py-3 text-center w-1/4 truncate ${color} text-sm`}>{value}%</td>
-            default:
-                return <td className="py-3 text-center w-1/4 text-sm">-</td>
-        }
-    }
-
-    const renderTableRows = () => {
-        const rows = []
-        for (let i = 0; i < 4; i++) {
-            rows.push(
-                <tr key={i} className="border-t border-gray-700">
-                    {renderCell(data[activeCategory][i], 'name')}
-                    {renderCell(data[activeCategory][i], 'rate')}
-                    {renderCell(data[activeCategory][i], 'change')}
-                    {renderCell(data[activeCategory][i], 'changePercent')}
-                </tr>,
-            )
-        }
-        return rows
-    }
-
-    const getComparisonText = () => {
-        return activeCategory === '환율' ? '전일대비' : '전월대비'
+    if (!exchangeRates || !commodityRates) {
+        return (
+            <Card className="h-full">
+                <CardContent className="p-2">
+                    <div className="text-center text-gray-400 text-xs">
+                        Loading...
+                    </div>
+                </CardContent>
+            </Card>
+        );
     }
 
     return (
-        <Card className="h-full flex flex-col">
-            <CardHeader className="flex justify-between items-center py-3">
-                <div className="flex space-x-2">
+        <Card className="h-[196px]"> {/* 전체 높이 줄임 */}
+            <CardHeader className="p-1">
+                <div className="flex space-x-1">
                     {categories.map((category) => (
                         <button
                             key={category}
                             onClick={() => setActiveCategory(category)}
-                            className={`px-3 py-1 text-sm rounded ${
+                            className={`px-2 py-0.5 text-xs rounded ${
                                 activeCategory === category ? 'bg-blue-600' : 'bg-gray-700'
                             }`}
                         >
@@ -103,19 +73,37 @@ const FinancialRates = ({ exchangeRates, commodityRates }) => {
                         </button>
                     ))}
                 </div>
-                <span className="text-sm text-gray-400">USD 기준</span>
             </CardHeader>
-            <CardContent className="flex-grow py-1">
-                <table className="w-full table-fixed">
+            <CardContent className="p-1">
+                <table className="w-full">
                     <thead>
-                        <tr className="text-gray-300">
-                            <th className="pb-2 text-center w-1/4 text-sm">구분</th>
-                            <th className="pb-2 text-center w-1/4 text-sm">환율</th>
-                            <th className="pb-2 text-center w-1/4 text-sm">{getComparisonText()}</th>
-                            <th className="pb-2 text-center w-1/4 text-sm">등락률</th>
+                        <tr className="text-gray-400 text-xs">
+                            <th className="text-left py-0.5">구분</th>
+                            <th className="text-right py-0.5">가격</th>
+                            <th className="text-right py-0.5">전일대비</th>
+                            <th className="text-right py-0.5">등락률</th>
                         </tr>
                     </thead>
-                    <tbody>{renderTableRows()}</tbody>
+                    <tbody className="text-xs">
+                        {data[activeCategory].map((item, index) => (
+                            <tr key={index} className="border-t border-gray-800/30">
+                                <td className="py-0.5 text-left">{item.name}</td>
+                                <td className="py-0.5 text-right">
+                                    {formatValue(item.rate, true)}
+                                </td>
+                                <td className={`py-0.5 text-right ${
+                                    item.change >= 0 ? 'text-green-500' : 'text-red-500'
+                                }`}>
+                                    {item.change >= 0 ? '▲' : '▼'} {formatValue(Math.abs(item.change), true)}
+                                </td>
+                                <td className={`py-0.5 text-right ${
+                                    item.change >= 0 ? 'text-green-500' : 'text-red-500'
+                                }`}>
+                                    {formatValue(Math.abs(item.changePercent), true)}%
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
                 </table>
             </CardContent>
         </Card>

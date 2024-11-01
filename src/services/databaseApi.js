@@ -47,3 +47,8 @@ export const fetchCommodityRates = async () => {
     const response = await axios.get(`${API_BASE_URL}/commodity-rates`);
     return response.data;
 };
+
+export const fetchMarketIndices = async () => {
+    const response = await axios.get(`${API_BASE_URL}/market-indices`);
+    return response.data.data;
+};
