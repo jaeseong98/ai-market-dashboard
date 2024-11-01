@@ -3,7 +3,25 @@ import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'rec
 import CustomTooltip from '../../../components/CustomTooltip.js'
 import FinancialRates from './FinancialRates.js'
 
-// 천 단위 구분자를 적용하는 함수 추가
+// 상수들을 파일 상단으로 이동
+const MAIN_INDICES = ['IXIC', 'US500', 'KS11', 'KQ11'];
+const OTHER_INDICES = ['KS200', 'DJI', 'VIX', 'SSEC', 'HSI', 'N225'];
+
+// 지수 정보 매핑
+const INDEX_INFO = {
+    'KS11': { name: 'KOSPI', korName: '코스피', country: '한국', color: '#E74C3C' },
+    'KQ11': { name: 'KOSDAQ', korName: '코스', country: '한국', color: '#2ECC71' },
+    'KS200': { name: 'KOSPI200', korName: '코스피200', country: '한국', color: '#3498DB' },
+    'DJI': { name: 'Dow Jones', korName: '다우존스', country: '미국', color: '#9B59B6' },
+    'IXIC': { name: 'NASDAQ', korName: '나스닥', country: '미국', color: '#F1C40F' },
+    'US500': { name: 'S&P500', korName: 'S&P500', country: '미국', color: '#E67E22' },
+    'VIX': { name: 'VIX', korName: 'VIX', country: '미국', color: '#1ABC9C' },
+    'SSEC': { name: 'Shanghai', korName: '상해종합', country: '중국', color: '#34495E' },
+    'HSI': { name: 'Hang Seng', korName: '항셍', country: '홍콩', color: '#7F8C8D' },
+    'N225': { name: 'Nikkei 225', korName: '니케이225', country: '일본', color: '#C0392B' }
+};
+
+// 천 단위 구분자를 적용하는 함수
 const formatNumber = (value) => {
     return new Intl.NumberFormat('en-US', { 
         minimumFractionDigits: 2, 
@@ -12,30 +30,22 @@ const formatNumber = (value) => {
 }
 
 const MarketChart = ({ marketIndices, exchangeRates, commodityRates }) => {
-    console.log('MarketChart received:', marketIndices);
+    console.log('MarketChart - Raw marketIndices:', marketIndices);
     
+    // 데이터 구조 상세 검증
+    const validationResults = {
+        hasMarketIndices: !!marketIndices,
+        hasData: !!marketIndices?.data,
+        isArray: Array.isArray(marketIndices?.data),
+        dataLength: marketIndices?.data?.length,
+        sampleData: marketIndices?.data?.[0]
+    };
+    console.log('MarketChart - Validation Results:', validationResults);
+
     if (!marketIndices || !marketIndices.data || !Array.isArray(marketIndices.data)) {
         console.log('Invalid market indices data');
         return <Card className="p-4">시장 데이터가 없습니다</Card>
     }
-
-    // 주요 지수와 기타 지수 구분
-    const MAIN_INDICES = ['IXIC', 'US500', 'KS11', 'KQ11'];
-    const OTHER_INDICES = ['KS200', 'DJI', 'VIX', 'SSEC', 'HSI', 'N225'];
-    
-    // 지수 정보 매핑
-    const INDEX_INFO = {
-        'KS11': { name: 'KOSPI', korName: '코스피', country: '한국', color: '#E74C3C' },
-        'KQ11': { name: 'KOSDAQ', korName: '코스', country: '한국', color: '#2ECC71' },
-        'KS200': { name: 'KOSPI200', korName: '코스피200', country: '한국', color: '#3498DB' },
-        'DJI': { name: 'Dow Jones', korName: '다우존스', country: '미국', color: '#9B59B6' },
-        'IXIC': { name: 'NASDAQ', korName: '나스닥', country: '미국', color: '#F1C40F' },
-        'US500': { name: 'S&P500', korName: 'S&P500', country: '미국', color: '#E67E22' },
-        'VIX': { name: 'VIX', korName: 'VIX', country: '미국', color: '#1ABC9C' },
-        'SSEC': { name: 'Shanghai', korName: '상해종합', country: '중국', color: '#34495E' },
-        'HSI': { name: 'Hang Seng', korName: '항셍', country: '홍콩', color: '#7F8C8D' },
-        'N225': { name: 'Nikkei 225', korName: '니케이225', country: '일본', color: '#C0392B' }
-    };
 
     const getIndexData = (indexCode) => {
         return [...marketIndices.data]

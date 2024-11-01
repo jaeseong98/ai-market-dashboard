@@ -15,8 +15,20 @@ const MarketsPage = () => {
         error 
     } = useDatabaseApi();
 
+    console.log('MarketPage - marketIndices:', marketIndices);
+    console.log('MarketPage - fearGreedData:', fearGreedData);
+
     if (loading) return <div className="text-center mt-4">Loading...</div>
     if (error) return <div className="text-center mt-4 text-red-500">Error: {error.message}</div>
+
+    if (marketIndices) {
+        console.log('MarketPage - marketIndices structure:', {
+            hasData: !!marketIndices.data,
+            isArray: Array.isArray(marketIndices.data),
+            length: marketIndices.data?.length,
+            firstItem: marketIndices.data?.[0]
+        });
+    }
 
     const latestFearGreedValue = fearGreedData && fearGreedData.length > 0 ? fearGreedData[0].fear_greed : null
 
