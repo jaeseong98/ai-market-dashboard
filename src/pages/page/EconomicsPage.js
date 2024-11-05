@@ -13,7 +13,14 @@ const EconomicsPage = () => {
 
     return (
         <div className="space-y-6">
-            <h2 className="text-2xl font-bold mb-4">Economics</h2>
+            <div>
+                <h2 className="text-2xl font-bold">Economics</h2>
+                {economicIndicators && economicIndicators[0]?.DATA_YMD && (
+                    <div className="text-xs text-gray-400 mt-1">
+                        최근 업데이트: {new Date(economicIndicators[0].DATA_YMD).toLocaleDateString('ko-KR')}
+                    </div>
+                )}
+            </div>
             <div className="flex gap-4">
                 <div className="w-2/3">
                     <NberPrediction />

@@ -22,42 +22,81 @@ const EconomicIndicator = ({ value, predictionChange }) => {
             <div className="relative h-30 w-50 bg-gray-900/90 rounded-2xl p-2 flex flex-row gap-3
                  shadow-lg backdrop-blur-sm">
                 {/* 초록불 구역 (0~5%) */}
-                <div className="relative">
-                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm
+                <div className="relative group">
+                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm cursor-help
                         ${value <= 0.05
                             ? 'bg-green-500 ring-2 ring-green-400 shadow-[0_0_20px_rgba(34,197,94,0.7)] animate-pulse' 
                             : 'bg-green-900/30 ring-1 ring-green-800/50'}`}
                     >
                         <span className="text-[12px] text-gray-100">0%~5%</span>
                     </div>
+                    {/* 초록불 툴팁 */}
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-64 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                        <div className="bg-gray-900 text-gray-100 text-sm rounded-lg p-4 shadow-xl border border-green-500/30">
+                            <h4 className="font-bold text-green-400 mb-2">경기 확장기</h4>
+                            <p className="text-xs leading-relaxed">
+                                경제가 안정적으로 성장하는 시기입니다. 기업들의 실적이 양호하고, 
+                                고용시장이 안정적이며, 소비자 신뢰도가 높은 특징을 보입니다.
+                            </p>
+                        </div>
+                        <div className="border-t-8 border-x-8 border-transparent border-t-gray-900 
+                            w-0 h-0 absolute left-1/2 transform -translate-x-1/2"></div>
+                    </div>
                 </div>
                 
                 {/* 주황불 구역 (5~10%) */}
-                <div className="relative">
-                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm
+                <div className="relative group">
+                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm cursor-help
                         ${value > 0.05 && value <= 0.10
                             ? 'bg-orange-500 ring-2 ring-orange-400 shadow-[0_0_20px_rgba(249,115,22,0.7)] animate-pulse'
                             : 'bg-orange-900/30 ring-1 ring-orange-800/50'}`}
                     >
                         <span className="text-[12px] text-gray-100">5%~10%</span>
                     </div>
+                    {/* 주황불 툴팁 */}
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-64 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                        <div className="bg-gray-900 text-gray-100 text-sm rounded-lg p-4 shadow-xl border border-orange-500/30">
+                            <h4 className="font-bold text-orange-400 mb-2">경기 과도기</h4>
+                            <p className="text-xs leading-relaxed">
+                                경제 성장세가 둔화되는 시기입니다. 기업 실적과 경제지표들이 
+                                혼조세를 보이며, 시장의 불확실성이 증가하는 특징이 있습니다.
+                            </p>
+                        </div>
+                        <div className="border-t-8 border-x-8 border-transparent border-t-gray-900 
+                            w-0 h-0 absolute left-1/2 transform -translate-x-1/2"></div>
+                    </div>
                 </div>
                 
                 {/* 빨간불 구역 (10~100%) */}
-                <div className="relative">
-                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm
+                <div className="relative group">
+                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm cursor-help
                         ${value > 0.10 
                             ? 'bg-red-500 ring-2 ring-red-400 shadow-[0_0_20px_rgba(239,68,68,0.7)] animate-pulse' 
                             : 'bg-red-900/30 ring-1 ring-red-800/50'}`}
                     >
                         <span className="text-[11px] text-gray-100">10%~100%</span>
                     </div>
+                    {/* 빨간불 툴팁 */}
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-64 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                        <div className="bg-gray-900 text-gray-100 text-sm rounded-lg p-4 shadow-xl border border-red-500/30">
+                            <h4 className="font-bold text-red-400 mb-2">경기 침체기</h4>
+                            <p className="text-xs leading-relaxed">
+                                경제 활동이 전반적으로 위축되는 시기입니다. 기업 실적이 감소하고,
+                                고용시장이 약화되며, 전반적인 경제 지표들이 하락하는 모습을 보입니다.
+                            </p>
+                        </div>
+                        <div className="border-t-8 border-x-8 border-transparent border-t-gray-900 
+                            w-0 h-0 absolute left-1/2 transform -translate-x-1/2"></div>
+                    </div>
                 </div>
             </div>
 
             {/* 현재 값 표시 */}
             <div className="mt-4 flex flex-col items-center">
-                <div className="text-base font-semibold">현재 경기침체 확률</div>
+                <div className="text-base">현재 경기침체 확률</div>
                 <div className="text-2xl font-bold mt-1" style={{ color: getColor(value) }}>
                     {(value * 100).toFixed(2)}%
                 </div>
@@ -184,7 +223,7 @@ const ModelPrediction = () => {
     return (
         <Card className="bg-gray-800 text-white">
             <CardHeader>
-                <h3 className="text-base font-semibold mb-1">📋 미국 경기침체 예측</h3>
+                <h3 className="text-xl font-semibold mb-1">📋 미국 경기침체 예측</h3>
             </CardHeader>
             <CardContent>
                 <div className="flex flex-col lg:flex-row items-stretch">
