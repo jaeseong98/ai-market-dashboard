@@ -331,53 +331,53 @@ const EconomicIndicators = React.memo(({ data }) => {
 
     return (
         <div className="space-y-6">
-            <Card className="bg-gray-900 border-gray-800">
+            <Card className="bg-gray-800 border-gray-700">
                 <CardHeader className="bg-gray-900 p-4">
                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
                         <div className="flex items-center mb-2 sm:mb-0">
-                            <span className="text-2xl mr-2" role="img" aria-label="chart increasing">
+                            <span className="text-xl mr-2" role="img" aria-label="chart increasing">
                                 📊
                             </span>
-                            <h3 className="text-xl font-semibold text-gray-100 mr-4">경제지표</h3>
+                            <h3 className="text-base font-semibold text-gray-100 mr-4">경제지표</h3>
                             <Button
                                 onClick={() => setIsNormalized(!isNormalized)}
-                                className="px-3 py-1 text-sm rounded bg-blue-600 hover:bg-blue-700 mr-2"
+                                className="px-2.5 py-1 text-xs rounded bg-gradient-to-r from-cyan-900/50 to-indigo-900/50 hover:from-cyan-800/50 hover:to-indigo-800/50 text-cyan-200 border border-cyan-700/50 mr-2 transition-colors"
                             >
                                 {isNormalized ? 'View Original' : 'View Norm.ver'}
                             </Button>
                             <Button
                                 onClick={() => setIsCompareModalOpen(true)}
-                                className="px-3 py-1 text-sm rounded bg-emerald-600 hover:bg-emerald-700 mr-2"
+                                className="px-2.5 py-1 text-xs rounded bg-gradient-to-r from-cyan-900/50 to-indigo-900/50 hover:from-cyan-800/50 hover:to-indigo-800/50 text-cyan-200 border border-cyan-700/50 mr-2 transition-colors"
                             >
                                 비교하기
                             </Button>
                             <Button
                                 onClick={toggleCycleIndicator}
-                                className="px-3 py-1 text-sm rounded bg-rose-600 hover:bg-rose-700 mr-2"
+                                className="px-2.5 py-1 text-xs rounded bg-gradient-to-r from-cyan-900/50 to-indigo-900/50 hover:from-cyan-800/50 hover:to-indigo-800/50 text-cyan-200 border border-cyan-700/50 mr-2 transition-colors"
                             >
-                                {useKorCycle ? '미국 경기 순환' : '한국 경기 순환'}
+                                {useKorCycle ? '한국 경기 순환' : '미국 경기 순환'}
                             </Button>
                         </div>
                         <div className="flex items-center space-x-2">
-                            <div className="flex flex-wrap items-center text-xs text-gray-400 gap-3 mr-4">
+                            <div className="flex flex-wrap items-center text-xs text-gray-400 gap-2 mr-3">
                                 <span className="flex items-center">
-                                    <span className="w-3 h-3 bg-emerald-500 inline-block mr-1"></span>
+                                    <span className="w-2.5 h-2.5 bg-emerald-500 inline-block mr-1"></span>
                                     확장기 범위
                                 </span>
                                 <span className="flex items-center">
-                                    <span className="w-3 h-3 bg-rose-500 inline-block mr-1"></span>
+                                    <span className="w-2.5 h-2.5 bg-rose-500 inline-block mr-1"></span>
                                     침체기 범위
                                 </span>
                                 <span className="flex items-center">
-                                    <span className="w-3 h-3 bg-gray-500 inline-block mr-1"></span>
+                                    <span className="w-2.5 h-2.5 bg-gray-500 inline-block mr-1"></span>
                                     전체 범위
                                 </span>
                                 <span className="flex items-center">
-                                    <ArrowRight className="text-yellow-500 w-4 h-4 mr-1" />
+                                    <ArrowRight className="text-yellow-500 w-3.5 h-3.5 mr-1" />
                                     1개월 추세
                                 </span>
                                 <span className="flex items-center">
-                                    <span className="w-3 h-3 bg-yellow-500 inline-block mr-1"></span>
+                                    <span className="w-2.5 h-2.5 bg-yellow-500 inline-block mr-1"></span>
                                     현재 값
                                 </span>
                             </div>
@@ -385,15 +385,15 @@ const EconomicIndicators = React.memo(({ data }) => {
                                 <Input
                                     type="text"
                                     placeholder="지표 검색..."
-                                    className="bg-gray-800 text-white pl-8 pr-3 py-2 rounded-full text-sm w-48 focus:outline-none focus:ring-2 focus:ring-blue-600"
+                                    className="bg-gray-800 text-white pl-7 pr-3 py-1.5 rounded-full text-xs w-44 focus:outline-none focus:ring-2 focus:ring-gray-600"
                                     value={searchTerm}
                                     onChange={(e) => setSearchTerm(e.target.value)}
                                 />
-                                <Search className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2" />
+                                <Search className="w-3.5 h-3.5 text-gray-400 absolute left-2.5 top-1/2 transform -translate-y-1/2" />
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-col">
+                    <div className="flex flex-col space-y-4">
                         <div className="flex flex-wrap items-center gap-2">
                             {uniqueCategories.map(category => (
                                 <Button
@@ -402,26 +402,28 @@ const EconomicIndicators = React.memo(({ data }) => {
                                         setSelectedCategory(category)
                                         setCurrentPage(1)
                                     }}
-                                    className={`px-3 py-1 text-sm rounded ${
-                                        category === '추천'
+                                    className={`
+                                        text-[11.5px] rounded transition-colors inline-block min-w-[40px] h-[40px] leading-[22px] text-center
+                                        ${category === '추천'
                                             ? selectedCategory === category
-                                                ? 'bg-yellow-600 text-white'
-                                                : 'bg-yellow-700 text-gray-200 hover:bg-yellow-600'
+                                                ? 'bg-gradient-to-r from-amber-700/70 to-yellow-700/70 text-amber-100 border border-amber-500/50'
+                                                : 'bg-gradient-to-r from-amber-900/50 to-yellow-900/50 hover:from-amber-800/50 hover:to-yellow-800/50 text-amber-200/90 border border-amber-700/50'
                                             : selectedCategory === category
-                                                ? 'bg-blue-600 text-white'
-                                                : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
-                                    }`}
+                                                ? 'bg-gradient-to-r from-slate-700/70 to-zinc-700/70 text-slate-100 border border-slate-500/50'
+                                                : 'bg-gradient-to-r from-slate-900/50 to-zinc-900/50 hover:from-slate-800/50 hover:to-zinc-800/50 text-slate-200/90 border border-slate-700/50'
+                                        }
+                                    `}
                                 >
                                     {category}
                                 </Button>
                             ))}
                         </div>
-                        <p className="text-center text-sm text-gray-400 font-bold tracking-wide mt-2 ">
+                        <p className="text-center text-xs text-gray-400 tracking-wide">
                             클릭 시 자세한 그래프를 볼 수 있습니다
                         </p>
                     </div>
                 </CardHeader>
-                <CardContent className="bg-gray-900 p-4">
+                <CardContent className="bg-gray-900">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         {paginatedIndicators.map(renderIndicatorChart)}
                     </div>

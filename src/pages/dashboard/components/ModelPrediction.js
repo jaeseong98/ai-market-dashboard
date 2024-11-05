@@ -6,59 +6,67 @@ import Papa from 'papaparse'
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend)
 
-// 값에 따른 색상을 계산하는 함수를 컴포넌트 외부로 이동
+// 값에 따른 색상을 계산하는 함수 수정
 const getColor = (val) => {
-    if (val <= 0.05) return '#22c55e'
-    if (val <= 0.10) return '#4ade80'
-    if (val <= 0.15) return '#fbbf24'
-    if (val <= 0.20) return '#f87171'
-    return '#ef4444'
+    if (val <= 0.05) return '#22c55e'  // 초록색
+    if (val <= 0.10) return '#f97316'  // 주황색
+    return '#ef4444'  // 빨간색
 }
 
-const EconomicIndicator = ({ value }) => {
-    const indicatorPosition = 100 - value * 100
-    const textColor = getColor(value)
+const EconomicIndicator = ({ value, predictionChange }) => {
+    const changeColor = predictionChange > 0 ? '#22c55e' : '#ef4444'  // 증가면 빨간색, 감소면 초록색
 
     return (
-        <div className="flex items-center">
-            <div className="relative w-4 h-64">
-                <div 
-                    className="absolute inset-0"
-                    style={{
-                        background: `linear-gradient(to top, 
-                            #22c55e 0%, 
-                            #4ade80 20%, 
-                            #fbbf24 40%, 
-                            #f87171 60%, 
-                            #ef4444 80%, 
-                            #ef4444 100%)`
-                    }}
-                ></div>
-                <div 
-                    className="absolute left-0 w-full h-1 bg-yellow-400"
-                    style={{ bottom: `${value * 100}%` }}
-                ></div>
-                <div 
-                    className="absolute left-full transform -translate-y-1/2 ml-2"
-                    style={{ top: `${indicatorPosition}%` }}
-                >
-                    <div 
-                        className="relative bg-gray-700 text-sm px-2 py-1 rounded"
-                        style={{ color: textColor }}
+        <div className="flex flex-col items-center">
+            {/* 신호등 본체 - 가로 배치, 오른쪽 마진 제거 */}
+            <div className="relative h-30 w-50 bg-gray-900/90 rounded-2xl p-2 flex flex-row gap-3
+                 shadow-lg backdrop-blur-sm">
+                {/* 초록불 구역 (0~5%) */}
+                <div className="relative">
+                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm
+                        ${value <= 0.05
+                            ? 'bg-green-500 ring-2 ring-green-400 shadow-[0_0_20px_rgba(34,197,94,0.7)] animate-pulse' 
+                            : 'bg-green-900/30 ring-1 ring-green-800/50'}`}
                     >
-                        <div 
-                            className="absolute w-0 h-0 border-t-[6px] border-b-[6px] border-r-[6px] border-transparent border-r-gray-700"
-                            style={{
-                                left: '-6px',
-                                top: '50%',
-                                transform: 'translateY(-50%)'
-                            }}
-                        ></div>
-                        {(value * 100).toFixed(2)}%
+                        <span className="text-[12px] text-gray-100">0%~5%</span>
                     </div>
                 </div>
-                <div className="absolute -left-10 top-0 text-sm text-white">100%</div>
-                <div className="absolute -left-7 bottom-0 text-sm text-white">0%</div>
+                
+                {/* 주황불 구역 (5~10%) */}
+                <div className="relative">
+                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm
+                        ${value > 0.05 && value <= 0.10
+                            ? 'bg-orange-500 ring-2 ring-orange-400 shadow-[0_0_20px_rgba(249,115,22,0.7)] animate-pulse'
+                            : 'bg-orange-900/30 ring-1 ring-orange-800/50'}`}
+                    >
+                        <span className="text-[12px] text-gray-100">5%~10%</span>
+                    </div>
+                </div>
+                
+                {/* 빨간불 구역 (10~100%) */}
+                <div className="relative">
+                    <div className={`h-14 w-14 rounded-full flex items-center justify-center backdrop-blur-sm
+                        ${value > 0.10 
+                            ? 'bg-red-500 ring-2 ring-red-400 shadow-[0_0_20px_rgba(239,68,68,0.7)] animate-pulse' 
+                            : 'bg-red-900/30 ring-1 ring-red-800/50'}`}
+                    >
+                        <span className="text-[11px] text-gray-100">10%~100%</span>
+                    </div>
+                </div>
+            </div>
+
+            {/* 현재 값 표시 */}
+            <div className="mt-4 flex flex-col items-center">
+                <div className="text-base font-semibold">현재 경기침체 확률</div>
+                <div className="text-2xl font-bold mt-1" style={{ color: getColor(value) }}>
+                    {(value * 100).toFixed(2)}%
+                </div>
+                <div className="text-sm mt-2" style={{ color: changeColor }}>
+                    {predictionChange > 0 ? '▲' : '▼'} {Math.abs(predictionChange * 100).toFixed(2)}% 전월 대비
+                </div>
+                <div className="text-xs text-gray-400/90 mt-1">
+                    최종 업데이트: {new Date().toLocaleDateString()}
+                </div>
             </div>
         </div>
     )
@@ -91,7 +99,6 @@ const ModelPrediction = () => {
     const currentPrediction = parseFloat(data[data.length - 1].predicted_prob)
     const previousPrediction = parseFloat(data[data.length - 2].predicted_prob)
     const predictionChange = currentPrediction - previousPrediction
-    const changeColor = getColor(Math.abs(predictionChange))
 
     const chartData = {
         labels: data.map(item => item.DATE_YMD),
@@ -177,32 +184,19 @@ const ModelPrediction = () => {
     return (
         <Card className="bg-gray-800 text-white">
             <CardHeader>
-                <h3 className="text-xl font-semibold mb-4 ml-2">📋 미국 경기침체 예측</h3>
+                <h3 className="text-base font-semibold mb-1">📋 미국 경기침체 예측</h3>
             </CardHeader>
             <CardContent>
                 <div className="flex flex-col lg:flex-row items-stretch">
-                    <div className="lg:w-1/3 mb-4 lg:mb-0 mr-6">
-                        <div className="p-6 h-full flex flex-col justify-between">
-                            <div className="flex items-center">
-                                <div className="ml-8">
-                                    <EconomicIndicator value={currentPrediction} />
-                                </div>
-                                <div className="ml-20 flex flex-col">
-                                    <div className="text-xl font-semibold mb-2">현재 경기침체 확률</div>
-                                    <div className="text-5xl font-bold" style={{ color: getColor(currentPrediction) }}>
-                                        {(currentPrediction * 100).toFixed(2)}%
-                                    </div>
-                                    <div className="text-lg mt-4" style={{ color: changeColor }}>
-                                        {predictionChange > 0 ? '▲' : '▼'} {Math.abs(predictionChange * 100).toFixed(2)}% 전월 대비
-                                    </div>
-                                    <div className="text-sm text-gray-400 mt-4">
-                                        최종 업데이트: {new Date().toLocaleDateString()}
-                                    </div>
-                                </div>
-                            </div>
+                    <div className="lg:w-1/3 mb-2 lg:mb-0">
+                        <div className="h-full flex flex-col justify-center">
+                            <EconomicIndicator 
+                                value={currentPrediction} 
+                                predictionChange={predictionChange}
+                            />
                         </div>
                     </div>
-                    <div className="lg:w-2/3 h-80">
+                    <div className="lg:w-2/3 h-72">
                         <Line data={chartData} options={options} />
                     </div>
                 </div>

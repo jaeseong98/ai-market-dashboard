@@ -13,6 +13,7 @@
     "chart.js": "^4.4.4",
     "chartjs-adapter-date-fns": "^3.0.0",
     "chartjs-plugin-annotation": "^3.0.1",
+    "country-flag-icons": "^1.5.13",
     "date-fns": "^4.1.0",
     "dom": "^0.0.3",
     "gh-pages": "^6.2.0",
@@ -26,9 +27,10 @@
     "react-router": "^6.27.0",
     "react-router-dom": "^6.26.2",
     "react-scripts": "^5.0.1",
-    "recharts": "^2.12.7",
+    "recharts": "^2.13.3",
     "shadcn-ui": "^0.2.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "predeploy": "cd .. && node generateStaticData.mjs && cd frontend && npm run build",
