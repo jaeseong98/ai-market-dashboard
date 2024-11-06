@@ -56,9 +56,9 @@ const MarketChart = ({ marketIndices, exchangeRates, commodityRates }) => {
 
         return (
             <Card className="flex-1">
-                <CardHeader className="pb">
+                <CardHeader className="-mt-1">
                     <div className="flex justify-between items-baseline">
-                        <span className="text-gray-400 text-sm">{indexInfo.name}</span>
+                        <span className="text-white text-sm">{indexInfo.name}</span>
                         <div className="text-right">
                             <div className="text-lg font-bold">
                                 {formatNumber(latestData.closing_price)}

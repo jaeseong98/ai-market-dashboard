@@ -34,7 +34,7 @@
   },
   "scripts": {
     "predeploy": "cd .. && node generateStaticData.mjs && cd frontend && npm run build",
-    "deploy": "gh-pages -d build --dotfiles true",
+    "deploy": "gh-pages -d build --dotfiles true -f",
     "start": "cd .. && node generateStaticData.mjs && cd frontend && react-scripts start",
     "build": "cd .. && node generateStaticData.mjs && cd frontend && react-scripts build",
     "test": "react-scripts test",

@@ -76,7 +76,7 @@ const EconomicIndicator = ({ value, predictionChange }) => {
                             ? 'bg-red-500 ring-2 ring-red-400 shadow-[0_0_20px_rgba(239,68,68,0.7)] animate-pulse' 
                             : 'bg-red-900/30 ring-1 ring-red-800/50'}`}
                     >
-                        <span className="text-[11px] text-gray-100">10%~100%</span>
+                        <span className="text-[11px] text-gray-100">10%~</span>
                     </div>
                     {/* 빨간불 툴팁 */}
                     <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 w-64 
