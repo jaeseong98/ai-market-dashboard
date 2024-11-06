@@ -71,7 +71,6 @@ const EconomicCalendar = () => {
                 const firstSheetName = workbook.SheetNames[0]
                 const worksheet = workbook.Sheets[firstSheetName]
                 const data = XLSX.utils.sheet_to_json(worksheet, { raw: false })
-                console.log('Loaded Data:', data)
                 setCalendarData(data)
                 setLoading(false)
             } else {

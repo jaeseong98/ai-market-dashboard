@@ -75,6 +75,10 @@ const EconomicIndicators = React.memo(({ data }) => {
         return stats
     }, [filteredIndicators, isNormalized, memoizedNormalizedData, data, useKorCycle])
 
+    const handleIndicatorClick = useCallback((indicatorKey) => {
+        setSelectedIndicator(indicatorKey);
+    }, []);
+
     const renderIndicatorChart = useCallback((indicatorKey) => {
         const stats = indicatorStats[indicatorKey]
         if (indicatorKey === 'nber_recession_indicator' || !stats) return null
@@ -217,23 +221,13 @@ const EconomicIndicators = React.memo(({ data }) => {
         )
 
         return (
-            <Tooltip content={tooltipContent}>
+            <Tooltip 
+                key={`tooltip-${indicatorKey}`}
+                content={tooltipContent}
+            >
                 <Card
-                    key={indicatorKey}
-                    className={`bg-gray-800 border-gray-700 cursor-pointer overflow-hidden ${
-                        isCompareMode && selectedIndicators.includes(indicatorKey) ? 'border-2 border-blue-500' : ''
-                    }`}
-                    onClick={() => {
-                        if (isCompareMode) {
-                            setSelectedIndicators(prev => 
-                                prev.includes(indicatorKey) 
-                                    ? prev.filter(key => key !== indicatorKey)
-                                    : [...prev, indicatorKey].slice(-3)
-                            )
-                        } else {
-                            setSelectedIndicator(indicatorKey)
-                        }
-                    }}
+                    className="relative cursor-pointer hover:bg-gray-800/50 transition-colors"
+                    onClick={() => handleIndicatorClick(indicatorKey)}
                 >
                     <div className="flex items-center justify-between mb-7">
                         <div className="flex items-center">
@@ -313,7 +307,13 @@ const EconomicIndicators = React.memo(({ data }) => {
                 </Card>
             </Tooltip>
         )
-    }, [isNormalized, memoizedNormalizedData, data, setSelectedIndicator, isCompareMode, selectedIndicators, indicatorStats])
+    }, [
+        handleIndicatorClick, 
+        indicatorStats, 
+        data, 
+        isNormalized, 
+        memoizedNormalizedData
+    ]);
 
     const handleSelectIndicators = useCallback((indicatorKey) => {
         setSelectedIndicators(prev => {
@@ -339,46 +339,49 @@ const EconomicIndicators = React.memo(({ data }) => {
                                 📊
                             </span>
                             <h3 className="text-xl font-semibold text-white mr-2">경제지표</h3>
-                            <Tooltip content={
-                                <div className="w-[700px] bg-gray-800 text-gray-100 rounded-lg border border-gray-700/30">  {/* 패딩 제거하고 원래 테두리 색상 유지 */}
-                                    <h4 className="text-orange-400/90 text-lg mb-4 p-4">경제지표 가이드</h4>
-                                    <div className="space-y-4 px-4 pb-4">  {/* 내용물에 패딩 추가 */}
-                                        <div>
-                                            <h5 className="text-white text-base mb-2">구간 해석</h5>
-                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
-                                                각 막대는 경기 국면별 특징적인 구간을 나타냅니다. 확장기(녹색)와 침체기(적색) 구간은 
-                                                각 국면의 평균값 ± 표준편차로 계산되며, 겹치는 부분을 제외하여 명확한 구분을 제공합니다.
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <h5 className="text-white text-base mb-2">정규화 버전</h5>
-                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
-                                                'View Norm.ver' 옵션은 모든 지표를 0~100 범위로 변환하여 보여줍니다. 
-                                                단위가 다른 지표들의 상대적 위치를 쉽게 비교할 수 있습니다.
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <h5 className="text-white text-base mb-2">지표 비교</h5>
-                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
-                                                '비교하기' 기능을 통해 여러 지표를 동시에 비교할 수 있습니다. 
-                                                지표 간의 상관관계나 선행성을 분석하는 데 유용합니다.
-                                            </p>
-                                        </div>
-                                        <div>
-                                            <h5 className="text-white text-base mb-2">경기 순환 기준</h5>
-                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
-                                                미국/한국 경기 순환 전환 버튼으로 기준 국가를 변경할 수 있습니다. 
-                                                각 국가의 공식 경기 순환 주기에 따라 구간이 재계산됩니다.
-                                            </p>
-                                        </div>
-                                        <div className="mt-4 pt-3 border-t border-gray-300/20">
-                                            <p className="text-xs text-gray-300/90">
-                                                💡 각 지표를 클릭하면 상세 시계열 그래프와 통계를 확인할 수 있습니다.
-                                            </p>
+                            <Tooltip 
+                                key="guide-tooltip"
+                                content={
+                                    <div className="w-[700px] bg-gray-900 text-gray-100 rounded-lg border border-gray-700/30">
+                                        <h4 className="text-orange-400/90 text-lg mb-4 p-4">경제지표 가이드</h4>
+                                        <div className="space-y-4 px-4 pb-4">
+                                            <div>
+                                                <h5 className="text-white text-base mb-2">구간 해석</h5>
+                                                <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                    각 막대는 경기 국면별 특징적인 구간을 나타냅니다. 확장기(녹색)와 침체기(적색) 구간은 
+                                                    각 국면의 평균값 ± 표준편차로 계산되며, 겹치는 부분을 제외하여 명확한 구분을 제공합니다.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h5 className="text-white text-base mb-2">정규화 버전</h5>
+                                                <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                    'View Norm.ver' 옵션은 모든 지표를 0~100 범위로 변환하여 보여줍니다. 
+                                                    단위가 다른 지표들의 상대적 위치를 쉽게 비교할 수 있습니다.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h5 className="text-white text-base mb-2">지표 비교</h5>
+                                                <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                    '비교하기' 기능을 통해 여러 지표를 동시에 비교할 수 있습니다. 
+                                                    지표 간의 상관관계나 선행성을 분석하는 데 유용합니다.
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <h5 className="text-white text-base mb-2">경기 순환 기준</h5>
+                                                <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                    미국/한국 경기 순환 전환 버튼으로 기준 국가를 변경할 수 있습니다. 
+                                                    각 국가의 공식 경기 순환 주기에 따라 구간이 재계산됩니다.
+                                                </p>
+                                            </div>
+                                            <div className="mt-4 pt-3 border-t border-gray-300/20">
+                                                <p className="text-xs text-gray-300/90">
+                                                    💡 각 지표를 클릭하면 상세 시계열 그래프와 통계를 확인할 수 있습니다.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            }>
+                                }
+                            >
                                 <Info className="w-5 h-5 text-gray-200 hover:text-white cursor-help mr-2" />
                             </Tooltip>
                             <Button
