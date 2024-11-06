@@ -196,7 +196,11 @@ const MarketChart = ({ marketIndices, exchangeRates, commodityRates }) => {
     return (
         <div className="space-y-4">
             <div className="grid grid-cols-4 gap-4">
-                {MAIN_INDICES.map(indexCode => renderChart(indexCode))}
+                {MAIN_INDICES.map(indexCode => (
+                    <div key={indexCode}>
+                        {renderChart(indexCode)}
+                    </div>
+                ))}
             </div>
             <div className="grid grid-cols-2 gap-4">
                 <div>
