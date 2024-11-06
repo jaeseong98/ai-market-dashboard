@@ -9,7 +9,7 @@ import {
     calculateTrend,
     normalizeData,
 } from '../../../helpers/dataprocessing.js'
-import { ArrowLeft, ArrowRight, Minus, Search, ChevronLeft, ChevronRight } from 'lucide-react'
+import { ArrowLeft, ArrowRight, Minus, Search, ChevronLeft, ChevronRight, Info } from 'lucide-react'
 import { TimeSeriesChart, CompareChart } from './TimeSeriesChart.js'
 import { Tooltip } from '../../../helpers/Tooltip.js'
 import CompareModal from './CompareModal.js'
@@ -245,7 +245,7 @@ const EconomicIndicators = React.memo(({ data }) => {
                         )}
                     </div>
                     <div className="relative h-8 bg-gray-700 mx-3">
-                        <div className="absolute inset-0 bg-gray-600"></div>
+                        <div className="absolute inset-0 bg-gray-600/50"></div>
                         <div
                             className="absolute h-full bg-rose-500 bg-opacity-30"
                             style={{
@@ -338,7 +338,49 @@ const EconomicIndicators = React.memo(({ data }) => {
                             <span className="text-xl mr-2" role="img" aria-label="chart increasing">
                                 📊
                             </span>
-                            <h3 className="text-base font-semibold text-gray-100 mr-4">경제지표</h3>
+                            <h3 className="text-xl font-semibold text-white mr-2">경제지표</h3>
+                            <Tooltip content={
+                                <div className="w-[700px] bg-gray-800 text-gray-100 rounded-lg border border-gray-700/30">  {/* 패딩 제거하고 원래 테두리 색상 유지 */}
+                                    <h4 className="text-orange-400/90 text-lg mb-4 p-4">경제지표 가이드</h4>
+                                    <div className="space-y-4 px-4 pb-4">  {/* 내용물에 패딩 추가 */}
+                                        <div>
+                                            <h5 className="text-white text-base mb-2">구간 해석</h5>
+                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                각 막대는 경기 국면별 특징적인 구간을 나타냅니다. 확장기(녹색)와 침체기(적색) 구간은 
+                                                각 국면의 평균값 ± 표준편차로 계산되며, 겹치는 부분을 제외하여 명확한 구분을 제공합니다.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h5 className="text-white text-base mb-2">정규화 버전</h5>
+                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                'View Norm.ver' 옵션은 모든 지표를 0~100 범위로 변환하여 보여줍니다. 
+                                                단위가 다른 지표들의 상대적 위치를 쉽게 비교할 수 있습니다.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h5 className="text-white text-base mb-2">지표 비교</h5>
+                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                '비교하기' 기능을 통해 여러 지표를 동시에 비교할 수 있습니다. 
+                                                지표 간의 상관관계나 선행성을 분석하는 데 유용합니다.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h5 className="text-white text-base mb-2">경기 순환 기준</h5>
+                                            <p className="text-sm text-gray-200/90 leading-relaxed font-normal">
+                                                미국/한국 경기 순환 전환 버튼으로 기준 국가를 변경할 수 있습니다. 
+                                                각 국가의 공식 경기 순환 주기에 따라 구간이 재계산됩니다.
+                                            </p>
+                                        </div>
+                                        <div className="mt-4 pt-3 border-t border-gray-300/20">
+                                            <p className="text-xs text-gray-300/90">
+                                                💡 각 지표를 클릭하면 상세 시계열 그래프와 통계를 확인할 수 있습니다.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }>
+                                <Info className="w-5 h-5 text-gray-200 hover:text-white cursor-help mr-2" />
+                            </Tooltip>
                             <Button
                                 onClick={() => setIsNormalized(!isNormalized)}
                                 className="px-2.5 py-1 text-xs rounded bg-gradient-to-r from-cyan-900/50 to-indigo-900/50 hover:from-cyan-800/50 hover:to-indigo-800/50 text-cyan-200 border border-cyan-700/50 mr-2 transition-colors"

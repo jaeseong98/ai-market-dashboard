@@ -13,7 +13,7 @@ const getColor = (val) => {
     return '#ef4444'  // 빨간색
 }
 
-const EconomicIndicator = ({ value, predictionChange }) => {
+const EconomicIndicator = ({ value, predictionChange, lastUpdateDate }) => {
     const changeColor = predictionChange > 0 ? '#22c55e' : '#ef4444'  // 증가면 빨간색, 감소면 초록색
 
     return (
@@ -60,8 +60,9 @@ const EconomicIndicator = ({ value, predictionChange }) => {
                         <div className="bg-gray-900 text-gray-100 text-sm rounded-lg p-4 shadow-xl border border-orange-500/30">
                             <h4 className="font-bold text-orange-400 mb-2">경기 과도기</h4>
                             <p className="text-xs leading-relaxed">
-                                경제 성장세가 둔화되는 시기입니다. 기업 실적과 경제지표들이 
-                                혼조세를 보이며, 시장의 불확실성이 증가하는 특징이 있습니다.
+                                경제가 확장기에서 침체기로, 또는 침체기에서 확장기로 
+                                전환되는 시기입니다. 경제지표들이 혼조세를 보이며 
+                                시장의 불확실성이 증가하는 특징이 있습니다.
                             </p>
                         </div>
                         <div className="border-t-8 border-x-8 border-transparent border-t-gray-900 
@@ -104,7 +105,7 @@ const EconomicIndicator = ({ value, predictionChange }) => {
                     {predictionChange > 0 ? '▲' : '▼'} {Math.abs(predictionChange * 100).toFixed(2)}% 전월 대비
                 </div>
                 <div className="text-xs text-gray-400/90 mt-1">
-                    최종 업데이트: {new Date().toLocaleDateString()}
+                    최종 업데이트: {new Date(lastUpdateDate).toLocaleDateString()}
                 </div>
             </div>
         </div>
@@ -138,6 +139,7 @@ const ModelPrediction = () => {
     const currentPrediction = parseFloat(data[data.length - 1].predicted_prob)
     const previousPrediction = parseFloat(data[data.length - 2].predicted_prob)
     const predictionChange = currentPrediction - previousPrediction
+    const lastUpdateDate = data[data.length - 1].DATE_YMD
 
     const chartData = {
         labels: data.map(item => item.DATE_YMD),
@@ -232,6 +234,7 @@ const ModelPrediction = () => {
                             <EconomicIndicator 
                                 value={currentPrediction} 
                                 predictionChange={predictionChange}
+                                lastUpdateDate={lastUpdateDate}
                             />
                         </div>
                     </div>
