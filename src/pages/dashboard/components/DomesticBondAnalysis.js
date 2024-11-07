@@ -1,5 +1,7 @@
 import { Card, CardContent } from '../../../components/Card.js'
 import { useState, useMemo, useCallback, useEffect } from 'react'
+// recharts 라이브러리 추가
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const PERIODS = [
     { id: 'daily', label: '전일대비' },
@@ -9,9 +11,24 @@ const PERIODS = [
     { id: 'yearly', label: '전년대비' }
 ];
 
+// 지표 선택을 위한 옵션 정의
+const INDICATORS = [
+    { id: 'base', label: '기준금리', color: '#8884d8' },
+    { id: 'call', label: '콜금리', color: '#82ca9d' },
+    { id: 'msp_91', label: '통안채 3개월', color: '#ffc658' },
+    { id: 'cp', label: 'CP금리', color: '#ff7300' },
+    { id: 'treasury.y1', label: '국고채 1년', color: '#0088fe' },
+    { id: 'treasury.y3', label: '국고채 3년', color: '#00c49f' },
+    { id: 'treasury.y10', label: '국고채 10년', color: '#ffbb28' },
+    { id: 'treasury.y30', label: '국고채 30년', color: '#ff8042' },
+    { id: 'credit_3y', label: '회사채 3년(AA-)', color: '#a4de6c' }
+];
+
 const DomesticBondAnalysis = () => {
     const [selectedPeriod, setSelectedPeriod] = useState('daily');
     const [comparisonText, setComparisonText] = useState('');
+    const [selectedIndicator, setSelectedIndicator] = useState('treasury.y3');
+    const [viewMode, setViewMode] = useState('graph'); // 'graph' or 'table'
 
     // bondData를 먼저 정의
     const bondData = useMemo(() => {
@@ -232,17 +249,16 @@ const DomesticBondAnalysis = () => {
         setComparisonText(getComparisonText(period));
     }, [getComparisonText]);
 
-    // 날짜 포맷팅 함수 추가
+    // 날짜 포맷팅 함수 가
     const formatDate = useCallback((dateString) => {
         const date = new Date(dateString);
-        return date.toLocaleDateString('ko-KR', {
-            year: 'numeric',
-            month: '2-digit',
-            day: '2-digit'
-        });
+        const year = date.getFullYear().toString().slice(2); // 2024 -> 24
+        const month = String(date.getMonth() + 1).padStart(2, '0'); // 1 -> 01
+        const day = String(date.getDate()).padStart(2, '0'); // 1 -> 01
+        return `${year}.${month}.${day}`;
     }, []);
 
-    // 선택된 기간의 날짜 범위를 반환하는 함수
+    // 선택된 간의 날짜 범위를 반환하는 함수
     const getDateRange = useCallback((period) => {
         const lastIndex = bondData.dates.length - 1;
         const endDate = new Date(bondData.dates[lastIndex]);
@@ -275,15 +291,65 @@ const DomesticBondAnalysis = () => {
         };
     }, [bondData.dates, formatDate]);
 
+    // 축용 날짜 포맷 함수 - 원래대로 복원
+    const formatAxisDate = useCallback((dateString) => {
+        const date = new Date(dateString);
+        const year = date.getFullYear().toString().slice(2);
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        return `${year}.${month}`;
+    }, []);
+
+    // 툴팁/테이블용 날짜 포맷 함수
+    const formatFullDate = useCallback((dateString) => {
+        const date = new Date(dateString);
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const day = String(date.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+    }, []);
+
+    // 그래프 데이터 준비 함수
+    const prepareGraphData = useCallback(() => {
+        const compareIndex = getIndexByPeriod(selectedPeriod);
+        const filteredDates = bondData.dates.slice(0, compareIndex + 1);
+        
+        return filteredDates.map((date, index) => {
+            const value = selectedIndicator.includes('treasury') 
+                ? bondData.rates.treasury[selectedIndicator.split('.')[1]][index]
+                : bondData.rates[selectedIndicator][index];
+            return {
+                date: formatAxisDate(date),
+                fullDate: formatFullDate(date),
+                value: value * 100
+            };
+        }).reverse();
+    }, [bondData, selectedIndicator, selectedPeriod, formatAxisDate, formatFullDate, getIndexByPeriod]);
+
+    // 테이블 데이터 준비 함수
+    const prepareTableData = useCallback(() => {
+        const compareIndex = getIndexByPeriod(selectedPeriod);
+        const filteredDates = bondData.dates.slice(0, compareIndex + 1);
+        
+        return filteredDates.map((date, index) => {
+            const value = selectedIndicator.includes('treasury')
+                ? bondData.rates.treasury[selectedIndicator.split('.')[1]][index]
+                : bondData.rates[selectedIndicator][index];
+            return {
+                date: formatFullDate(date),
+                value: `${(value * 100).toFixed(2)}%`
+            };
+        });
+    }, [bondData, selectedIndicator, selectedPeriod, formatFullDate, getIndexByPeriod]);
+
     return (
-        <Card className="bg-gray-800 text-white w-1/2">
+        <Card className="bg-gray-800 text-white w-[calc(33.333%-1rem)]">
             <CardContent className="p-4">
                 <h3 className="text-xl font-semibold mb-6 flex items-center border-b border-gray-700 pb-3">
                     <span className="mr-2" role="img" aria-label="chart">📊</span>
-                    <span className="text-blue-200">국내 채권시장 분석</span>
+                    <span className="text-blue-200">국내 채권시장 </span>
                 </h3>
 
-                <div className="space-y-">
+                <div className="space-y-2">
                     <div className="relative inline-block mb-4">
                         <div className="flex items-center gap-4">
                             <div className="relative inline-block">
@@ -316,7 +382,7 @@ const DomesticBondAnalysis = () => {
                         <p className="leading-relaxed text-gray-200 text-sm whitespace-pre-line">
                             국고채 장단기 금리는 대외 금리 상승과 국내 물가지표 부진 등의 영향으로 전구간에서 상승세를 보였습니다.
                             특히 장기물 금리가 큰 폭으로 상승하며 장단기 스프레드가 확대되었고, 
-                            신용스프레드는 회사채 발행 증가와 투자심리 위축으로 소폭 확대되었습니다.
+                            신용스프레드는 회사채 발 증가와 투자심리 위축으로 소폭 확대되었습니다.
                             
                             한편, 단기금융시장은 MMF 수신 감소에도 불구하고 CP금리가 안정적인 흐름을 보이고 있으며,
                             콜금리는 기준금리를 중심으로 안정적인 움직임을 지속하고 있습니다.
@@ -343,6 +409,140 @@ const DomesticBondAnalysis = () => {
                         </p>
                     </section>
                 </div>
+
+                <section className="bg-gray-900/50 rounded-lg p-4 mt-4">
+                    <div className="flex items-center justify-between mb-4">
+                        <div className="flex items-center gap-4">
+                            <select
+                                value={selectedIndicator}
+                                onChange={(e) => setSelectedIndicator(e.target.value)}
+                                className="appearance-none bg-gray-700 text-white text-sm px-3 py-1.5 pr-8 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer hover:bg-gray-600 transition-colors duration-200"
+                            >
+                                {INDICATORS.map(indicator => (
+                                    <option key={indicator.id} value={indicator.id}>
+                                        {indicator.label}
+                                    </option>
+                                ))}
+                            </select>
+                            <div className="flex items-center gap-2">
+                                <button
+                                    onClick={() => setViewMode('graph')}
+                                    className={`px-3 py-1.5 rounded-md ${
+                                        viewMode === 'graph' 
+                                            ? 'bg-blue-500 text-white' 
+                                            : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                                    }`}
+                                >
+                                    그래프
+                                </button>
+                                <button
+                                    onClick={() => setViewMode('table')}
+                                    className={`px-3 py-1.5 rounded-md ${
+                                        viewMode === 'table' 
+                                            ? 'bg-blue-500 text-white' 
+                                            : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                                    }`}
+                                >
+                                    테이블
+                                </button>
+                                <span className="text-sm text-gray-400 ml-2">
+                                    ({getDateRange(selectedPeriod).compare} ~ {getDateRange(selectedPeriod).current})
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    {viewMode === 'graph' ? (
+                        <div className="h-64">
+                            <ResponsiveContainer width="100%" height="100%">
+                                <LineChart data={prepareGraphData()} margin={{ top: 5, right: 5, left: 5, bottom: 5 }}>
+                                    <CartesianGrid 
+                                        strokeDasharray="3 3" 
+                                        stroke="#374151" 
+                                        horizontal={true}
+                                        vertical={false}
+                                    />
+                                    <XAxis 
+                                        dataKey="date" 
+                                        tick={{ 
+                                            fill: '#9CA3AF', 
+                                            fontSize: 12,
+                                            textAnchor: 'middle',
+                                            dy: 10
+                                        }}
+                                        interval={20}
+                                        height={50}
+                                        axisLine={{ stroke: '#4B5563' }}
+                                        tickLine={{ stroke: '#4B5563' }}
+                                    />
+                                    <YAxis 
+                                        tick={{ fill: '#9CA3AF', fontSize: 12 }}
+                                        domain={['auto', 'auto']}
+                                        axisLine={{ stroke: '#4B5563' }}
+                                        tickLine={{ stroke: '#4B5563' }}
+                                        width={40}
+                                    />
+                                    <Tooltip 
+                                        contentStyle={{ 
+                                            backgroundColor: '#1F2937', 
+                                            border: 'none',
+                                            borderRadius: '4px',
+                                            fontSize: '16px',
+                                            padding: '8px',
+                                            textAlign: 'center',
+                                            color: '#FFFFFF'
+                                        }}
+                                        labelStyle={{ 
+                                            color: '#FFFFFF',
+                                            marginBottom: '4px',
+                                            textAlign: 'center'
+                                        }}
+                                        formatter={(value) => [
+                                            `${INDICATORS.find(i => i.id === selectedIndicator)?.label} ${value.toFixed(2)}%`,
+                                            { color: '#FFFFFF' }
+                                        ]}
+                                        labelFormatter={(label, items) => items[0]?.payload.fullDate}
+                                        separator=""
+                                    />
+                                    <Line 
+                                        type="monotone" 
+                                        dataKey="value" 
+                                        stroke={INDICATORS.find(i => i.id === selectedIndicator)?.color} 
+                                        dot={false}
+                                        strokeWidth={1.5}
+                                    />
+                                </LineChart>
+                            </ResponsiveContainer>
+                        </div>
+                    ) : (
+                        <div className="overflow-x-auto max-h-64 scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-gray-800">
+                            <table className="w-full text-sm">
+                                <thead className="sticky top-0 bg-gray-800">
+                                    <tr>
+                                        <th className="py-2 px-4 text-left font-medium text-gray-300 border-b border-gray-700">
+                                            날짜
+                                        </th>
+                                        <th className="py-2 px-4 text-right font-medium text-gray-300 border-b border-gray-700">
+                                            {INDICATORS.find(i => i.id === selectedIndicator)?.label}
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {prepareTableData().map((row, index) => (
+                                        <tr key={row.date} className="hover:bg-gray-700/50 transition-colors">
+                                            <td className="py-1.5 px-4 text-gray-300 border-b border-gray-700/50">
+                                                {row.date}
+                                            </td>
+                                            <td className="py-1.5 px-4 text-right text-gray-300 border-b border-gray-700/50">
+                                                {row.value}
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    )}
+                </section>
             </CardContent>
         </Card>
     );

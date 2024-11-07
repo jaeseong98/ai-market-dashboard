@@ -11,7 +11,7 @@ const Header = () => (
             <nav className="flex space-x-6 ml-auto mr-12">
                 <Link to="/markets" className="text-gray-300 hover:text-white">Markets</Link>
                 <Link to="/economics" className="text-gray-300 hover:text-white">Economics</Link>
-                <Link to="/news" className="text-gray-300 hover:text-white">News</Link>
+                <Link to="/trend" className="text-gray-300 hover:text-white">Trend</Link>
             </nav>
         </div>
     </header>

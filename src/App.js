@@ -4,7 +4,7 @@ import Header from './layouts/Header.js'
 import Footer from './layouts/Footer.js'
 import MarketsPage from './pages/page/MarketPage.js'
 import EconomicsPage from './pages/page/EconomicsPage.js'
-import NewsPage from './pages/page/NewsPage.js'
+import TrendPage from './pages/page/TrendPage.js'
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
                         <Route path="/" element={<MarketsPage />} />
                         <Route path="/markets" element={<MarketsPage />} />
                         <Route path="/economics" element={<EconomicsPage />} />
-                        <Route path="/news" element={<NewsPage />} />
+                        <Route path="/trend" element={<TrendPage />} />
                     </Routes>
                 </main>
                 <Footer />
