@@ -1,9 +1,9 @@
 import React from 'react'
 import { useDatabaseApi } from '../../hooks/useDatabaseApi.js'
-import EconomicIndicators from '../dashboard/components/EconomicIndicators.js'
-import EconomicAnalysis from '../dashboard/components/EconomicAnalysis.js'
-import NberPrediction from '../dashboard/components/ModelPrediction.js'
-import EconomicCalendar from '../dashboard/components/EconomicCalendar.js'
+import EconomicIndicators from './components/EconomicIndicators.js';
+import EconomicAnalysis from './components/EconomicAnalysis.js';
+import ModelPrediction from './components/ModelPrediction.js';
+import EconomicCalendar from './components/EconomicCalendar.js';
 
 const EconomicsPage = () => {
     const { economicIndicators, loading, error } = useDatabaseApi()
@@ -23,7 +23,7 @@ const EconomicsPage = () => {
             </div>
             <div className="flex gap-4">
                 <div className="w-2/3">
-                    <NberPrediction />
+                    <ModelPrediction />
                 </div>
                 <div className="w-1/3">
                     <EconomicCalendar />

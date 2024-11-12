@@ -5,7 +5,7 @@ const EconomicAnalysis = () => {
         <Card className="bg-gray-700 text-white">
             <CardContent>
                 <h3 className="text-xl font-semibold mb-4 flex items-center">
-                    <span className="mr-2" role="img" aria-label="chart">💡</span>경제 지표 분석
+                    <span className="mr-2" role="img" aria-label="chart">💡</span>경제 지표 분석(임시 텍스트)
                 </h3>
                 <div className="space-y-4 text-sm">
                     <section>

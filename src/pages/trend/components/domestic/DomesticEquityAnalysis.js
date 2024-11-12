@@ -1,4 +1,4 @@
-import { Card, CardContent } from '../../../components/Card.js'
+import { Card, CardContent } from '../../../../components/Card.js'
 import { useState, useMemo, useCallback, useEffect } from 'react'
 // recharts 라이브러리 추가
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -342,11 +342,11 @@ const DomesticBondAnalysis = () => {
     }, [bondData, selectedIndicator, selectedPeriod, formatFullDate, getIndexByPeriod]);
 
     return (
-        <Card className="bg-gray-800 text-white w-[calc(33.333%-1rem)]">
+        <Card className="bg-gray-800 text-white w-full">
             <CardContent className="p-4">
                 <h3 className="text-xl font-semibold mb-6 flex items-center border-b border-gray-700 pb-3">
                     <span className="mr-2" role="img" aria-label="chart">📊</span>
-                    <span className="text-blue-200">국내 채권시장 </span>
+                    <span className="text-blue-200">국내 주식시장(임시) </span>
                 </h3>
 
                 <div className="space-y-2">
@@ -377,7 +377,7 @@ const DomesticBondAnalysis = () => {
                     <section className="bg-gray-900/50 rounded-lg p-4">
                         <h4 className="font-medium text-green-300 mb-2 flex items-center">
                             <span className="w-2 h-2 bg-green-300 rounded-full mr-2"></span>
-                            국내 채권시장 동향
+                            국내 채권시장 동향(임시)
                         </h4>
                         <p className="leading-relaxed text-gray-200 text-sm whitespace-pre-line">
                             국고채 장단기 금리는 대외 금리 상승과 국내 물가지표 부진 등의 영향으로 전구간에서 상승세를 보였습니다.
@@ -392,7 +392,7 @@ const DomesticBondAnalysis = () => {
                     <section className="bg-gray-900/50 rounded-lg p-4">
                         <h4 className="font-medium text-yellow-300 mb-2 flex items-center">
                             <span className="w-2 h-2 bg-yellow-300 rounded-full mr-2"></span>
-                            금리차 분석
+                            금리차 분석(룰 기반)
                         </h4>
                         <p className="leading-relaxed text-gray-200 text-sm whitespace-pre-line">
                             {comparisonText.split('\n').slice(1, 3).join('\n')}
@@ -402,7 +402,7 @@ const DomesticBondAnalysis = () => {
                     <section className="bg-gray-900/50 rounded-lg p-4">
                         <h4 className="font-medium text-blue-300 mb-2 flex items-center">
                             <span className="w-2 h-2 bg-blue-300 rounded-full mr-2"></span>
-                            증감 분석
+                            증감 분석(룰 기반)
                         </h4>
                         <p className="leading-relaxed text-gray-200 text-sm whitespace-pre-line">
                             {comparisonText.split('\n').slice(4).join('\n')}
@@ -416,7 +416,7 @@ const DomesticBondAnalysis = () => {
                             <select
                                 value={selectedIndicator}
                                 onChange={(e) => setSelectedIndicator(e.target.value)}
-                                className="appearance-none bg-gray-700 text-white text-sm px-3 py-1.5 pr-8 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer hover:bg-gray-600 transition-colors duration-200"
+                                className="appearance-none bg-gray-700 text-white text-sm px-3 py-1.5 pr-4 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent cursor-pointer hover:bg-gray-600 transition-colors duration-200"
                             >
                                 {INDICATORS.map(indicator => (
                                     <option key={indicator.id} value={indicator.id}>
@@ -424,10 +424,10 @@ const DomesticBondAnalysis = () => {
                                     </option>
                                 ))}
                             </select>
-                            <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-3">
                                 <button
                                     onClick={() => setViewMode('graph')}
-                                    className={`px-3 py-1.5 rounded-md ${
+                                    className={`px-2 py-2 text-sm rounded-md ${
                                         viewMode === 'graph' 
                                             ? 'bg-blue-500 text-white' 
                                             : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
@@ -437,7 +437,7 @@ const DomesticBondAnalysis = () => {
                                 </button>
                                 <button
                                     onClick={() => setViewMode('table')}
-                                    className={`px-3 py-1.5 rounded-md ${
+                                    className={`px-2 py-2 text-sm rounded-md ${
                                         viewMode === 'table' 
                                             ? 'bg-blue-500 text-white' 
                                             : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
@@ -445,9 +445,6 @@ const DomesticBondAnalysis = () => {
                                 >
                                     테이블
                                 </button>
-                                <span className="text-sm text-gray-400 ml-2">
-                                    ({getDateRange(selectedPeriod).compare} ~ {getDateRange(selectedPeriod).current})
-                                </span>
                             </div>
                         </div>
                     </div>
@@ -455,7 +452,7 @@ const DomesticBondAnalysis = () => {
                     {viewMode === 'graph' ? (
                         <div className="h-64">
                             <ResponsiveContainer width="100%" height="100%">
-                                <LineChart data={prepareGraphData()} margin={{ top: 5, right: 5, left: 5, bottom: 5 }}>
+                                <LineChart data={prepareGraphData()} margin={{ top: 5, right: 5, left: -20, bottom: 5 }}>
                                     <CartesianGrid 
                                         strokeDasharray="3 3" 
                                         stroke="#374151" 

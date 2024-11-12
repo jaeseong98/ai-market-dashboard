@@ -10,7 +10,7 @@ const OTHER_INDICES = ['KS200', 'DJI', 'VIX', 'SSEC', 'HSI', 'N225'];
 // 지수 정보 매핑
 const INDEX_INFO = {
     'KS11': { name: 'KOSPI', korName: '코스피', country: '한국', color: '#E74C3C' },
-    'KQ11': { name: 'KOSDAQ', korName: '코스', country: '한국', color: '#2ECC71' },
+    'KQ11': { name: 'KOSDAQ', korName: '코스닥', country: '한국', color: '#2ECC71' },
     'KS200': { name: 'KOSPI200', korName: '코스피200', country: '한국', color: '#3498DB' },
     'DJI': { name: 'Dow Jones', korName: '다우존스', country: '미국', color: '#9B59B6' },
     'IXIC': { name: 'NASDAQ', korName: '나스닥', country: '미국', color: '#F1C40F' },
@@ -72,7 +72,7 @@ const MarketChart = ({ marketIndices, exchangeRates, commodityRates }) => {
                 </CardHeader>
                 <CardContent className="pt-2">
                     <div className="h-[170px]">
-                        <ResponsiveContainer width="125%" height="100%">
+                        <ResponsiveContainer width="117%" height="100%">
                             <AreaChart 
                                 data={indexData}
                                 margin={{ top: 5, right: 35, left: -15, bottom: 0 }}
@@ -111,7 +111,7 @@ const MarketChart = ({ marketIndices, exchangeRates, commodityRates }) => {
                                     strokeWidth={1.5}
                                     fillOpacity={1}
                                     fill={`url(#${gradientId})`}
-                                    name="Price" // closing_price를 "가격"으로 변경
+                                    name={indexInfo.korName}
                                 />
                             </AreaChart>
                         </ResponsiveContainer>

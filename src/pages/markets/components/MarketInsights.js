@@ -5,7 +5,7 @@ const MarketInsights = () => {
         <Card className="bg-gray-900 text-white">
             <CardContent className="p">
                 <h3 className="text-xl font-semibold mb-4 flex items-center">
-                    <span className="mr-2" role="img" aria-label="insights">💡</span>시장 분석
+                    <span className="mr-2" role="img" aria-label="insights">💡</span>시장 분석(임시 텍스트)
                 </h3>
                 <div className="space-y-4 text-sm">
                     <section>

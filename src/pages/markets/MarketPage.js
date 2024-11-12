@@ -1,9 +1,9 @@
 import React from 'react'
 import { useDatabaseApi } from '../../hooks/useDatabaseApi.js'
-import MarketChart from '../dashboard/components/MarketChart.js'
-import FearGreedIndex from '../dashboard/components/FearGreedIndex.js'
-import MarketInsights from '../dashboard/components/MarketInsights.js'
-import MarketNews from '../dashboard/components/MarketNews.js'
+import FearGreedIndex from './components/FearGreedIndex.js';
+import MarketChart from './components/MarketChart.js';
+import MarketNews from './components/MarketNews.js';
+import MarketInsights from './components/MarketInsights.js';
 
 const MarketsPage = () => {
     const { 
