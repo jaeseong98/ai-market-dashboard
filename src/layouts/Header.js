@@ -49,7 +49,7 @@ const Header = () => {
                             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-400"></span>
                         )}
                     </Link>
-                    <Link 
+                    {/* <Link 
                         to="/trend" 
                         className={`relative py-5 px-1 transition-colors duration-200
                             ${isActive('/trend') 
@@ -61,7 +61,7 @@ const Header = () => {
                         {isActive('/trend') && (
                             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-400"></span>
                         )}
-                    </Link>
+                    </Link> */}
                     <Link 
                         to="/trend_ver2" 
                         className={`relative py-5 px-1 transition-colors duration-200
@@ -70,7 +70,7 @@ const Header = () => {
                                 : 'text-gray-400 hover:text-gray-200'
                             }`}
                     >
-                        <span>Trend_ver2</span>
+                        <span>Trend</span>
                         {isActive('/trend_ver2') && (
                             <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-400"></span>
                         )}

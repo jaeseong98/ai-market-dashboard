@@ -73752,19 +73752,19 @@
     }
   ],
   "exchangeRates": {
-    "date": "2024-11-08",
-    "usd_krw": 1399.1,
-    "usd_jpy": 153.04,
-    "eur_usd": 1.0799,
-    "usd_hkd": 7.77105,
-    "usd_krw_change": 7.599999999999909,
-    "usd_jpy_change": -1.3499999999999943,
-    "eur_usd_change": 0.006650000000000045,
-    "usd_hkd_change": -0.0051000000000005485,
-    "usd_krw_change_pct": 0.55,
-    "usd_jpy_change_pct": -0.87,
-    "eur_usd_change_pct": 0.62,
-    "usd_hkd_change_pct": -0.07
+    "date": "2024-11-13",
+    "usd_krw": 1401.1,
+    "usd_jpy": 154.545,
+    "eur_usd": 1.06195,
+    "usd_hkd": 7.7781,
+    "usd_krw_change": 5.7999999999999545,
+    "usd_jpy_change": 0.8099999999999739,
+    "eur_usd_change": -0.0037000000000000366,
+    "usd_hkd_change": 0.002349999999999852,
+    "usd_krw_change_pct": 0.42,
+    "usd_jpy_change_pct": 0.53,
+    "eur_usd_change_pct": -0.35,
+    "usd_hkd_change_pct": 0.03
   },
   "commodityRates": {
     "date": "2024-10-01",
@@ -73807,6 +73807,45 @@
   },
   "marketIndices": [
     {
+      "trading_date": "2024-11-13",
+      "index_code": "DJI",
+      "index_name": "Dow Jones",
+      "opening_price": 43880.5,
+      "high_price": 44141.328125,
+      "low_price": 43829.98046875,
+      "closing_price": 43958.19140625,
+      "volume": 518842039,
+      "change_value": 47.2109375,
+      "change_rate": 0.11,
+      "last_updated": "2024-11-14T08:01:03.977000"
+    },
+    {
+      "trading_date": "2024-11-12",
+      "index_code": "DJI",
+      "index_name": "Dow Jones",
+      "opening_price": 44359.2109375,
+      "high_price": 44405.73046875,
+      "low_price": 43887.26953125,
+      "closing_price": 43910.98046875,
+      "volume": 482720000,
+      "change_value": -382.1484375,
+      "change_rate": -0.86,
+      "last_updated": "2024-11-14T08:01:03.977000"
+    },
+    {
+      "trading_date": "2024-11-11",
+      "index_code": "DJI",
+      "index_name": "Dow Jones",
+      "opening_price": 44057.6484375,
+      "high_price": 44486.69921875,
+      "low_price": 44057.6484375,
+      "closing_price": 44293.12890625,
+      "volume": 451940000,
+      "change_value": 304.140625,
+      "change_rate": 0.69,
+      "last_updated": "2024-11-14T08:01:03.977000"
+    },
+    {
       "trading_date": "2024-11-08",
       "index_code": "DJI",
       "index_name": "Dow Jones",
@@ -73817,7 +73856,7 @@
       "volume": 454570000,
       "change_value": 259.6484375,
       "change_rate": 0.59,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.977000"
     },
     {
       "trading_date": "2024-11-07",
@@ -73830,7 +73869,7 @@
       "volume": 437510000,
       "change_value": -0.58984375,
       "change_rate": 0,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.977000"
     },
     {
       "trading_date": "2024-11-06",
@@ -73843,7 +73882,7 @@
       "volume": 550400000,
       "change_value": 1508.05078125,
       "change_rate": 3.57,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.977000"
     },
     {
       "trading_date": "2024-11-05",
@@ -73856,7 +73895,7 @@
       "volume": 283990000,
       "change_value": 427.27734375,
       "change_rate": 1.02,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.977000"
     },
     {
       "trading_date": "2024-11-04",
@@ -73869,7 +73908,7 @@
       "volume": 341500000,
       "change_value": -257.58984375,
       "change_rate": -0.61,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-11-01",
@@ -73882,7 +73921,7 @@
       "volume": 531350000,
       "change_value": 288.73046875,
       "change_rate": 0.69,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-31",
@@ -73895,7 +73934,7 @@
       "volume": 497370000,
       "change_value": -378.078125,
       "change_rate": -0.9,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-30",
@@ -73908,7 +73947,7 @@
       "volume": 377420000,
       "change_value": -91.51171875,
       "change_rate": -0.22,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-29",
@@ -73921,7 +73960,7 @@
       "volume": 373550000,
       "change_value": -154.51953125,
       "change_rate": -0.36,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-28",
@@ -73934,7 +73973,7 @@
       "volume": 284770000,
       "change_value": 273.171875,
       "change_rate": 0.65,
-      "last_updated": "2024-11-11T08:16:57.133000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-25",
@@ -73947,7 +73986,7 @@
       "volume": 314000000,
       "change_value": -259.9609375,
       "change_rate": -0.61,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-24",
@@ -73960,7 +73999,7 @@
       "volume": 282680000,
       "change_value": -140.58984375,
       "change_rate": -0.33,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-23",
@@ -73973,7 +74012,7 @@
       "volume": 356610000,
       "change_value": -409.94140625,
       "change_rate": -0.96,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-22",
@@ -73986,7 +74025,7 @@
       "volume": 335200000,
       "change_value": -6.7109375,
       "change_rate": -0.02,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-21",
@@ -73999,7 +74038,7 @@
       "volume": 273590000,
       "change_value": -344.30859375,
       "change_rate": -0.8,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-18",
@@ -74012,7 +74051,7 @@
       "volume": 295500000,
       "change_value": 36.859375,
       "change_rate": 0.09,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-17",
@@ -74025,7 +74064,7 @@
       "volume": 267370000,
       "change_value": 161.3515625,
       "change_rate": 0.37,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-16",
@@ -74038,7 +74077,7 @@
       "volume": 297510000,
       "change_value": 337.27734375,
       "change_rate": 0.79,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-15",
@@ -74051,7 +74090,7 @@
       "volume": 360880000,
       "change_value": -324.796875,
       "change_rate": -0.75,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-14",
@@ -74064,7 +74103,7 @@
       "volume": 240050000,
       "change_value": 201.359375,
       "change_rate": 0.47,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.973000"
     },
     {
       "trading_date": "2024-10-11",
@@ -74077,7 +74116,7 @@
       "volume": 265330000,
       "change_value": 409.73828125,
       "change_rate": 0.97,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-10",
@@ -74090,7 +74129,7 @@
       "volume": 245570000,
       "change_value": -57.87890625,
       "change_rate": -0.14,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-09",
@@ -74103,7 +74142,7 @@
       "volume": 267400000,
       "change_value": 431.62890625,
       "change_rate": 1.03,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-08",
@@ -74116,7 +74155,7 @@
       "volume": 284500000,
       "change_value": 126.1328125,
       "change_rate": 0.3,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-07",
@@ -74129,7 +74168,7 @@
       "volume": 307230000,
       "change_value": -398.51171875,
       "change_rate": -0.94,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-04",
@@ -74142,7 +74181,7 @@
       "volume": 296550000,
       "change_value": 341.16015625,
       "change_rate": 0.81,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-03",
@@ -74155,7 +74194,7 @@
       "volume": 267260000,
       "change_value": -184.9296875,
       "change_rate": -0.44,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-02",
@@ -74168,7 +74207,7 @@
       "volume": 301760000,
       "change_value": 39.55078125,
       "change_rate": 0.09,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-10-01",
@@ -74181,7 +74220,7 @@
       "volume": 380240000,
       "change_value": -173.1796875,
       "change_rate": -0.41,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-30",
@@ -74194,7 +74233,7 @@
       "volume": 354430000,
       "change_value": 17.1484375,
       "change_rate": 0.04,
-      "last_updated": "2024-11-11T08:16:57.130000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-27",
@@ -74207,7 +74246,7 @@
       "volume": 329840000,
       "change_value": 137.890625,
       "change_rate": 0.33,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-26",
@@ -74220,7 +74259,7 @@
       "volume": 353600000,
       "change_value": 260.359375,
       "change_rate": 0.62,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-25",
@@ -74233,7 +74272,7 @@
       "volume": 374960000,
       "change_value": -293.46875,
       "change_rate": -0.7,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-24",
@@ -74246,7 +74285,7 @@
       "volume": 401020000,
       "change_value": 83.5703125,
       "change_rate": 0.2,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-23",
@@ -74259,7 +74298,7 @@
       "volume": 455200000,
       "change_value": 61.2890625,
       "change_rate": 0.15,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-20",
@@ -74272,7 +74311,7 @@
       "volume": 1207660000,
       "change_value": 38.16796875,
       "change_rate": 0.09,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-19",
@@ -74285,7 +74324,7 @@
       "volume": 429760000,
       "change_value": 522.08984375,
       "change_rate": 1.26,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-18",
@@ -74298,7 +74337,7 @@
       "volume": 383600000,
       "change_value": -103.078125,
       "change_rate": -0.25,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-17",
@@ -74311,7 +74350,7 @@
       "volume": 448610000,
       "change_value": -15.8984375,
       "change_rate": -0.04,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-16",
@@ -74324,7 +74363,7 @@
       "volume": 408670000,
       "change_value": 228.296875,
       "change_rate": 0.55,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-13",
@@ -74337,7 +74376,7 @@
       "volume": 276800000,
       "change_value": 297.01171875,
       "change_rate": 0.72,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-12",
@@ -74350,7 +74389,7 @@
       "volume": 289300000,
       "change_value": 235.05859375,
       "change_rate": 0.58,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.970000"
     },
     {
       "trading_date": "2024-09-11",
@@ -74363,7 +74402,7 @@
       "volume": 356040000,
       "change_value": 124.75,
       "change_rate": 0.31,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-09-10",
@@ -74376,7 +74415,7 @@
       "volume": 360950000,
       "change_value": -92.62890625,
       "change_rate": -0.23,
-      "last_updated": "2024-11-11T08:16:57.127000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-09-09",
@@ -74389,7 +74428,7 @@
       "volume": 376720000,
       "change_value": 484.1796875,
       "change_rate": 1.2,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-09-06",
@@ -74402,7 +74441,7 @@
       "volume": 370440000,
       "change_value": -410.33984375,
       "change_rate": -1.01,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-09-05",
@@ -74415,7 +74454,7 @@
       "volume": 331250000,
       "change_value": -219.21875,
       "change_rate": -0.54,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-09-04",
@@ -74428,7 +74467,7 @@
       "volume": 359380000,
       "change_value": 38.0390625,
       "change_rate": 0.09,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-09-03",
@@ -74441,7 +74480,7 @@
       "volume": 420530000,
       "change_value": -626.1484375,
       "change_rate": -1.51,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-30",
@@ -74454,7 +74493,7 @@
       "volume": 494900000,
       "change_value": 228.02734375,
       "change_rate": 0.55,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-29",
@@ -74467,7 +74506,7 @@
       "volume": 309820000,
       "change_value": 243.62890625,
       "change_rate": 0.59,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-28",
@@ -74480,7 +74519,7 @@
       "volume": 272170000,
       "change_value": -159.078125,
       "change_rate": -0.39,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-27",
@@ -74493,7 +74532,7 @@
       "volume": 256160000,
       "change_value": 9.98046875,
       "change_rate": 0.02,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-26",
@@ -74506,7 +74545,7 @@
       "volume": 249300000,
       "change_value": 65.44140625,
       "change_rate": 0.16,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-23",
@@ -74519,7 +74558,7 @@
       "volume": 300080000,
       "change_value": 462.296875,
       "change_rate": 1.14,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-22",
@@ -74532,7 +74571,7 @@
       "volume": 310470000,
       "change_value": -177.70703125,
       "change_rate": -0.43,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-21",
@@ -74545,7 +74584,7 @@
       "volume": 281460000,
       "change_value": 55.51953125,
       "change_rate": 0.14,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-20",
@@ -74558,7 +74597,7 @@
       "volume": 299380000,
       "change_value": -61.5625,
       "change_rate": -0.15,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.967000"
     },
     {
       "trading_date": "2024-08-19",
@@ -74571,7 +74610,7 @@
       "volume": 283890000,
       "change_value": 236.76953125,
       "change_rate": 0.58,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.963000"
     },
     {
       "trading_date": "2024-08-16",
@@ -74584,46 +74623,46 @@
       "volume": 323210000,
       "change_value": 96.703125,
       "change_rate": 0.24,
-      "last_updated": "2024-11-11T08:16:57.123000"
+      "last_updated": "2024-11-14T08:01:03.963000"
     },
     {
-      "trading_date": "2024-08-15",
-      "index_code": "DJI",
-      "index_name": "Dow Jones",
-      "opening_price": 40295.73828125,
-      "high_price": 40590.51171875,
-      "low_price": 40295.73828125,
-      "closing_price": 40563.05859375,
-      "volume": 446850000,
-      "change_value": 554.66796875,
-      "change_rate": 1.39,
-      "last_updated": "2024-11-11T08:16:57.120000"
+      "trading_date": "2024-11-13",
+      "index_code": "HSI",
+      "index_name": "Hang Seng",
+      "opening_price": 19671.919921875,
+      "high_price": 19840.279296875,
+      "low_price": 19608.3203125,
+      "closing_price": 19823.44921875,
+      "volume": 0,
+      "change_value": -23.431640625,
+      "change_rate": -0.12,
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
-      "trading_date": "2024-08-14",
-      "index_code": "DJI",
-      "index_name": "Dow Jones",
-      "opening_price": 39800.58984375,
-      "high_price": 40068.75,
-      "low_price": 39737.19921875,
-      "closing_price": 40008.390625,
-      "volume": 317800000,
-      "change_value": 242.75,
-      "change_rate": 0.61,
-      "last_updated": "2024-11-11T08:16:57.120000"
+      "trading_date": "2024-11-12",
+      "index_code": "HSI",
+      "index_name": "Hang Seng",
+      "opening_price": 20334.08984375,
+      "high_price": 20517.240234375,
+      "low_price": 19761.310546875,
+      "closing_price": 19846.880859375,
+      "volume": 4319500000,
+      "change_value": -580.048828125,
+      "change_rate": -2.84,
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
-      "trading_date": "2024-08-13",
-      "index_code": "DJI",
-      "index_name": "Dow Jones",
-      "opening_price": 39445.26953125,
-      "high_price": 39792.80078125,
-      "low_price": 39392.41015625,
-      "closing_price": 39765.640625,
-      "volume": 365560000,
-      "change_value": 408.62890625,
-      "change_rate": 1.04,
-      "last_updated": "2024-11-11T08:16:57.120000"
+      "trading_date": "2024-11-11",
+      "index_code": "HSI",
+      "index_name": "Hang Seng",
+      "opening_price": 20258.140625,
+      "high_price": 20505.009765625,
+      "low_price": 20151.380859375,
+      "closing_price": 20426.9296875,
+      "volume": 3649700000,
+      "change_value": -301.259765625,
+      "change_rate": -1.45,
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-11-08",
@@ -74636,7 +74675,7 @@
       "volume": 4153500000,
       "change_value": -225.150390625,
       "change_rate": -1.07,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-11-07",
@@ -74649,7 +74688,7 @@
       "volume": 4317500000,
       "change_value": 414.958984375,
       "change_rate": 2.02,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-11-06",
@@ -74662,7 +74701,7 @@
       "volume": 3903900000,
       "change_value": -468.58984375,
       "change_rate": -2.23,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-11-05",
@@ -74675,7 +74714,7 @@
       "volume": 3147300000,
       "change_value": 439.451171875,
       "change_rate": 2.14,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-11-04",
@@ -74688,7 +74727,7 @@
       "volume": 2463600000,
       "change_value": 61.08984375,
       "change_rate": 0.3,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-11-01",
@@ -74701,7 +74740,7 @@
       "volume": 3278800000,
       "change_value": 189.099609375,
       "change_rate": 0.93,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-31",
@@ -74714,7 +74753,7 @@
       "volume": 3238200000,
       "change_value": -63.310546875,
       "change_rate": -0.31,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-30",
@@ -74727,7 +74766,7 @@
       "volume": 3626500000,
       "change_value": -320.5,
       "change_rate": -1.55,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-29",
@@ -74740,7 +74779,7 @@
       "volume": 3137700000,
       "change_value": 101.78125,
       "change_rate": 0.49,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-28",
@@ -74753,7 +74792,7 @@
       "volume": 2978600000,
       "change_value": 9.208984375,
       "change_rate": 0.04,
-      "last_updated": "2024-11-11T08:16:57.433000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-25",
@@ -74766,7 +74805,7 @@
       "volume": 2984600000,
       "change_value": 100.53125,
       "change_rate": 0.49,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-24",
@@ -74779,7 +74818,7 @@
       "volume": 2725600000,
       "change_value": -270.53125,
       "change_rate": -1.3,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-23",
@@ -74792,7 +74831,7 @@
       "volume": 3542000000,
       "change_value": 261.201171875,
       "change_rate": 1.27,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-22",
@@ -74805,7 +74844,7 @@
       "volume": 2556600000,
       "change_value": 20.48828125,
       "change_rate": 0.1,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.260000"
     },
     {
       "trading_date": "2024-10-21",
@@ -74818,7 +74857,7 @@
       "volume": 3775000000,
       "change_value": -325.6484375,
       "change_rate": -1.57,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-18",
@@ -74831,7 +74870,7 @@
       "volume": 4586200000,
       "change_value": 725.009765625,
       "change_rate": 3.61,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-17",
@@ -74844,7 +74883,7 @@
       "volume": 3646900000,
       "change_value": -207.75,
       "change_rate": -1.02,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-16",
@@ -74857,7 +74896,7 @@
       "volume": 4158700000,
       "change_value": -31.939453125,
       "change_rate": -0.16,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-15",
@@ -74870,7 +74909,7 @@
       "volume": 4906400000,
       "change_value": -774.080078125,
       "change_rate": -3.67,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-14",
@@ -74883,7 +74922,7 @@
       "volume": 5743300000,
       "change_value": -159.111328125,
       "change_rate": -0.75,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-10",
@@ -74896,7 +74935,7 @@
       "volume": 6039900000,
       "change_value": 614.740234375,
       "change_rate": 2.98,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-09",
@@ -74909,7 +74948,7 @@
       "volume": 7953600000,
       "change_value": -289.548828125,
       "change_rate": -1.38,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-08",
@@ -74922,7 +74961,7 @@
       "volume": 11257900000,
       "change_value": -2172.990234375,
       "change_rate": -9.41,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-07",
@@ -74935,7 +74974,7 @@
       "volume": 5098400000,
       "change_value": 362.91015625,
       "change_rate": 1.6,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-04",
@@ -74948,7 +74987,7 @@
       "volume": 4619951200,
       "change_value": 623.359375,
       "change_rate": 2.82,
-      "last_updated": "2024-11-11T08:16:57.430000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-03",
@@ -74961,7 +75000,7 @@
       "volume": 4942180900,
       "change_value": -330.220703125,
       "change_rate": -1.47,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-10-02",
@@ -74974,7 +75013,7 @@
       "volume": 7696286600,
       "change_value": 1310.05078125,
       "change_rate": 6.2,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.257000"
     },
     {
       "trading_date": "2024-09-30",
@@ -74987,7 +75026,7 @@
       "volume": 1035706200,
       "change_value": 501.37890625,
       "change_rate": 2.43,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-27",
@@ -75000,7 +75039,7 @@
       "volume": 9656093400,
       "change_value": 707.720703125,
       "change_rate": 3.55,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-26",
@@ -75013,7 +75052,7 @@
       "volume": 7428256300,
       "change_value": 795.48046875,
       "change_rate": 4.16,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-25",
@@ -75026,7 +75065,7 @@
       "volume": 6507488700,
       "change_value": 128.5390625,
       "change_rate": 0.68,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-24",
@@ -75039,7 +75078,7 @@
       "volume": 6008421400,
       "change_value": 753.451171875,
       "change_rate": 4.13,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-23",
@@ -75052,7 +75091,7 @@
       "volume": 2724524400,
       "change_value": -11.4609375,
       "change_rate": -0.06,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-20",
@@ -75065,7 +75104,7 @@
       "volume": 4005306800,
       "change_value": 245.41015625,
       "change_rate": 1.36,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-19",
@@ -75078,7 +75117,7 @@
       "volume": 3436673300,
       "change_value": 353.140625,
       "change_rate": 2,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-17",
@@ -75091,7 +75130,7 @@
       "volume": 1665721500,
       "change_value": 237.900390625,
       "change_rate": 1.37,
-      "last_updated": "2024-11-11T08:16:57.427000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-16",
@@ -75104,7 +75143,7 @@
       "volume": 1127924500,
       "change_value": 53.029296875,
       "change_rate": 0.31,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-13",
@@ -75117,7 +75156,7 @@
       "volume": 2139977900,
       "change_value": 128.69921875,
       "change_rate": 0.75,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-12",
@@ -75130,7 +75169,7 @@
       "volume": 2374153300,
       "change_value": 131.6796875,
       "change_rate": 0.77,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-11",
@@ -75143,7 +75182,7 @@
       "volume": 3071142700,
       "change_value": -125.37890625,
       "change_rate": -0.73,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.253000"
     },
     {
       "trading_date": "2024-09-10",
@@ -75156,7 +75195,7 @@
       "volume": 2786726500,
       "change_value": 37.12890625,
       "change_rate": 0.22,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-09-09",
@@ -75169,7 +75208,7 @@
       "volume": 3841864100,
       "change_value": -247.33984375,
       "change_rate": -1.42,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-09-05",
@@ -75182,7 +75221,7 @@
       "volume": 2558634900,
       "change_value": -13.0390625,
       "change_rate": -0.07,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-09-04",
@@ -75195,7 +75234,7 @@
       "volume": 2601237200,
       "change_value": -194.150390625,
       "change_rate": -1.1,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-09-03",
@@ -75208,7 +75247,7 @@
       "volume": 2470760400,
       "change_value": -40.48046875,
       "change_rate": -0.23,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-09-02",
@@ -75221,7 +75260,7 @@
       "volume": 3077120300,
       "change_value": -297.099609375,
       "change_rate": -1.65,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-30",
@@ -75234,7 +75273,7 @@
       "volume": 4753806200,
       "change_value": 202.75,
       "change_rate": 1.14,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-29",
@@ -75247,7 +75286,7 @@
       "volume": 2858172500,
       "change_value": 93.87109375,
       "change_rate": 0.53,
-      "last_updated": "2024-11-11T08:16:57.423000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-28",
@@ -75260,7 +75299,7 @@
       "volume": 2184592400,
       "change_value": -182.220703125,
       "change_rate": -1.02,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-27",
@@ -75273,7 +75312,7 @@
       "volume": 2702698800,
       "change_value": 75.939453125,
       "change_rate": 0.43,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-26",
@@ -75286,7 +75325,7 @@
       "volume": 1970098500,
       "change_value": 186.630859375,
       "change_rate": 1.06,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-23",
@@ -75299,7 +75338,7 @@
       "volume": 2054121600,
       "change_value": -28.900390625,
       "change_rate": -0.16,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-22",
@@ -75312,7 +75351,7 @@
       "volume": 2945729800,
       "change_value": 249.990234375,
       "change_rate": 1.44,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-21",
@@ -75325,7 +75364,7 @@
       "volume": 2060224300,
       "change_value": -120.0703125,
       "change_rate": -0.69,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.250000"
     },
     {
       "trading_date": "2024-08-20",
@@ -75338,7 +75377,7 @@
       "volume": 1961800000,
       "change_value": -58.490234375,
       "change_rate": -0.33,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.247000"
     },
     {
       "trading_date": "2024-08-19",
@@ -75351,7 +75390,7 @@
       "volume": 2361570600,
       "change_value": 139.41015625,
       "change_rate": 0.8,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.247000"
     },
     {
       "trading_date": "2024-08-16",
@@ -75364,7 +75403,7 @@
       "volume": 2551716800,
       "change_value": 321.01953125,
       "change_rate": 1.88,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.247000"
     },
     {
       "trading_date": "2024-08-15",
@@ -75377,7 +75416,7 @@
       "volume": 2407027500,
       "change_value": -4.21875,
       "change_rate": -0.02,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.247000"
     },
     {
       "trading_date": "2024-08-14",
@@ -75390,7 +75429,7 @@
       "volume": 1574534000,
       "change_value": -60.701171875,
       "change_rate": -0.35,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.247000"
     },
     {
       "trading_date": "2024-08-13",
@@ -75403,46 +75442,46 @@
       "volume": 1934995900,
       "change_value": 62.41015625,
       "change_rate": 0.36,
-      "last_updated": "2024-11-11T08:16:57.420000"
+      "last_updated": "2024-11-14T08:01:04.247000"
     },
     {
-      "trading_date": "2024-08-12",
-      "index_code": "HSI",
-      "index_name": "Hang Seng",
-      "opening_price": 17102.98046875,
-      "high_price": 17162.759765625,
-      "low_price": 17002.9296875,
-      "closing_price": 17111.650390625,
-      "volume": 1793074600,
-      "change_value": 21.419921875,
-      "change_rate": 0.13,
-      "last_updated": "2024-11-11T08:16:57.417000"
+      "trading_date": "2024-11-13",
+      "index_code": "IXIC",
+      "index_name": "NASDAQ",
+      "opening_price": 19286.5,
+      "high_price": 19358.482421875,
+      "low_price": 19191.126953125,
+      "closing_price": 19230.724609375,
+      "volume": 9062674000,
+      "change_value": -50.67578125,
+      "change_rate": -0.26,
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
-      "trading_date": "2024-08-09",
-      "index_code": "HSI",
-      "index_name": "Hang Seng",
-      "opening_price": 17097.359375,
-      "high_price": 17252.220703125,
-      "low_price": 17079.349609375,
-      "closing_price": 17090.23046875,
-      "volume": 2145406500,
-      "change_value": 198.400390625,
-      "change_rate": 1.17,
-      "last_updated": "2024-11-11T08:16:57.417000"
+      "trading_date": "2024-11-12",
+      "index_code": "IXIC",
+      "index_name": "NASDAQ",
+      "opening_price": 19289.810546875,
+      "high_price": 19343.05078125,
+      "low_price": 19168.51953125,
+      "closing_price": 19281.400390625,
+      "volume": 7816410000,
+      "change_value": -17.359375,
+      "change_rate": -0.09,
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
-      "trading_date": "2024-08-08",
-      "index_code": "HSI",
-      "index_name": "Hang Seng",
-      "opening_price": 16773.0390625,
-      "high_price": 17023.099609375,
-      "low_price": 16665.060546875,
-      "closing_price": 16891.830078125,
-      "volume": 2114356200,
-      "change_value": 13.970703125,
-      "change_rate": 0.08,
-      "last_updated": "2024-11-11T08:16:57.417000"
+      "trading_date": "2024-11-11",
+      "index_code": "IXIC",
+      "index_name": "NASDAQ",
+      "opening_price": 19355.33984375,
+      "high_price": 19366.0703125,
+      "low_price": 19193.2890625,
+      "closing_price": 19298.759765625,
+      "volume": 8087930000,
+      "change_value": 11.98046875,
+      "change_rate": 0.06,
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
       "trading_date": "2024-11-08",
@@ -75455,7 +75494,7 @@
       "volume": 7316010000,
       "change_value": 17.318359375,
       "change_rate": 0.09,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
       "trading_date": "2024-11-07",
@@ -75468,7 +75507,7 @@
       "volume": 9232670000,
       "change_value": 285.990234375,
       "change_rate": 1.51,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
       "trading_date": "2024-11-06",
@@ -75481,7 +75520,7 @@
       "volume": 8138050000,
       "change_value": 544.30078125,
       "change_rate": 2.95,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
       "trading_date": "2024-11-05",
@@ -75494,7 +75533,7 @@
       "volume": 7060340000,
       "change_value": 259.189453125,
       "change_rate": 1.43,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
       "trading_date": "2024-11-04",
@@ -75507,7 +75546,7 @@
       "volume": 5762320000,
       "change_value": -59.939453125,
       "change_rate": -0.33,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
       "trading_date": "2024-11-01",
@@ -75520,7 +75559,7 @@
       "volume": 5896470000,
       "change_value": 144.76953125,
       "change_rate": 0.8,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.030000"
     },
     {
       "trading_date": "2024-10-31",
@@ -75533,7 +75572,7 @@
       "volume": 6411940000,
       "change_value": -512.779296875,
       "change_rate": -2.76,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-30",
@@ -75546,7 +75585,7 @@
       "volume": 6514690000,
       "change_value": -104.8203125,
       "change_rate": -0.56,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-29",
@@ -75559,7 +75598,7 @@
       "volume": 6881170000,
       "change_value": 145.560546875,
       "change_rate": 0.78,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-28",
@@ -75572,7 +75611,7 @@
       "volume": 5641660000,
       "change_value": 48.580078125,
       "change_rate": 0.26,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-25",
@@ -75585,7 +75624,7 @@
       "volume": 6100040000,
       "change_value": 103.119140625,
       "change_rate": 0.56,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-24",
@@ -75598,7 +75637,7 @@
       "volume": 5761280000,
       "change_value": 138.83984375,
       "change_rate": 0.76,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-23",
@@ -75611,7 +75650,7 @@
       "volume": 6245610000,
       "change_value": -303.119140625,
       "change_rate": -1.63,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-22",
@@ -75624,7 +75663,7 @@
       "volume": 6407180000,
       "change_value": 39.759765625,
       "change_rate": 0.21,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-21",
@@ -75637,7 +75676,7 @@
       "volume": 6092180000,
       "change_value": 50.458984375,
       "change_rate": 0.27,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-18",
@@ -75650,7 +75689,7 @@
       "volume": 5090190000,
       "change_value": 115.94140625,
       "change_rate": 0.63,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-17",
@@ -75663,7 +75702,7 @@
       "volume": 5806860000,
       "change_value": 6.529296875,
       "change_rate": 0.04,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-16",
@@ -75676,7 +75715,7 @@
       "volume": 5257570000,
       "change_value": 51.490234375,
       "change_rate": 0.28,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-15",
@@ -75689,7 +75728,7 @@
       "volume": 6522700000,
       "change_value": -187.099609375,
       "change_rate": -1.01,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.027000"
     },
     {
       "trading_date": "2024-10-14",
@@ -75702,7 +75741,7 @@
       "volume": 4894710000,
       "change_value": 159.75,
       "change_rate": 0.87,
-      "last_updated": "2024-11-11T08:16:57.190000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-11",
@@ -75715,7 +75754,7 @@
       "volume": 5140440000,
       "change_value": 60.888671875,
       "change_rate": 0.33,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-10",
@@ -75728,7 +75767,7 @@
       "volume": 5855390000,
       "change_value": -9.568359375,
       "change_rate": -0.05,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-09",
@@ -75741,7 +75780,7 @@
       "volume": 5228670000,
       "change_value": 108.69921875,
       "change_rate": 0.6,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-08",
@@ -75754,7 +75793,7 @@
       "volume": 5566510000,
       "change_value": 259.01953125,
       "change_rate": 1.45,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-07",
@@ -75767,7 +75806,7 @@
       "volume": 5240320000,
       "change_value": -213.94921875,
       "change_rate": -1.18,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-04",
@@ -75780,7 +75819,7 @@
       "volume": 5136070000,
       "change_value": 219.369140625,
       "change_rate": 1.22,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-03",
@@ -75793,7 +75832,7 @@
       "volume": 5208990000,
       "change_value": -6.638671875,
       "change_rate": -0.04,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-02",
@@ -75806,7 +75845,7 @@
       "volume": 5489040000,
       "change_value": 14.759765625,
       "change_rate": 0.08,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-10-01",
@@ -75819,7 +75858,7 @@
       "volume": 5879980000,
       "change_value": -278.810546875,
       "change_rate": -1.53,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-09-30",
@@ -75832,7 +75871,7 @@
       "volume": 5846150000,
       "change_value": 69.580078125,
       "change_rate": 0.38,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-09-27",
@@ -75845,7 +75884,7 @@
       "volume": 5367890000,
       "change_value": -70.69921875,
       "change_rate": -0.39,
-      "last_updated": "2024-11-11T08:16:57.187000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-09-26",
@@ -75858,7 +75897,7 @@
       "volume": 5669210000,
       "change_value": 108.078125,
       "change_rate": 0.6,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-09-25",
@@ -75871,7 +75910,7 @@
       "volume": 4858060000,
       "change_value": 7.69140625,
       "change_rate": 0.04,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.023000"
     },
     {
       "trading_date": "2024-09-24",
@@ -75884,7 +75923,7 @@
       "volume": 5347580000,
       "change_value": 100.25,
       "change_rate": 0.56,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-23",
@@ -75897,7 +75936,7 @@
       "volume": 5237310000,
       "change_value": 25.94921875,
       "change_rate": 0.14,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-20",
@@ -75910,7 +75949,7 @@
       "volume": 9914480000,
       "change_value": -65.66015625,
       "change_rate": -0.36,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-19",
@@ -75923,7 +75962,7 @@
       "volume": 5574650000,
       "change_value": 440.6796875,
       "change_rate": 2.51,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-18",
@@ -75936,7 +75975,7 @@
       "volume": 5611630000,
       "change_value": -54.759765625,
       "change_rate": -0.31,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-17",
@@ -75949,7 +75988,7 @@
       "volume": 4959520000,
       "change_value": 35.9296875,
       "change_rate": 0.2,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-16",
@@ -75962,7 +76001,7 @@
       "volume": 4675530000,
       "change_value": -91.849609375,
       "change_rate": -0.52,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-13",
@@ -75975,7 +76014,7 @@
       "volume": 4802880000,
       "change_value": 114.30078125,
       "change_rate": 0.65,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-12",
@@ -75988,7 +76027,7 @@
       "volume": 4983120000,
       "change_value": 174.150390625,
       "change_rate": 1,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-11",
@@ -76001,7 +76040,7 @@
       "volume": 6086930000,
       "change_value": 369.6484375,
       "change_rate": 2.17,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-10",
@@ -76014,7 +76053,7 @@
       "volume": 4963740000,
       "change_value": 141.28125,
       "change_rate": 0.84,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-09",
@@ -76027,7 +76066,7 @@
       "volume": 5132150000,
       "change_value": 193.76953125,
       "change_rate": 1.16,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-06",
@@ -76040,7 +76079,7 @@
       "volume": 5549030000,
       "change_value": -436.830078125,
       "change_rate": -2.55,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-05",
@@ -76053,7 +76092,7 @@
       "volume": 4983030000,
       "change_value": 43.359375,
       "change_rate": 0.25,
-      "last_updated": "2024-11-11T08:16:57.183000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-04",
@@ -76066,7 +76105,7 @@
       "volume": 5011820000,
       "change_value": -52,
       "change_rate": -0.3,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-09-03",
@@ -76079,7 +76118,7 @@
       "volume": 5813970000,
       "change_value": -577.318359375,
       "change_rate": -3.26,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-08-30",
@@ -76092,7 +76131,7 @@
       "volume": 5531150000,
       "change_value": 197.189453125,
       "change_rate": 1.13,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-08-29",
@@ -76105,7 +76144,7 @@
       "volume": 5727780000,
       "change_value": -39.599609375,
       "change_rate": -0.23,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-08-28",
@@ -76118,7 +76157,7 @@
       "volume": 5211920000,
       "change_value": -198.791015625,
       "change_rate": -1.12,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-08-27",
@@ -76131,7 +76170,7 @@
       "volume": 4362380000,
       "change_value": 29.05078125,
       "change_rate": 0.16,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-08-26",
@@ -76144,7 +76183,7 @@
       "volume": 5110940000,
       "change_value": -152.01953125,
       "change_rate": -0.85,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.020000"
     },
     {
       "trading_date": "2024-08-23",
@@ -76157,7 +76196,7 @@
       "volume": 5380810000,
       "change_value": 258.439453125,
       "change_rate": 1.47,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.017000"
     },
     {
       "trading_date": "2024-08-22",
@@ -76170,7 +76209,7 @@
       "volume": 5065360000,
       "change_value": -299.640625,
       "change_rate": -1.67,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.017000"
     },
     {
       "trading_date": "2024-08-21",
@@ -76183,7 +76222,7 @@
       "volume": 4765150000,
       "change_value": 102.05078125,
       "change_rate": 0.57,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.017000"
     },
     {
       "trading_date": "2024-08-20",
@@ -76196,7 +76235,7 @@
       "volume": 5305260000,
       "change_value": -59.830078125,
       "change_rate": -0.33,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.017000"
     },
     {
       "trading_date": "2024-08-19",
@@ -76209,7 +76248,7 @@
       "volume": 5564300000,
       "change_value": 245.048828125,
       "change_rate": 1.39,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.017000"
     },
     {
       "trading_date": "2024-08-16",
@@ -76222,46 +76261,46 @@
       "volume": 5138150000,
       "change_value": 37.220703125,
       "change_rate": 0.21,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "last_updated": "2024-11-14T08:01:04.017000"
     },
     {
-      "trading_date": "2024-08-15",
-      "index_code": "IXIC",
-      "index_name": "NASDAQ",
-      "opening_price": 17394.5390625,
-      "high_price": 17602.720703125,
-      "low_price": 17375.41015625,
-      "closing_price": 17594.5,
-      "volume": 5478170000,
-      "change_value": 401.900390625,
-      "change_rate": 2.34,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "trading_date": "2024-11-13",
+      "index_code": "KQ11",
+      "index_name": "KOSDAQ",
+      "opening_price": 708.52,
+      "high_price": 712.83,
+      "low_price": 689.64,
+      "closing_price": 689.65,
+      "volume": 866788364,
+      "change_value": -20.870000000000005,
+      "change_rate": -2.94,
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
-      "trading_date": "2024-08-14",
-      "index_code": "IXIC",
-      "index_name": "NASDAQ",
-      "opening_price": 17227.640625,
-      "high_price": 17260.73046875,
-      "low_price": 17032.169921875,
-      "closing_price": 17192.599609375,
-      "volume": 4985480000,
-      "change_value": 4.990234375,
-      "change_rate": 0.03,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "trading_date": "2024-11-12",
+      "index_code": "KQ11",
+      "index_name": "KOSDAQ",
+      "opening_price": 728.72,
+      "high_price": 729.07,
+      "low_price": 707.96,
+      "closing_price": 710.52,
+      "volume": 896081914,
+      "change_value": -18.32000000000005,
+      "change_rate": -2.51,
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
-      "trading_date": "2024-08-13",
-      "index_code": "IXIC",
-      "index_name": "NASDAQ",
-      "opening_price": 16944.740234375,
-      "high_price": 17192.7890625,
-      "low_price": 16943.94921875,
-      "closing_price": 17187.609375,
-      "volume": 5469160000,
-      "change_value": 407,
-      "change_rate": 2.43,
-      "last_updated": "2024-11-11T08:16:57.180000"
+      "trading_date": "2024-11-11",
+      "index_code": "KQ11",
+      "index_name": "KOSDAQ",
+      "opening_price": 744.86,
+      "high_price": 745.42,
+      "low_price": 727.04,
+      "closing_price": 728.84,
+      "volume": 836837402,
+      "change_value": -14.539999999999964,
+      "change_rate": -1.96,
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-11-08",
@@ -76274,7 +76313,7 @@
       "volume": 766825742,
       "change_value": 9.860000000000014,
       "change_rate": 1.34,
-      "last_updated": "2024-11-11T08:16:57.017000"
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-11-07",
@@ -76287,7 +76326,7 @@
       "volume": 812895086,
       "change_value": -9.789999999999964,
       "change_rate": -1.32,
-      "last_updated": "2024-11-11T08:16:57.017000"
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-11-06",
@@ -76300,7 +76339,7 @@
       "volume": 1091761605,
       "change_value": -8.5,
       "change_rate": -1.13,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-11-05",
@@ -76313,7 +76352,7 @@
       "volume": 935204031,
       "change_value": -2.2700000000000955,
       "change_rate": -0.3,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-11-04",
@@ -76326,7 +76365,7 @@
       "volume": 765672895,
       "change_value": 25.030000000000086,
       "change_rate": 3.43,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-11-01",
@@ -76339,7 +76378,7 @@
       "volume": 747067063,
       "change_value": -14.009999999999991,
       "change_rate": -1.89,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-10-31",
@@ -76352,7 +76391,7 @@
       "volume": 792644652,
       "change_value": 4.869999999999891,
       "change_rate": 0.66,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.850000"
     },
     {
       "trading_date": "2024-10-30",
@@ -76365,7 +76404,7 @@
       "volume": 841964326,
       "change_value": -5.989999999999895,
       "change_rate": -0.8,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-29",
@@ -76378,7 +76417,7 @@
       "volume": 789978376,
       "change_value": 3.699999999999932,
       "change_rate": 0.5,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-28",
@@ -76391,7 +76430,7 @@
       "volume": 644668385,
       "change_value": 13.07000000000005,
       "change_rate": 1.8,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-25",
@@ -76404,7 +76443,7 @@
       "volume": 764951488,
       "change_value": -7.180000000000064,
       "change_rate": -0.98,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-24",
@@ -76417,7 +76456,7 @@
       "volume": 856784917,
       "change_value": -10.600000000000023,
       "change_rate": -1.42,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-23",
@@ -76430,7 +76469,7 @@
       "volume": 1099898407,
       "change_value": 6.850000000000023,
       "change_rate": 0.93,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-22",
@@ -76443,7 +76482,7 @@
       "volume": 1077034557,
       "change_value": -21.610000000000014,
       "change_rate": -2.84,
-      "last_updated": "2024-11-11T08:16:57.013000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-21",
@@ -76456,7 +76495,7 @@
       "volume": 825151985,
       "change_value": 6.730000000000018,
       "change_rate": 0.89,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-18",
@@ -76469,7 +76508,7 @@
       "volume": 898075755,
       "change_value": -11.839999999999918,
       "change_rate": -1.55,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-17",
@@ -76482,7 +76521,7 @@
       "volume": 918805154,
       "change_value": -0.7300000000000182,
       "change_rate": -0.1,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-16",
@@ -76495,7 +76534,7 @@
       "volume": 874300776,
       "change_value": -8.019999999999982,
       "change_rate": -1.04,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.847000"
     },
     {
       "trading_date": "2024-10-15",
@@ -76508,7 +76547,7 @@
       "volume": 971991613,
       "change_value": 3.5499999999999545,
       "change_rate": 0.46,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-10-14",
@@ -76521,7 +76560,7 @@
       "volume": 787258917,
       "change_value": -0.7200000000000273,
       "change_rate": -0.09,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-10-11",
@@ -76534,7 +76573,7 @@
       "volume": 921390476,
       "change_value": -4.5,
       "change_rate": -0.58,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-10-10",
@@ -76547,7 +76586,7 @@
       "volume": 747790755,
       "change_value": -2.759999999999991,
       "change_rate": -0.35,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-10-08",
@@ -76560,7 +76599,7 @@
       "volume": 1000287018,
       "change_value": -2.769999999999982,
       "change_rate": -0.35,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-10-07",
@@ -76573,7 +76612,7 @@
       "volume": 822064062,
       "change_value": 12.029999999999973,
       "change_rate": 1.56,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-10-04",
@@ -76586,7 +76625,7 @@
       "volume": 891994580,
       "change_value": 6.850000000000023,
       "change_rate": 0.9,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-10-02",
@@ -76599,7 +76638,7 @@
       "volume": 1041588862,
       "change_value": -1.75,
       "change_rate": -0.23,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-09-30",
@@ -76612,7 +76651,7 @@
       "volume": 961429825,
       "change_value": -10.610000000000014,
       "change_rate": -1.37,
-      "last_updated": "2024-11-11T08:16:57.010000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-09-27",
@@ -76625,7 +76664,7 @@
       "volume": 985778612,
       "change_value": -4.689999999999941,
       "change_rate": -0.6,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-09-26",
@@ -76638,7 +76677,7 @@
       "volume": 1070078259,
       "change_value": 19.879999999999995,
       "change_rate": 2.62,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.843000"
     },
     {
       "trading_date": "2024-09-25",
@@ -76651,7 +76690,7 @@
       "volume": 1239693063,
       "change_value": -8.050000000000068,
       "change_rate": -1.05,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-24",
@@ -76664,7 +76703,7 @@
       "volume": 908833234,
       "change_value": 12.230000000000018,
       "change_rate": 1.62,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-23",
@@ -76677,7 +76716,7 @@
       "volume": 723263987,
       "change_value": 6.789999999999964,
       "change_rate": 0.91,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-20",
@@ -76690,7 +76729,7 @@
       "volume": 864232911,
       "change_value": 8.82000000000005,
       "change_rate": 1.19,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-19",
@@ -76703,7 +76742,7 @@
       "volume": 1104713184,
       "change_value": 6.309999999999945,
       "change_rate": 0.86,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-13",
@@ -76716,7 +76755,7 @@
       "volume": 1015094209,
       "change_value": 2.1700000000000728,
       "change_rate": 0.3,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-12",
@@ -76729,7 +76768,7 @@
       "volume": 870759113,
       "change_value": 21.610000000000014,
       "change_rate": 3.05,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-11",
@@ -76742,7 +76781,7 @@
       "volume": 1046880881,
       "change_value": 3.2199999999999136,
       "change_rate": 0.46,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-10",
@@ -76755,7 +76794,7 @@
       "volume": 910266279,
       "change_value": -8.259999999999991,
       "change_rate": -1.16,
-      "last_updated": "2024-11-11T08:16:57.007000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-09",
@@ -76768,7 +76807,7 @@
       "volume": 784076383,
       "change_value": 7.8700000000000045,
       "change_rate": 1.11,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-06",
@@ -76781,7 +76820,7 @@
       "volume": 861738473,
       "change_value": -18.68999999999994,
       "change_rate": -2.58,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-05",
@@ -76794,7 +76833,7 @@
       "volume": 950492046,
       "change_value": -6.470000000000027,
       "change_rate": -0.88,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-04",
@@ -76807,7 +76846,7 @@
       "volume": 1011497616,
       "change_value": -28.620000000000005,
       "change_rate": -3.76,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-03",
@@ -76820,7 +76859,7 @@
       "volume": 849513737,
       "change_value": -8.840000000000032,
       "change_rate": -1.15,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-09-02",
@@ -76833,7 +76872,7 @@
       "volume": 742707830,
       "change_value": 1.5500000000000682,
       "change_rate": 0.2,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.840000"
     },
     {
       "trading_date": "2024-08-30",
@@ -76846,7 +76885,7 @@
       "volume": 823296386,
       "change_value": 11.620000000000005,
       "change_rate": 1.54,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-29",
@@ -76859,7 +76898,7 @@
       "volume": 837869661,
       "change_value": -6.460000000000036,
       "change_rate": -0.85,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-28",
@@ -76872,7 +76911,7 @@
       "volume": 868583609,
       "change_value": -2.4500000000000455,
       "change_rate": -0.32,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-27",
@@ -76885,7 +76924,7 @@
       "volume": 833341263,
       "change_value": -1.8399999999999181,
       "change_rate": -0.24,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-26",
@@ -76898,7 +76937,7 @@
       "volume": 828774218,
       "change_value": -6.470000000000027,
       "change_rate": -0.84,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-23",
@@ -76911,7 +76950,7 @@
       "volume": 904335444,
       "change_value": -0.21000000000003638,
       "change_rate": -0.03,
-      "last_updated": "2024-11-11T08:16:57.003000"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-22",
@@ -76924,7 +76963,7 @@
       "volume": 950992244,
       "change_value": -6.399999999999977,
       "change_rate": -0.82,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-21",
@@ -76937,7 +76976,7 @@
       "volume": 1073925725,
       "change_value": -7.57000000000005,
       "change_rate": -0.96,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-20",
@@ -76950,7 +76989,7 @@
       "volume": 997055956,
       "change_value": 9.970000000000027,
       "change_rate": 1.28,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-19",
@@ -76963,7 +77002,7 @@
       "volume": 1135628349,
       "change_value": -8.860000000000014,
       "change_rate": -1.13,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-16",
@@ -76976,7 +77015,7 @@
       "volume": 1080401764,
       "change_value": 9.5,
       "change_rate": 1.22,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.837000"
     },
     {
       "trading_date": "2024-08-14",
@@ -76989,7 +77028,7 @@
       "volume": 1111020235,
       "change_value": 11.970000000000027,
       "change_rate": 1.56,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.833000"
     },
     {
       "trading_date": "2024-08-13",
@@ -77002,7 +77041,7 @@
       "volume": 1170514267,
       "change_value": -7.860000000000014,
       "change_rate": -1.02,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.833000"
     },
     {
       "trading_date": "2024-08-12",
@@ -77015,7 +77054,7 @@
       "volume": 885107713,
       "change_value": 8.290000000000077,
       "change_rate": 1.08,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.833000"
     },
     {
       "trading_date": "2024-08-09",
@@ -77028,7 +77067,7 @@
       "volume": 843851627,
       "change_value": 19.149999999999977,
       "change_rate": 2.57,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.833000"
     },
     {
       "trading_date": "2024-08-08",
@@ -77041,46 +77080,46 @@
       "volume": 1012600626,
       "change_value": -3.259999999999991,
       "change_rate": -0.44,
-      "last_updated": "2024-11-11T08:16:57"
+      "last_updated": "2024-11-14T08:01:03.833000"
     },
     {
-      "trading_date": "2024-08-07",
-      "index_code": "KQ11",
-      "index_name": "KOSDAQ",
-      "opening_price": 731.82,
-      "high_price": 754.41,
-      "low_price": 731.44,
-      "closing_price": 748.54,
-      "volume": 947156032,
-      "change_value": 15.669999999999959,
-      "change_rate": 2.14,
-      "last_updated": "2024-11-11T08:16:57"
+      "trading_date": "2024-11-13",
+      "index_code": "KS11",
+      "index_name": "KOSPI",
+      "opening_price": 2468.27,
+      "high_price": 2478.87,
+      "low_price": 2415.77,
+      "closing_price": 2417.08,
+      "volume": 619176261,
+      "change_value": -65.49000000000024,
+      "change_rate": -2.64,
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
-      "trading_date": "2024-08-06",
-      "index_code": "KQ11",
-      "index_name": "KOSDAQ",
-      "opening_price": 709.04,
-      "high_price": 738.77,
-      "low_price": 707.72,
-      "closing_price": 732.87,
-      "volume": 1075212515,
-      "change_value": 41.59000000000003,
-      "change_rate": 6.02,
-      "last_updated": "2024-11-11T08:16:57"
+      "trading_date": "2024-11-12",
+      "index_code": "KS11",
+      "index_name": "KOSPI",
+      "opening_price": 2527.94,
+      "high_price": 2532.44,
+      "low_price": 2481.53,
+      "closing_price": 2482.57,
+      "volume": 735812780,
+      "change_value": -49.08999999999969,
+      "change_rate": -1.94,
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
-      "trading_date": "2024-08-05",
-      "index_code": "KQ11",
-      "index_name": "KOSDAQ",
-      "opening_price": 765.57,
-      "high_price": 765.57,
-      "low_price": 672.57,
-      "closing_price": 691.28,
-      "volume": 1173846825,
-      "change_value": -88.05000000000007,
-      "change_rate": -11.3,
-      "last_updated": "2024-11-11T08:16:57"
+      "trading_date": "2024-11-11",
+      "index_code": "KS11",
+      "index_name": "KOSPI",
+      "opening_price": 2562.05,
+      "high_price": 2562.05,
+      "low_price": 2525.56,
+      "closing_price": 2531.66,
+      "volume": 572196827,
+      "change_value": -29.490000000000236,
+      "change_rate": -1.15,
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-11-08",
@@ -77093,7 +77132,7 @@
       "volume": 448734499,
       "change_value": -3.480000000000018,
       "change_rate": -0.14,
-      "last_updated": "2024-11-11T08:16:56.947000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-11-07",
@@ -77106,7 +77145,7 @@
       "volume": 465146173,
       "change_value": 1.1199999999998909,
       "change_rate": 0.04,
-      "last_updated": "2024-11-11T08:16:56.947000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-11-06",
@@ -77119,7 +77158,7 @@
       "volume": 548506117,
       "change_value": -13.36999999999989,
       "change_rate": -0.52,
-      "last_updated": "2024-11-11T08:16:56.947000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-11-05",
@@ -77132,7 +77171,7 @@
       "volume": 310875315,
       "change_value": -12.08999999999969,
       "change_rate": -0.47,
-      "last_updated": "2024-11-11T08:16:56.947000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-11-04",
@@ -77145,7 +77184,7 @@
       "volume": 373943470,
       "change_value": 46.60999999999967,
       "change_rate": 1.83,
-      "last_updated": "2024-11-11T08:16:56.947000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-11-01",
@@ -77158,7 +77197,7 @@
       "volume": 319848769,
       "change_value": -13.789999999999964,
       "change_rate": -0.54,
-      "last_updated": "2024-11-11T08:16:56.947000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-10-31",
@@ -77171,7 +77210,7 @@
       "volume": 406613036,
       "change_value": -37.63999999999987,
       "change_rate": -1.45,
-      "last_updated": "2024-11-11T08:16:56.947000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-10-30",
@@ -77184,7 +77223,7 @@
       "volume": 487359045,
       "change_value": -24.01000000000022,
       "change_rate": -0.92,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-10-29",
@@ -77197,7 +77236,7 @@
       "volume": 363290058,
       "change_value": 5.370000000000346,
       "change_rate": 0.21,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-10-28",
@@ -77210,7 +77249,7 @@
       "volume": 333735957,
       "change_value": 29.159999999999854,
       "change_rate": 1.13,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-10-25",
@@ -77223,7 +77262,7 @@
       "volume": 462898403,
       "change_value": 2.2399999999997817,
       "change_rate": 0.09,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-10-24",
@@ -77236,7 +77275,7 @@
       "volume": 343098218,
       "change_value": -18.58999999999969,
       "change_rate": -0.72,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.793000"
     },
     {
       "trading_date": "2024-10-23",
@@ -77249,7 +77288,7 @@
       "volume": 352421162,
       "change_value": 28.920000000000073,
       "change_rate": 1.12,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-22",
@@ -77262,7 +77301,7 @@
       "volume": 343318170,
       "change_value": -34.220000000000255,
       "change_rate": -1.31,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-21",
@@ -77275,7 +77314,7 @@
       "volume": 240675023,
       "change_value": 11.099999999999909,
       "change_rate": 0.43,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-18",
@@ -77288,7 +77327,7 @@
       "volume": 265201103,
       "change_value": -15.480000000000018,
       "change_rate": -0.59,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-17",
@@ -77301,7 +77340,7 @@
       "volume": 331265227,
       "change_value": -1.0599999999999454,
       "change_rate": -0.04,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-16",
@@ -77314,7 +77353,7 @@
       "volume": 437552776,
       "change_value": -23.08999999999969,
       "change_rate": -0.88,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-15",
@@ -77327,7 +77366,7 @@
       "volume": 438292799,
       "change_value": 10.159999999999854,
       "change_rate": 0.39,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-14",
@@ -77340,7 +77379,7 @@
       "volume": 401705670,
       "change_value": 26.38000000000011,
       "change_rate": 1.02,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-11",
@@ -77353,7 +77392,7 @@
       "volume": 491276237,
       "change_value": -2.25,
       "change_rate": -0.09,
-      "last_updated": "2024-11-11T08:16:56.943000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-10",
@@ -77366,7 +77405,7 @@
       "volume": 618559988,
       "change_value": 4.799999999999727,
       "change_rate": 0.19,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-08",
@@ -77379,7 +77418,7 @@
       "volume": 318240024,
       "change_value": -16.019999999999982,
       "change_rate": -0.61,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-07",
@@ -77392,7 +77431,7 @@
       "volume": 343671145,
       "change_value": 40.67000000000007,
       "change_rate": 1.58,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-04",
@@ -77405,7 +77444,7 @@
       "volume": 414328553,
       "change_value": 8.019999999999982,
       "change_rate": 0.31,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-10-02",
@@ -77418,7 +77457,7 @@
       "volume": 351004351,
       "change_value": -31.579999999999927,
       "change_rate": -1.22,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-09-30",
@@ -77431,7 +77470,7 @@
       "volume": 358915798,
       "change_value": -56.51000000000022,
       "change_rate": -2.13,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-09-27",
@@ -77444,7 +77483,7 @@
       "volume": 413004129,
       "change_value": -21.789999999999964,
       "change_rate": -0.82,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-09-26",
@@ -77457,7 +77496,7 @@
       "volume": 324888966,
       "change_value": 75.25,
       "change_rate": 2.9,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-09-25",
@@ -77470,7 +77509,7 @@
       "volume": 454471748,
       "change_value": -35.35999999999967,
       "change_rate": -1.34,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-09-24",
@@ -77483,7 +77522,7 @@
       "volume": 355097005,
       "change_value": 29.669999999999618,
       "change_rate": 1.14,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-09-23",
@@ -77496,7 +77535,7 @@
       "volume": 339140017,
       "change_value": 8.640000000000327,
       "change_rate": 0.33,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.790000"
     },
     {
       "trading_date": "2024-09-20",
@@ -77509,7 +77548,7 @@
       "volume": 495964133,
       "change_value": 12.569999999999709,
       "change_rate": 0.49,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-19",
@@ -77522,7 +77561,7 @@
       "volume": 385081293,
       "change_value": 5.390000000000327,
       "change_rate": 0.21,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-13",
@@ -77535,7 +77574,7 @@
       "volume": 358262872,
       "change_value": 3.319999999999709,
       "change_rate": 0.13,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-12",
@@ -77548,7 +77587,7 @@
       "volume": 340478891,
       "change_value": 58.720000000000255,
       "change_rate": 2.34,
-      "last_updated": "2024-11-11T08:16:56.940000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-11",
@@ -77561,7 +77600,7 @@
       "volume": 302560681,
       "change_value": -10.059999999999945,
       "change_rate": -0.4,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-10",
@@ -77574,7 +77613,7 @@
       "volume": 347650170,
       "change_value": -12.5,
       "change_rate": -0.49,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-09",
@@ -77587,7 +77626,7 @@
       "volume": 270230978,
       "change_value": -8.350000000000364,
       "change_rate": -0.33,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-06",
@@ -77600,7 +77639,7 @@
       "volume": 374782188,
       "change_value": -31.2199999999998,
       "change_rate": -1.21,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-05",
@@ -77613,7 +77652,7 @@
       "volume": 379002653,
       "change_value": -5.300000000000182,
       "change_rate": -0.21,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-04",
@@ -77626,7 +77665,7 @@
       "volume": 455469305,
       "change_value": -83.82999999999993,
       "change_rate": -3.15,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-03",
@@ -77639,7 +77678,7 @@
       "volume": 303460408,
       "change_value": -16.36999999999989,
       "change_rate": -0.61,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-09-02",
@@ -77652,7 +77691,7 @@
       "volume": 266992573,
       "change_value": 6.690000000000055,
       "change_rate": 0.25,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-08-30",
@@ -77665,7 +77704,7 @@
       "volume": 278845310,
       "change_value": 12.029999999999745,
       "change_rate": 0.45,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-08-29",
@@ -77678,7 +77717,7 @@
       "volume": 288835634,
       "change_value": -27.549999999999727,
       "change_rate": -1.02,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.787000"
     },
     {
       "trading_date": "2024-08-28",
@@ -77691,7 +77730,7 @@
       "volume": 280773871,
       "change_value": 0.5799999999999272,
       "change_rate": 0.02,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-27",
@@ -77704,7 +77743,7 @@
       "volume": 264056855,
       "change_value": -8.760000000000218,
       "change_rate": -0.32,
-      "last_updated": "2024-11-11T08:16:56.937000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-26",
@@ -77717,7 +77756,7 @@
       "volume": 333687885,
       "change_value": -3.6799999999998363,
       "change_rate": -0.14,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-23",
@@ -77730,7 +77769,7 @@
       "volume": 330591762,
       "change_value": -5.980000000000018,
       "change_rate": -0.22,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-22",
@@ -77743,7 +77782,7 @@
       "volume": 441756204,
       "change_value": 6.539999999999964,
       "change_rate": 0.24,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-21",
@@ -77756,7 +77795,7 @@
       "volume": 417329635,
       "change_value": 4.5,
       "change_rate": 0.17,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-20",
@@ -77769,7 +77808,7 @@
       "volume": 484188400,
       "change_value": 22.269999999999982,
       "change_rate": 0.83,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-19",
@@ -77782,7 +77821,7 @@
       "volume": 395636824,
       "change_value": -22.86999999999989,
       "change_rate": -0.85,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-16",
@@ -77795,7 +77834,7 @@
       "volume": 385851899,
       "change_value": 52.73000000000002,
       "change_rate": 1.99,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-14",
@@ -77808,7 +77847,7 @@
       "volume": 328748140,
       "change_value": 23,
       "change_rate": 0.88,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-13",
@@ -77821,7 +77860,7 @@
       "volume": 378532151,
       "change_value": 3.199999999999818,
       "change_rate": 0.12,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.783000"
     },
     {
       "trading_date": "2024-08-12",
@@ -77834,7 +77873,7 @@
       "volume": 293083794,
       "change_value": 29.870000000000346,
       "change_rate": 1.15,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.780000"
     },
     {
       "trading_date": "2024-08-09",
@@ -77847,7 +77886,7 @@
       "volume": 475012051,
       "change_value": 31.699999999999818,
       "change_rate": 1.24,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.780000"
     },
     {
       "trading_date": "2024-08-08",
@@ -77860,46 +77899,46 @@
       "volume": 495299005,
       "change_value": -11.679999999999836,
       "change_rate": -0.45,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "last_updated": "2024-11-14T08:01:03.780000"
     },
     {
-      "trading_date": "2024-08-07",
-      "index_code": "KS11",
-      "index_name": "KOSPI",
-      "opening_price": 2515.27,
-      "high_price": 2594.83,
-      "low_price": 2510.82,
-      "closing_price": 2568.41,
-      "volume": 476990686,
-      "change_value": 46.25999999999976,
-      "change_rate": 1.83,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "trading_date": "2024-11-13",
+      "index_code": "KS200",
+      "index_name": "KOSPI200",
+      "opening_price": 325.38,
+      "high_price": 327.2,
+      "low_price": 318.58,
+      "closing_price": 318.84,
+      "volume": 171262329,
+      "change_value": -8.470000000000027,
+      "change_rate": -2.59,
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
-      "trading_date": "2024-08-06",
-      "index_code": "KS11",
-      "index_name": "KOSPI",
-      "opening_price": 2533.34,
-      "high_price": 2578.77,
-      "low_price": 2491.47,
-      "closing_price": 2522.15,
-      "volume": 567266430,
-      "change_value": 80.59999999999991,
-      "change_rate": 3.3,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "trading_date": "2024-11-12",
+      "index_code": "KS200",
+      "index_name": "KOSPI200",
+      "opening_price": 333.67,
+      "high_price": 334.3,
+      "low_price": 327.07,
+      "closing_price": 327.31,
+      "volume": 173529027,
+      "change_value": -7.329999999999984,
+      "change_rate": -2.19,
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
-      "trading_date": "2024-08-05",
-      "index_code": "KS11",
-      "index_name": "KOSPI",
-      "opening_price": 2611.3,
-      "high_price": 2611.3,
-      "low_price": 2386.96,
-      "closing_price": 2441.55,
-      "volume": 763777757,
-      "change_value": -234.63999999999987,
-      "change_rate": -8.77,
-      "last_updated": "2024-11-11T08:16:56.933000"
+      "trading_date": "2024-11-11",
+      "index_code": "KS200",
+      "index_name": "KOSPI200",
+      "opening_price": 338.62,
+      "high_price": 338.62,
+      "low_price": 333.76,
+      "closing_price": 334.64,
+      "volume": 168967995,
+      "change_value": -5.069999999999993,
+      "change_rate": -1.49,
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-11-08",
@@ -77912,7 +77951,7 @@
       "volume": 139532022,
       "change_value": -1.160000000000025,
       "change_rate": -0.34,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-11-07",
@@ -77925,7 +77964,7 @@
       "volume": 167224678,
       "change_value": 0.2599999999999909,
       "change_rate": 0.08,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-11-06",
@@ -77938,7 +77977,7 @@
       "volume": 132089933,
       "change_value": -0.8600000000000136,
       "change_rate": -0.25,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-11-05",
@@ -77951,7 +77990,7 @@
       "volume": 88170209,
       "change_value": -2.1299999999999955,
       "change_rate": -0.62,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-11-04",
@@ -77964,7 +78003,7 @@
       "volume": 99332100,
       "change_value": 6.110000000000014,
       "change_rate": 1.81,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-11-01",
@@ -77977,7 +78016,7 @@
       "volume": 104588743,
       "change_value": -1.829999999999984,
       "change_rate": -0.54,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-10-31",
@@ -77990,7 +78029,7 @@
       "volume": 147441987,
       "change_value": -5.680000000000007,
       "change_rate": -1.65,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-10-30",
@@ -78003,7 +78042,7 @@
       "volume": 128037699,
       "change_value": -3.2799999999999727,
       "change_rate": -0.94,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-10-29",
@@ -78016,7 +78055,7 @@
       "volume": 134508705,
       "change_value": 1.009999999999991,
       "change_rate": 0.29,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-10-28",
@@ -78029,7 +78068,7 @@
       "volume": 120390798,
       "change_value": 3.8999999999999773,
       "change_rate": 1.14,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.920000"
     },
     {
       "trading_date": "2024-10-25",
@@ -78042,7 +78081,7 @@
       "volume": 132301990,
       "change_value": 0.4900000000000091,
       "change_rate": 0.14,
-      "last_updated": "2024-11-11T08:16:57.073000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-24",
@@ -78055,7 +78094,7 @@
       "volume": 124376466,
       "change_value": -3.3899999999999864,
       "change_rate": -0.98,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-23",
@@ -78068,7 +78107,7 @@
       "volume": 123454551,
       "change_value": 4.180000000000007,
       "change_rate": 1.22,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-22",
@@ -78081,7 +78120,7 @@
       "volume": 126782870,
       "change_value": -4.53000000000003,
       "change_rate": -1.31,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-21",
@@ -78094,7 +78133,7 @@
       "volume": 103207235,
       "change_value": 1.1999999999999886,
       "change_rate": 0.35,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-18",
@@ -78107,7 +78146,7 @@
       "volume": 106414681,
       "change_value": -2.3100000000000023,
       "change_rate": -0.66,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-17",
@@ -78120,7 +78159,7 @@
       "volume": 146934034,
       "change_value": 0.4700000000000273,
       "change_rate": 0.14,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-16",
@@ -78133,7 +78172,7 @@
       "volume": 133287754,
       "change_value": -3.8100000000000023,
       "change_rate": -1.09,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-15",
@@ -78146,7 +78185,7 @@
       "volume": 118796050,
       "change_value": 1.329999999999984,
       "change_rate": 0.38,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-14",
@@ -78159,7 +78198,7 @@
       "volume": 107004950,
       "change_value": 4.2900000000000205,
       "change_rate": 1.24,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.917000"
     },
     {
       "trading_date": "2024-10-11",
@@ -78172,7 +78211,7 @@
       "volume": 108867179,
       "change_value": 0.2400000000000091,
       "change_rate": 0.07,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-10-10",
@@ -78185,7 +78224,7 @@
       "volume": 172692884,
       "change_value": 0.9799999999999613,
       "change_rate": 0.28,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-10-08",
@@ -78198,7 +78237,7 @@
       "volume": 122994036,
       "change_value": -3.109999999999957,
       "change_rate": -0.9,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-10-07",
@@ -78211,7 +78250,7 @@
       "volume": 141505963,
       "change_value": 5.599999999999966,
       "change_rate": 1.64,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-10-04",
@@ -78224,7 +78263,7 @@
       "volume": 127722630,
       "change_value": 1.0199999999999818,
       "change_rate": 0.3,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-10-02",
@@ -78237,7 +78276,7 @@
       "volume": 133718793,
       "change_value": -4.039999999999964,
       "change_rate": -1.17,
-      "last_updated": "2024-11-11T08:16:57.070000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-09-30",
@@ -78250,7 +78289,7 @@
       "volume": 142545317,
       "change_value": -9.170000000000016,
       "change_rate": -2.59,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-09-27",
@@ -78263,7 +78302,7 @@
       "volume": 142244786,
       "change_value": -2.509999999999991,
       "change_rate": -0.7,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-09-26",
@@ -78276,7 +78315,7 @@
       "volume": 139541638,
       "change_value": 11.879999999999995,
       "change_rate": 3.45,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-09-25",
@@ -78289,7 +78328,7 @@
       "volume": 156600072,
       "change_value": -5.050000000000011,
       "change_rate": -1.44,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-09-24",
@@ -78302,7 +78341,7 @@
       "volume": 122750696,
       "change_value": 3.830000000000041,
       "change_rate": 1.11,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.913000"
     },
     {
       "trading_date": "2024-09-23",
@@ -78315,7 +78354,7 @@
       "volume": 116062028,
       "change_value": 1.1099999999999568,
       "change_rate": 0.32,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-20",
@@ -78328,7 +78367,7 @@
       "volume": 171811190,
       "change_value": 1.3900000000000432,
       "change_rate": 0.4,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-19",
@@ -78341,7 +78380,7 @@
       "volume": 154544257,
       "change_value": -0.410000000000025,
       "change_rate": -0.12,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-13",
@@ -78354,7 +78393,7 @@
       "volume": 104055364,
       "change_value": -0.160000000000025,
       "change_rate": -0.05,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-12",
@@ -78367,7 +78406,7 @@
       "volume": 144257129,
       "change_value": 8.200000000000045,
       "change_rate": 2.44,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-11",
@@ -78380,7 +78419,7 @@
       "volume": 124648565,
       "change_value": -2.830000000000041,
       "change_rate": -0.84,
-      "last_updated": "2024-11-11T08:16:57.067000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-10",
@@ -78393,7 +78432,7 @@
       "volume": 104431061,
       "change_value": -1.6999999999999886,
       "change_rate": -0.5,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-09",
@@ -78406,7 +78445,7 @@
       "volume": 99145932,
       "change_value": -2.1899999999999977,
       "change_rate": -0.64,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-06",
@@ -78419,7 +78458,7 @@
       "volume": 107604245,
       "change_value": -3.5500000000000114,
       "change_rate": -1.03,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-05",
@@ -78432,7 +78471,7 @@
       "volume": 139084987,
       "change_value": -0.7400000000000091,
       "change_rate": -0.21,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-04",
@@ -78445,7 +78484,7 @@
       "volume": 138920662,
       "change_value": -12.139999999999986,
       "change_rate": -3.38,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-03",
@@ -78458,7 +78497,7 @@
       "volume": 105622207,
       "change_value": -3.2899999999999636,
       "change_rate": -0.91,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-09-02",
@@ -78471,7 +78510,7 @@
       "volume": 100649375,
       "change_value": 0.5399999999999636,
       "change_rate": 0.15,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-08-30",
@@ -78484,7 +78523,7 @@
       "volume": 135279805,
       "change_value": 1.4499999999999886,
       "change_rate": 0.4,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.910000"
     },
     {
       "trading_date": "2024-08-29",
@@ -78497,7 +78536,7 @@
       "volume": 121370026,
       "change_value": -5.17999999999995,
       "change_rate": -1.42,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-28",
@@ -78510,7 +78549,7 @@
       "volume": 119870034,
       "change_value": 0.7199999999999704,
       "change_rate": 0.2,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-27",
@@ -78523,7 +78562,7 @@
       "volume": 95284991,
       "change_value": -1.75,
       "change_rate": -0.48,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-26",
@@ -78536,7 +78575,7 @@
       "volume": 114475834,
       "change_value": -1.6000000000000227,
       "change_rate": -0.43,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-23",
@@ -78549,7 +78588,7 @@
       "volume": 96373889,
       "change_value": -1.1899999999999977,
       "change_rate": -0.32,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-22",
@@ -78562,7 +78601,7 @@
       "volume": 103890601,
       "change_value": 0.8799999999999955,
       "change_rate": 0.24,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-21",
@@ -78575,7 +78614,7 @@
       "volume": 107344228,
       "change_value": -0.7699999999999818,
       "change_rate": -0.21,
-      "last_updated": "2024-11-11T08:16:57.063000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-20",
@@ -78588,7 +78627,7 @@
       "volume": 105934871,
       "change_value": 3.4700000000000273,
       "change_rate": 0.95,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-19",
@@ -78601,7 +78640,7 @@
       "volume": 106594150,
       "change_value": -3.590000000000032,
       "change_rate": -0.97,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-16",
@@ -78614,7 +78653,7 @@
       "volume": 125765398,
       "change_value": 8.720000000000027,
       "change_rate": 2.42,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.907000"
     },
     {
       "trading_date": "2024-08-14",
@@ -78627,7 +78666,7 @@
       "volume": 103712545,
       "change_value": 3.3700000000000045,
       "change_rate": 0.94,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.903000"
     },
     {
       "trading_date": "2024-08-13",
@@ -78640,7 +78679,7 @@
       "volume": 110037006,
       "change_value": 1.4099999999999682,
       "change_rate": 0.4,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.903000"
     },
     {
       "trading_date": "2024-08-12",
@@ -78653,7 +78692,7 @@
       "volume": 98129070,
       "change_value": 4.090000000000032,
       "change_rate": 1.16,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.903000"
     },
     {
       "trading_date": "2024-08-09",
@@ -78666,7 +78705,7 @@
       "volume": 125051591,
       "change_value": 4.819999999999993,
       "change_rate": 1.39,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.903000"
     },
     {
       "trading_date": "2024-08-08",
@@ -78679,46 +78718,46 @@
       "volume": 159523017,
       "change_value": -2.3899999999999864,
       "change_rate": -0.68,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "last_updated": "2024-11-14T08:01:03.903000"
     },
     {
-      "trading_date": "2024-08-07",
-      "index_code": "KS200",
-      "index_name": "KOSPI200",
-      "opening_price": 340.91,
-      "high_price": 352.72,
-      "low_price": 340.08,
-      "closing_price": 349.09,
-      "volume": 159269461,
-      "change_value": 7.359999999999957,
-      "change_rate": 2.15,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "trading_date": "2024-11-13",
+      "index_code": "N225",
+      "index_name": "Nikkei 225",
+      "opening_price": 39317.1484375,
+      "high_price": 39377.23828125,
+      "low_price": 38600.26171875,
+      "closing_price": 38721.66015625,
+      "volume": 0,
+      "change_value": -654.4296875,
+      "change_rate": -1.66,
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
-      "trading_date": "2024-08-06",
-      "index_code": "KS200",
-      "index_name": "KOSPI200",
-      "opening_price": 345.63,
-      "high_price": 350.72,
-      "low_price": 338.2,
-      "closing_price": 341.73,
-      "volume": 205544038,
-      "change_value": 9.870000000000005,
-      "change_rate": 2.97,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "trading_date": "2024-11-12",
+      "index_code": "N225",
+      "index_name": "Nikkei 225",
+      "opening_price": 39642.78125,
+      "high_price": 39866.71875,
+      "low_price": 39137.890625,
+      "closing_price": 39376.08984375,
+      "volume": 163000000,
+      "change_value": -157.23046875,
+      "change_rate": -0.4,
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
-      "trading_date": "2024-08-05",
-      "index_code": "KS200",
-      "index_name": "KOSPI200",
-      "opening_price": 355.28,
-      "high_price": 355.28,
-      "low_price": 324.52,
-      "closing_price": 331.86,
-      "volume": 263543399,
-      "change_value": -33.31,
-      "change_rate": -9.12,
-      "last_updated": "2024-11-11T08:16:57.060000"
+      "trading_date": "2024-11-11",
+      "index_code": "N225",
+      "index_name": "Nikkei 225",
+      "opening_price": 39417.2109375,
+      "high_price": 39598.73828125,
+      "low_price": 39315.609375,
+      "closing_price": 39533.3203125,
+      "volume": 122700000,
+      "change_value": 32.94921875,
+      "change_rate": 0.08,
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-11-08",
@@ -78731,7 +78770,7 @@
       "volume": 159300000,
       "change_value": 118.9609375,
       "change_rate": 0.3,
-      "last_updated": "2024-11-11T08:16:57.493000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-11-07",
@@ -78744,7 +78783,7 @@
       "volume": 190000000,
       "change_value": -99.26171875,
       "change_rate": -0.25,
-      "last_updated": "2024-11-11T08:16:57.493000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-11-06",
@@ -78757,7 +78796,7 @@
       "volume": 170600000,
       "change_value": 1005.7734375,
       "change_rate": 2.61,
-      "last_updated": "2024-11-11T08:16:57.493000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-11-05",
@@ -78770,7 +78809,7 @@
       "volume": 120000000,
       "change_value": 421.2265625,
       "change_rate": 1.11,
-      "last_updated": "2024-11-11T08:16:57.493000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-11-01",
@@ -78783,7 +78822,7 @@
       "volume": 130300000,
       "change_value": -1027.578125,
       "change_rate": -2.63,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-10-31",
@@ -78796,7 +78835,7 @@
       "volume": 144300000,
       "change_value": -196.140625,
       "change_rate": -0.5,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-10-30",
@@ -78809,7 +78848,7 @@
       "volume": 221800000,
       "change_value": 373.7109375,
       "change_rate": 0.96,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-10-29",
@@ -78822,7 +78861,7 @@
       "volume": 97400000,
       "change_value": 298.1484375,
       "change_rate": 0.77,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-10-28",
@@ -78835,7 +78874,7 @@
       "volume": 116600000,
       "change_value": 691.609375,
       "change_rate": 1.82,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-10-25",
@@ -78848,7 +78887,7 @@
       "volume": 90700000,
       "change_value": -229.3671875,
       "change_rate": -0.6,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.317000"
     },
     {
       "trading_date": "2024-10-24",
@@ -78861,7 +78900,7 @@
       "volume": 108700000,
       "change_value": 38.4296875,
       "change_rate": 0.1,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-23",
@@ -78874,7 +78913,7 @@
       "volume": 95400000,
       "change_value": -307.1015625,
       "change_rate": -0.8,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-22",
@@ -78887,7 +78926,7 @@
       "volume": 110400000,
       "change_value": -542.640625,
       "change_rate": -1.39,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-21",
@@ -78900,7 +78939,7 @@
       "volume": 99000000,
       "change_value": -27.1484375,
       "change_rate": -0.07,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-18",
@@ -78913,7 +78952,7 @@
       "volume": 95700000,
       "change_value": 70.55859375,
       "change_rate": 0.18,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-17",
@@ -78926,7 +78965,7 @@
       "volume": 107200000,
       "change_value": -269.109375,
       "change_rate": -0.69,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-16",
@@ -78939,7 +78978,7 @@
       "volume": 108100000,
       "change_value": -730.25,
       "change_rate": -1.83,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-15",
@@ -78952,7 +78991,7 @@
       "volume": 129000000,
       "change_value": 304.75,
       "change_rate": 0.77,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-11",
@@ -78965,7 +79004,7 @@
       "volume": 110900000,
       "change_value": 224.91015625,
       "change_rate": 0.57,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-10",
@@ -78978,7 +79017,7 @@
       "volume": 103500000,
       "change_value": 102.9296875,
       "change_rate": 0.26,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-09",
@@ -78991,7 +79030,7 @@
       "volume": 106800000,
       "change_value": 340.421875,
       "change_rate": 0.87,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.313000"
     },
     {
       "trading_date": "2024-10-08",
@@ -79004,7 +79043,7 @@
       "volume": 120400000,
       "change_value": -395.19921875,
       "change_rate": -1,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-10-07",
@@ -79017,7 +79056,7 @@
       "volume": 128000000,
       "change_value": 697.1171875,
       "change_rate": 1.8,
-      "last_updated": "2024-11-11T08:16:57.490000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-10-04",
@@ -79030,7 +79069,7 @@
       "volume": 121200000,
       "change_value": 83.5625,
       "change_rate": 0.22,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-10-03",
@@ -79043,7 +79082,7 @@
       "volume": 126800000,
       "change_value": 743.296875,
       "change_rate": 1.97,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-10-02",
@@ -79056,7 +79095,7 @@
       "volume": 139600000,
       "change_value": -843.20703125,
       "change_rate": -2.18,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-10-01",
@@ -79069,7 +79108,7 @@
       "volume": 132100000,
       "change_value": 732.41796875,
       "change_rate": 1.93,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-30",
@@ -79082,7 +79121,7 @@
       "volume": 190500000,
       "change_value": -1910.0078125,
       "change_rate": -4.8,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-27",
@@ -79095,7 +79134,7 @@
       "volume": 161900000,
       "change_value": 903.9296875,
       "change_rate": 2.32,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-26",
@@ -79108,7 +79147,7 @@
       "volume": 141000000,
       "change_value": 1055.3671875,
       "change_rate": 2.79,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-25",
@@ -79121,7 +79160,7 @@
       "volume": 108200000,
       "change_value": -70.328125,
       "change_rate": -0.19,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-24",
@@ -79134,7 +79173,7 @@
       "volume": 113500000,
       "change_value": 216.6796875,
       "change_rate": 0.57,
-      "last_updated": "2024-11-11T08:16:57.487000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-20",
@@ -79147,7 +79186,7 @@
       "volume": 162600000,
       "change_value": 568.58203125,
       "change_rate": 1.53,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-19",
@@ -79160,7 +79199,7 @@
       "volume": 114100000,
       "change_value": 775.15625,
       "change_rate": 2.13,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-18",
@@ -79173,7 +79212,7 @@
       "volume": 99900000,
       "change_value": 176.953125,
       "change_rate": 0.49,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-17",
@@ -79186,7 +79225,7 @@
       "volume": 127300000,
       "change_value": -378.54296875,
       "change_rate": -1.03,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-13",
@@ -79199,7 +79238,7 @@
       "volume": 115900000,
       "change_value": -251.5078125,
       "change_rate": -0.68,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-12",
@@ -79212,7 +79251,7 @@
       "volume": 126300000,
       "change_value": 1213.5,
       "change_rate": 3.41,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-11",
@@ -79225,7 +79264,7 @@
       "volume": 127600000,
       "change_value": -539.390625,
       "change_rate": -1.49,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-10",
@@ -79238,7 +79277,7 @@
       "volume": 112300000,
       "change_value": -56.58984375,
       "change_rate": -0.16,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.310000"
     },
     {
       "trading_date": "2024-09-09",
@@ -79251,7 +79290,7 @@
       "volume": 118200000,
       "change_value": -175.71875,
       "change_rate": -0.48,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-09-06",
@@ -79264,7 +79303,7 @@
       "volume": 111700000,
       "change_value": -265.62109375,
       "change_rate": -0.72,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-09-05",
@@ -79277,7 +79316,7 @@
       "volume": 111300000,
       "change_value": -390.51953125,
       "change_rate": -1.05,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-09-04",
@@ -79290,7 +79329,7 @@
       "volume": 144400000,
       "change_value": -1638.69921875,
       "change_rate": -4.24,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-09-03",
@@ -79303,7 +79342,7 @@
       "volume": 91200000,
       "change_value": -14.5625,
       "change_rate": -0.04,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-09-02",
@@ -79316,7 +79355,7 @@
       "volume": 87100000,
       "change_value": 53.12109375,
       "change_rate": 0.14,
-      "last_updated": "2024-11-11T08:16:57.483000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-30",
@@ -79329,7 +79368,7 @@
       "volume": 136600000,
       "change_value": 285.21875,
       "change_rate": 0.74,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-29",
@@ -79342,7 +79381,7 @@
       "volume": 106500000,
       "change_value": -9.23046875,
       "change_rate": -0.02,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-28",
@@ -79355,7 +79394,7 @@
       "volume": 88700000,
       "change_value": 83.140625,
       "change_rate": 0.22,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-27",
@@ -79368,7 +79407,7 @@
       "volume": 84300000,
       "change_value": 178.40234375,
       "change_rate": 0.47,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-26",
@@ -79381,7 +79420,7 @@
       "volume": 91700000,
       "change_value": -254.05078125,
       "change_rate": -0.66,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-23",
@@ -79394,7 +79433,7 @@
       "volume": 89800000,
       "change_value": 153.2578125,
       "change_rate": 0.4,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-22",
@@ -79407,7 +79446,7 @@
       "volume": 92800000,
       "change_value": 259.2109375,
       "change_rate": 0.68,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.307000"
     },
     {
       "trading_date": "2024-08-21",
@@ -79420,7 +79459,7 @@
       "volume": 94800000,
       "change_value": -111.12109375,
       "change_rate": -0.29,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.303000"
     },
     {
       "trading_date": "2024-08-20",
@@ -79433,7 +79472,7 @@
       "volume": 110600000,
       "change_value": 674.30078125,
       "change_rate": 1.8,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.303000"
     },
     {
       "trading_date": "2024-08-19",
@@ -79446,7 +79485,7 @@
       "volume": 107800000,
       "change_value": -674.05078125,
       "change_rate": -1.77,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.303000"
     },
     {
       "trading_date": "2024-08-16",
@@ -79459,7 +79498,7 @@
       "volume": 129500000,
       "change_value": 1336.03125,
       "change_rate": 3.64,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.303000"
     },
     {
       "trading_date": "2024-08-15",
@@ -79472,7 +79511,7 @@
       "volume": 119700000,
       "change_value": 284.2109375,
       "change_rate": 0.78,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.303000"
     },
     {
       "trading_date": "2024-08-14",
@@ -79485,7 +79524,7 @@
       "volume": 135600000,
       "change_value": 209.91796875,
       "change_rate": 0.58,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.303000"
     },
     {
       "trading_date": "2024-08-13",
@@ -79498,46 +79537,46 @@
       "volume": 140700000,
       "change_value": 1207.51171875,
       "change_rate": 3.45,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "last_updated": "2024-11-14T08:01:04.303000"
     },
     {
-      "trading_date": "2024-08-09",
-      "index_code": "N225",
-      "index_name": "Nikkei 225",
-      "opening_price": 35272.33984375,
-      "high_price": 35671.30859375,
-      "low_price": 34445.5703125,
-      "closing_price": 35025,
-      "volume": 176900000,
-      "change_value": 193.8515625,
-      "change_rate": 0.56,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "trading_date": "2024-11-13",
+      "index_code": "SSEC",
+      "index_name": "Shanghai",
+      "opening_price": 3406.91650390625,
+      "high_price": 3442.29833984375,
+      "low_price": 3404.525390625,
+      "closing_price": 3439.27783203125,
+      "volume": 2941725360,
+      "change_value": 17.307861328125,
+      "change_rate": 0.51,
+      "last_updated": "2024-11-14T08:01:04.203000"
     },
     {
-      "trading_date": "2024-08-08",
-      "index_code": "N225",
-      "index_name": "Nikkei 225",
-      "opening_price": 34645.7890625,
-      "high_price": 35379.6484375,
-      "low_price": 34207.16015625,
-      "closing_price": 34831.1484375,
-      "volume": 165300000,
-      "change_value": -258.47265625,
-      "change_rate": -0.74,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "trading_date": "2024-11-12",
+      "index_code": "SSEC",
+      "index_name": "Shanghai",
+      "opening_price": 3469.89111328125,
+      "high_price": 3489.424072265625,
+      "low_price": 3402.0419921875,
+      "closing_price": 3421.969970703125,
+      "volume": 817900,
+      "change_value": -48.095947265625,
+      "change_rate": -1.39,
+      "last_updated": "2024-11-14T08:01:04.203000"
     },
     {
-      "trading_date": "2024-08-07",
-      "index_code": "N225",
-      "index_name": "Nikkei 225",
-      "opening_price": 34122.3515625,
-      "high_price": 35849.76953125,
-      "low_price": 33739.4609375,
-      "closing_price": 35089.62109375,
-      "volume": 242800000,
-      "change_value": 414.16015625,
-      "change_rate": 1.19,
-      "last_updated": "2024-11-11T08:16:57.480000"
+      "trading_date": "2024-11-11",
+      "index_code": "SSEC",
+      "index_name": "Shanghai",
+      "opening_price": 3432.366943359375,
+      "high_price": 3471.1220703125,
+      "low_price": 3416.72705078125,
+      "closing_price": 3470.06591796875,
+      "volume": 818000,
+      "change_value": 17.768798828125,
+      "change_rate": 0.51,
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-11-08",
@@ -79550,7 +79589,7 @@
       "volume": 964000,
       "change_value": -18.36376953125,
       "change_rate": -0.53,
-      "last_updated": "2024-11-11T08:16:57.370000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-11-07",
@@ -79563,7 +79602,7 @@
       "volume": 959600,
       "change_value": 86.85498046875,
       "change_rate": 2.57,
-      "last_updated": "2024-11-11T08:16:57.370000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-11-06",
@@ -79576,7 +79615,7 @@
       "volume": 895900,
       "change_value": -3.18115234375,
       "change_rate": -0.09,
-      "last_updated": "2024-11-11T08:16:57.370000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-11-05",
@@ -79589,7 +79628,7 @@
       "volume": 821100,
       "change_value": 76.780029296875,
       "change_rate": 2.32,
-      "last_updated": "2024-11-11T08:16:57.370000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-11-04",
@@ -79602,7 +79641,7 @@
       "volume": 665100,
       "change_value": 38.193115234375,
       "change_rate": 1.17,
-      "last_updated": "2024-11-11T08:16:57.370000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-11-01",
@@ -79615,7 +79654,7 @@
       "volume": 852100,
       "change_value": -7.81005859375,
       "change_rate": -0.24,
-      "last_updated": "2024-11-11T08:16:57.370000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-31",
@@ -79628,7 +79667,7 @@
       "volume": 784600,
       "change_value": 13.5859375,
       "change_rate": 0.42,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-30",
@@ -79641,7 +79680,7 @@
       "volume": 669000,
       "change_value": -20.1689453125,
       "change_rate": -0.61,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-29",
@@ -79654,7 +79693,7 @@
       "volume": 725300,
       "change_value": -35.791015625,
       "change_rate": -1.08,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-28",
@@ -79667,7 +79706,7 @@
       "volume": 672400,
       "change_value": 22.498046875,
       "change_rate": 0.68,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-25",
@@ -79680,7 +79719,7 @@
       "volume": 595700,
       "change_value": 19.43701171875,
       "change_rate": 0.59,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-24",
@@ -79693,7 +79732,7 @@
       "volume": 519800,
       "change_value": -22.5400390625,
       "change_rate": -0.68,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-23",
@@ -79706,7 +79745,7 @@
       "volume": 650400,
       "change_value": 16.93603515625,
       "change_rate": 0.52,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-22",
@@ -79719,7 +79758,7 @@
       "volume": 574900,
       "change_value": 17.7568359375,
       "change_rate": 0.54,
-      "last_updated": "2024-11-11T08:16:57.367000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-21",
@@ -79732,7 +79771,7 @@
       "volume": 668200,
       "change_value": 6.547119140625,
       "change_rate": 0.2,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-18",
@@ -79745,7 +79784,7 @@
       "volume": 693000,
       "change_value": 92.178955078125,
       "change_rate": 2.91,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.200000"
     },
     {
       "trading_date": "2024-10-17",
@@ -79758,7 +79797,7 @@
       "volume": 528600,
       "change_value": -33.56396484375,
       "change_rate": -1.05,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-10-16",
@@ -79771,7 +79810,7 @@
       "volume": 515800,
       "change_value": 1.656005859375,
       "change_rate": 0.05,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-10-15",
@@ -79784,7 +79823,7 @@
       "volume": 566100,
       "change_value": -83.031005859375,
       "change_rate": -2.53,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-10-14",
@@ -79797,7 +79836,7 @@
       "volume": 631500,
       "change_value": 66.5849609375,
       "change_rate": 2.07,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-10-11",
@@ -79810,7 +79849,7 @@
       "volume": 606000,
       "change_value": -84.18798828125,
       "change_rate": -2.55,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-10-10",
@@ -79823,7 +79862,7 @@
       "volume": 834500,
       "change_value": 43.068115234375,
       "change_rate": 1.32,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-10-09",
@@ -79836,7 +79875,7 @@
       "volume": 992800,
       "change_value": -230.9169921875,
       "change_rate": -6.62,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-10-08",
@@ -79849,7 +79888,7 @@
       "volume": 1313500,
       "change_value": 153.27783203125,
       "change_rate": 4.59,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-09-30",
@@ -79862,7 +79901,7 @@
       "volume": 1102300,
       "change_value": 248.968017578125,
       "change_rate": 8.06,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-09-27",
@@ -79875,7 +79914,7 @@
       "volume": 492300,
       "change_value": 86.576171875,
       "change_rate": 2.88,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-09-26",
@@ -79888,7 +79927,7 @@
       "volume": 576300,
       "change_value": 104.64697265625,
       "change_rate": 3.61,
-      "last_updated": "2024-11-11T08:16:57.363000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-09-25",
@@ -79901,7 +79940,7 @@
       "volume": 568300,
       "change_value": 33.179931640625,
       "change_rate": 1.16,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.197000"
     },
     {
       "trading_date": "2024-09-24",
@@ -79914,7 +79953,7 @@
       "volume": 477600,
       "change_value": 114.2080078125,
       "change_rate": 4.15,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-23",
@@ -79927,7 +79966,7 @@
       "volume": 257600,
       "change_value": 12.10400390625,
       "change_rate": 0.44,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-20",
@@ -79940,7 +79979,7 @@
       "volume": 285600,
       "change_value": 0.7919921875,
       "change_rate": 0.03,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-19",
@@ -79953,7 +79992,7 @@
       "volume": 315200,
       "change_value": 18.740966796875,
       "change_rate": 0.69,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-18",
@@ -79966,7 +80005,7 @@
       "volume": 247800,
       "change_value": 13.19091796875,
       "change_rate": 0.49,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-13",
@@ -79979,7 +80018,7 @@
       "volume": 251300,
       "change_value": -13.032958984375,
       "change_rate": -0.48,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-12",
@@ -79992,7 +80031,7 @@
       "volume": 240100,
       "change_value": -4.671875,
       "change_rate": -0.17,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-11",
@@ -80005,7 +80044,7 @@
       "volume": 242300,
       "change_value": -22.39697265625,
       "change_rate": -0.82,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-10",
@@ -80018,7 +80057,7 @@
       "volume": 262200,
       "change_value": 7.703857421875,
       "change_rate": 0.28,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-09",
@@ -80031,7 +80070,7 @@
       "volume": 261500,
       "change_value": -29.31884765625,
       "change_rate": -1.06,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-06",
@@ -80044,7 +80083,7 @@
       "volume": 253600,
       "change_value": -22.507080078125,
       "change_rate": -0.81,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.193000"
     },
     {
       "trading_date": "2024-09-05",
@@ -80057,7 +80096,7 @@
       "volume": 242000,
       "change_value": 4.035888671875,
       "change_rate": 0.14,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-09-04",
@@ -80070,7 +80109,7 @@
       "volume": 257500,
       "change_value": -18.700927734375,
       "change_rate": -0.67,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-09-03",
@@ -80083,7 +80122,7 @@
       "volume": 275700,
       "change_value": -8.055908203125,
       "change_rate": -0.29,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-09-02",
@@ -80096,7 +80135,7 @@
       "volume": 340700,
       "change_value": -31.17919921875,
       "change_rate": -1.1,
-      "last_updated": "2024-11-11T08:16:57.360000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-30",
@@ -80109,7 +80148,7 @@
       "volume": 397500,
       "change_value": 19.108154296875,
       "change_rate": 0.68,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-29",
@@ -80122,7 +80161,7 @@
       "volume": 277500,
       "change_value": -14.322998046875,
       "change_rate": -0.5,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-28",
@@ -80135,7 +80174,7 @@
       "volume": 228700,
       "change_value": -11.302001953125,
       "change_rate": -0.4,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-27",
@@ -80148,7 +80187,7 @@
       "volume": 230700,
       "change_value": -6.7890625,
       "change_rate": -0.24,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-26",
@@ -80161,7 +80200,7 @@
       "volume": 227400,
       "change_value": 1.152099609375,
       "change_rate": 0.04,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-23",
@@ -80174,7 +80213,7 @@
       "volume": 226700,
       "change_value": 5.595947265625,
       "change_rate": 0.2,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-22",
@@ -80187,7 +80226,7 @@
       "volume": 245400,
       "change_value": -7.81201171875,
       "change_rate": -0.27,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-21",
@@ -80200,7 +80239,7 @@
       "volume": 229200,
       "change_value": -10.076904296875,
       "change_rate": -0.35,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-20",
@@ -80213,7 +80252,7 @@
       "volume": 263700,
       "change_value": -27.01318359375,
       "change_rate": -0.93,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.190000"
     },
     {
       "trading_date": "2024-08-19",
@@ -80226,7 +80265,7 @@
       "volume": 261700,
       "change_value": 14.244140625,
       "change_rate": 0.49,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
       "trading_date": "2024-08-16",
@@ -80239,7 +80278,7 @@
       "volume": 263700,
       "change_value": 2.072021484375,
       "change_rate": 0.07,
-      "last_updated": "2024-11-11T08:16:57.357000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
       "trading_date": "2024-08-15",
@@ -80252,7 +80291,7 @@
       "volume": 271900,
       "change_value": 26.703857421875,
       "change_rate": 0.94,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
       "trading_date": "2024-08-14",
@@ -80265,7 +80304,7 @@
       "volume": 217900,
       "change_value": -17.2919921875,
       "change_rate": -0.6,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
       "trading_date": "2024-08-13",
@@ -80278,7 +80317,7 @@
       "volume": 231700,
       "change_value": 9.740966796875,
       "change_rate": 0.34,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
       "trading_date": "2024-08-12",
@@ -80291,7 +80330,7 @@
       "volume": 244200,
       "change_value": -3.989013671875,
       "change_rate": -0.14,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
       "trading_date": "2024-08-09",
@@ -80304,7 +80343,7 @@
       "volume": 284300,
       "change_value": -7.706787109375,
       "change_rate": -0.27,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
       "trading_date": "2024-08-08",
@@ -80317,46 +80356,46 @@
       "volume": 289100,
       "change_value": 0.06689453125,
       "change_rate": 0,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "last_updated": "2024-11-14T08:01:04.187000"
     },
     {
-      "trading_date": "2024-08-07",
-      "index_code": "SSEC",
-      "index_name": "Shanghai",
-      "opening_price": 2864.010009765625,
-      "high_price": 2886.94189453125,
-      "low_price": 2857.72509765625,
-      "closing_price": 2869.833984375,
-      "volume": 263100,
-      "change_value": 2.550048828125,
-      "change_rate": 0.09,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "trading_date": "2024-11-13",
+      "index_code": "US500",
+      "index_name": "S&P500",
+      "opening_price": 5985.75,
+      "high_price": 6008.18994140625,
+      "low_price": 5965.91015625,
+      "closing_price": 5985.3798828125,
+      "volume": 2602203000,
+      "change_value": 1.3896484375,
+      "change_rate": 0.02,
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
-      "trading_date": "2024-08-06",
-      "index_code": "SSEC",
-      "index_name": "Shanghai",
-      "opening_price": 2878.65087890625,
-      "high_price": 2888.200927734375,
-      "low_price": 2845.3349609375,
-      "closing_price": 2867.283935546875,
-      "volume": 297300,
-      "change_value": 6.5859375,
-      "change_rate": 0.23,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "trading_date": "2024-11-12",
+      "index_code": "US500",
+      "index_name": "S&P500",
+      "opening_price": 6003.60009765625,
+      "high_price": 6009.919921875,
+      "low_price": 5960.080078125,
+      "closing_price": 5983.990234375,
+      "volume": 4243400000,
+      "change_value": -17.35986328125,
+      "change_rate": -0.29,
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
-      "trading_date": "2024-08-05",
-      "index_code": "SSEC",
-      "index_name": "Shanghai",
-      "opening_price": 2889.363037109375,
-      "high_price": 2919.02490234375,
-      "low_price": 2860.697998046875,
-      "closing_price": 2860.697998046875,
-      "volume": 355500,
-      "change_value": -44.639892578125,
-      "change_rate": -1.54,
-      "last_updated": "2024-11-11T08:16:57.353000"
+      "trading_date": "2024-11-11",
+      "index_code": "US500",
+      "index_name": "S&P500",
+      "opening_price": 6008.85986328125,
+      "high_price": 6017.31005859375,
+      "low_price": 5986.68994140625,
+      "closing_price": 6001.35009765625,
+      "volume": 4333000000,
+      "change_value": 5.81005859375,
+      "change_rate": 0.1,
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-11-08",
@@ -80369,7 +80408,7 @@
       "volume": 4666740000,
       "change_value": 22.43994140625,
       "change_rate": 0.38,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-11-07",
@@ -80382,7 +80421,7 @@
       "volume": 4925740000,
       "change_value": 44.06005859375,
       "change_rate": 0.74,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-11-06",
@@ -80395,7 +80434,7 @@
       "volume": 6329530000,
       "change_value": 146.2802734375,
       "change_rate": 2.53,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-11-05",
@@ -80408,7 +80447,7 @@
       "volume": 3768310000,
       "change_value": 70.06982421875,
       "change_rate": 1.23,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-11-04",
@@ -80421,7 +80460,7 @@
       "volume": 3602060000,
       "change_value": -16.10986328125,
       "change_rate": -0.28,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-11-01",
@@ -80434,7 +80473,7 @@
       "volume": 3796450000,
       "change_value": 23.349609375,
       "change_rate": 0.41,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-10-31",
@@ -80447,7 +80486,7 @@
       "volume": 4425660000,
       "change_value": -108.2197265625,
       "change_rate": -1.86,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-10-30",
@@ -80460,7 +80499,7 @@
       "volume": 3851120000,
       "change_value": -19.25,
       "change_rate": -0.33,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.087000"
     },
     {
       "trading_date": "2024-10-29",
@@ -80473,7 +80512,7 @@
       "volume": 3879100000,
       "change_value": 9.39990234375,
       "change_rate": 0.16,
-      "last_updated": "2024-11-11T08:16:57.247000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-28",
@@ -80486,7 +80525,7 @@
       "volume": 3691280000,
       "change_value": 15.39990234375,
       "change_rate": 0.27,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-25",
@@ -80499,7 +80538,7 @@
       "volume": 3501280000,
       "change_value": -1.73974609375,
       "change_rate": -0.03,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-24",
@@ -80512,7 +80551,7 @@
       "volume": 3543030000,
       "change_value": 12.43994140625,
       "change_rate": 0.21,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-23",
@@ -80525,7 +80564,7 @@
       "volume": 3532650000,
       "change_value": -53.7802734375,
       "change_rate": -0.92,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-22",
@@ -80538,7 +80577,7 @@
       "volume": 3342080000,
       "change_value": -2.77978515625,
       "change_rate": -0.05,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-21",
@@ -80551,7 +80590,7 @@
       "volume": 3407010000,
       "change_value": -10.68994140625,
       "change_rate": -0.18,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-18",
@@ -80564,7 +80603,7 @@
       "volume": 3374490000,
       "change_value": 23.19970703125,
       "change_rate": 0.4,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-17",
@@ -80577,7 +80616,7 @@
       "volume": 3480010000,
       "change_value": -1,
       "change_rate": -0.02,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-16",
@@ -80590,7 +80629,7 @@
       "volume": 3467230000,
       "change_value": 27.21044921875,
       "change_rate": 0.47,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-15",
@@ -80603,7 +80642,7 @@
       "volume": 3882120000,
       "change_value": -44.59033203125,
       "change_rate": -0.76,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-14",
@@ -80616,7 +80655,7 @@
       "volume": 3005250000,
       "change_value": 44.8203125,
       "change_rate": 0.77,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-11",
@@ -80629,7 +80668,7 @@
       "volume": 3208720000,
       "change_value": 34.97998046875,
       "change_rate": 0.61,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-10",
@@ -80642,7 +80681,7 @@
       "volume": 3208790000,
       "change_value": -11.990234375,
       "change_rate": -0.21,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-09",
@@ -80655,7 +80694,7 @@
       "volume": 3650340000,
       "change_value": 40.91015625,
       "change_rate": 0.71,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-08",
@@ -80668,7 +80707,7 @@
       "volume": 3393400000,
       "change_value": 55.18994140625,
       "change_rate": 0.97,
-      "last_updated": "2024-11-11T08:16:57.243000"
+      "last_updated": "2024-11-14T08:01:04.083000"
     },
     {
       "trading_date": "2024-10-07",
@@ -80681,7 +80720,7 @@
       "volume": 3637790000,
       "change_value": -55.1298828125,
       "change_rate": -0.96,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-10-04",
@@ -80694,7 +80733,7 @@
       "volume": 3479400000,
       "change_value": 51.1298828125,
       "change_rate": 0.9,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-10-03",
@@ -80707,7 +80746,7 @@
       "volume": 3597450000,
       "change_value": -9.60009765625,
       "change_rate": -0.17,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-10-02",
@@ -80720,7 +80759,7 @@
       "volume": 3829050000,
       "change_value": 0.7900390625,
       "change_rate": 0.01,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-10-01",
@@ -80733,7 +80772,7 @@
       "volume": 4025180000,
       "change_value": -53.72998046875,
       "change_rate": -0.93,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-30",
@@ -80746,7 +80785,7 @@
       "volume": 4425730000,
       "change_value": 24.31005859375,
       "change_rate": 0.42,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-27",
@@ -80759,7 +80798,7 @@
       "volume": 3898530000,
       "change_value": -7.2001953125,
       "change_rate": -0.13,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-26",
@@ -80772,7 +80811,7 @@
       "volume": 4391180000,
       "change_value": 23.1103515625,
       "change_rate": 0.4,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-25",
@@ -80785,7 +80824,7 @@
       "volume": 3624910000,
       "change_value": -10.67041015625,
       "change_rate": -0.19,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-24",
@@ -80798,7 +80837,7 @@
       "volume": 3872710000,
       "change_value": 14.3603515625,
       "change_rate": 0.25,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-23",
@@ -80811,7 +80850,7 @@
       "volume": 3529550000,
       "change_value": 16.02001953125,
       "change_rate": 0.28,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-20",
@@ -80824,7 +80863,7 @@
       "volume": 7867260000,
       "change_value": -11.09033203125,
       "change_rate": -0.19,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-19",
@@ -80837,7 +80876,7 @@
       "volume": 4024530000,
       "change_value": 95.38037109375,
       "change_rate": 1.7,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-18",
@@ -80850,7 +80889,7 @@
       "volume": 3691390000,
       "change_value": -16.3203125,
       "change_rate": -0.29,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-17",
@@ -80863,7 +80902,7 @@
       "volume": 3443600000,
       "change_value": 1.490234375,
       "change_rate": 0.03,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-16",
@@ -80876,7 +80915,7 @@
       "volume": 3437070000,
       "change_value": 7.06982421875,
       "change_rate": 0.13,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-13",
@@ -80889,7 +80928,7 @@
       "volume": 3500790000,
       "change_value": 30.26025390625,
       "change_rate": 0.54,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-12",
@@ -80902,7 +80941,7 @@
       "volume": 3655070000,
       "change_value": 41.6298828125,
       "change_rate": 0.75,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-11",
@@ -80915,7 +80954,7 @@
       "volume": 3839450000,
       "change_value": 58.60986328125,
       "change_rate": 1.07,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-10",
@@ -80928,7 +80967,7 @@
       "volume": 3848180000,
       "change_value": 24.47021484375,
       "change_rate": 0.45,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-09",
@@ -80941,7 +80980,7 @@
       "volume": 3825940000,
       "change_value": 62.6298828125,
       "change_rate": 1.16,
-      "last_updated": "2024-11-11T08:16:57.240000"
+      "last_updated": "2024-11-14T08:01:04.080000"
     },
     {
       "trading_date": "2024-09-06",
@@ -80954,7 +80993,7 @@
       "volume": 3822800000,
       "change_value": -94.990234375,
       "change_rate": -1.73,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-09-05",
@@ -80967,7 +81006,7 @@
       "volume": 3521650000,
       "change_value": -16.65966796875,
       "change_rate": -0.3,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-09-04",
@@ -80980,7 +81019,7 @@
       "volume": 3478140000,
       "change_value": -8.8603515625,
       "change_rate": -0.16,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-09-03",
@@ -80993,7 +81032,7 @@
       "volume": 3866350000,
       "change_value": -119.4697265625,
       "change_rate": -2.12,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-30",
@@ -81006,7 +81045,7 @@
       "volume": 4185850000,
       "change_value": 56.43994140625,
       "change_rate": 1.01,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-29",
@@ -81019,7 +81058,7 @@
       "volume": 3065640000,
       "change_value": -0.22021484375,
       "change_rate": 0,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-28",
@@ -81032,7 +81071,7 @@
       "volume": 3053450000,
       "change_value": -33.61962890625,
       "change_rate": -0.6,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-27",
@@ -81045,7 +81084,7 @@
       "volume": 2798990000,
       "change_value": 8.9599609375,
       "change_rate": 0.16,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-26",
@@ -81058,7 +81097,7 @@
       "volume": 2938570000,
       "change_value": -17.77001953125,
       "change_rate": -0.32,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-23",
@@ -81071,7 +81110,7 @@
       "volume": 3291940000,
       "change_value": 63.9697265625,
       "change_rate": 1.15,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-22",
@@ -81084,7 +81123,7 @@
       "volume": 2981530000,
       "change_value": -50.2099609375,
       "change_rate": -0.89,
-      "last_updated": "2024-11-11T08:16:57.237000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-21",
@@ -81097,7 +81136,7 @@
       "volume": 3119670000,
       "change_value": 23.72998046875,
       "change_rate": 0.42,
-      "last_updated": "2024-11-11T08:16:57.233000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-20",
@@ -81110,7 +81149,7 @@
       "volume": 2994420000,
       "change_value": -11.1298828125,
       "change_rate": -0.2,
-      "last_updated": "2024-11-11T08:16:57.233000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-19",
@@ -81123,7 +81162,7 @@
       "volume": 3222050000,
       "change_value": 54,
       "change_rate": 0.97,
-      "last_updated": "2024-11-11T08:16:57.233000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
       "trading_date": "2024-08-16",
@@ -81136,46 +81175,46 @@
       "volume": 3357690000,
       "change_value": 11.02978515625,
       "change_rate": 0.2,
-      "last_updated": "2024-11-11T08:16:57.233000"
+      "last_updated": "2024-11-14T08:01:04.077000"
     },
     {
-      "trading_date": "2024-08-15",
-      "index_code": "US500",
-      "index_name": "S&P500",
-      "opening_price": 5501.1298828125,
-      "high_price": 5546.22998046875,
-      "low_price": 5501.1298828125,
-      "closing_price": 5543.22021484375,
-      "volume": 3723310000,
-      "change_value": 88.01025390625,
-      "change_rate": 1.61,
-      "last_updated": "2024-11-11T08:16:57.233000"
+      "trading_date": "2024-11-13",
+      "index_code": "VIX",
+      "index_name": "VIX",
+      "opening_price": 15.09000015258789,
+      "high_price": 15.260000228881836,
+      "low_price": 13.770000457763672,
+      "closing_price": 14.020000457763672,
+      "volume": 0,
+      "change_value": -0.6899995803833008,
+      "change_rate": -4.69,
+      "last_updated": "2024-11-14T08:01:04.143000"
     },
     {
-      "trading_date": "2024-08-14",
-      "index_code": "US500",
-      "index_name": "S&P500",
-      "opening_price": 5442.35986328125,
-      "high_price": 5463.22021484375,
-      "low_price": 5415.91015625,
-      "closing_price": 5455.2099609375,
-      "volume": 3380050000,
-      "change_value": 20.77978515625,
-      "change_rate": 0.38,
-      "last_updated": "2024-11-11T08:16:57.233000"
+      "trading_date": "2024-11-12",
+      "index_code": "VIX",
+      "index_name": "VIX",
+      "opening_price": 15.09000015258789,
+      "high_price": 15.369999885559082,
+      "low_price": 14.6899995803833,
+      "closing_price": 14.710000038146973,
+      "volume": 0,
+      "change_value": -0.26000022888183594,
+      "change_rate": -1.74,
+      "last_updated": "2024-11-14T08:01:04.143000"
     },
     {
-      "trading_date": "2024-08-13",
-      "index_code": "US500",
-      "index_name": "S&P500",
-      "opening_price": 5376.97998046875,
-      "high_price": 5436.5,
-      "low_price": 5376.97998046875,
-      "closing_price": 5434.43017578125,
-      "volume": 3648980000,
-      "change_value": 90.0400390625,
-      "change_rate": 1.68,
-      "last_updated": "2024-11-11T08:16:57.233000"
+      "trading_date": "2024-11-11",
+      "index_code": "VIX",
+      "index_name": "VIX",
+      "opening_price": 15.329999923706055,
+      "high_price": 15.5600004196167,
+      "low_price": 14.890000343322754,
+      "closing_price": 14.970000267028809,
+      "volume": 0,
+      "change_value": 0.030000686645507812,
+      "change_rate": 0.2,
+      "last_updated": "2024-11-14T08:01:04.143000"
     },
     {
       "trading_date": "2024-11-08",
@@ -81188,7 +81227,7 @@
       "volume": 0,
       "change_value": -0.26000022888183594,
       "change_rate": -1.71,
-      "last_updated": "2024-11-11T08:16:57.310000"
+      "last_updated": "2024-11-14T08:01:04.143000"
     },
     {
       "trading_date": "2024-11-07",
@@ -81201,7 +81240,7 @@
       "volume": 0,
       "change_value": -1.0700006484985352,
       "change_rate": -6.58,
-      "last_updated": "2024-11-11T08:16:57.310000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-11-06",
@@ -81214,7 +81253,7 @@
       "volume": 0,
       "change_value": -4.219999313354492,
       "change_rate": -20.6,
-      "last_updated": "2024-11-11T08:16:57.310000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-11-05",
@@ -81227,7 +81266,7 @@
       "volume": 0,
       "change_value": -1.489999771118164,
       "change_rate": -6.78,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-11-04",
@@ -81240,7 +81279,7 @@
       "volume": 0,
       "change_value": 0.10000038146972656,
       "change_rate": 0.46,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-11-01",
@@ -81253,7 +81292,7 @@
       "volume": 0,
       "change_value": -1.2800006866455078,
       "change_rate": -5.53,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-31",
@@ -81266,7 +81305,7 @@
       "volume": 0,
       "change_value": 2.809999465942383,
       "change_rate": 13.81,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-30",
@@ -81279,7 +81318,7 @@
       "volume": 0,
       "change_value": 1.010000228881836,
       "change_rate": 5.22,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-29",
@@ -81292,7 +81331,7 @@
       "volume": 0,
       "change_value": -0.45999908447265625,
       "change_rate": -2.32,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-28",
@@ -81305,7 +81344,7 @@
       "volume": 0,
       "change_value": -0.5300006866455078,
       "change_rate": -2.61,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-25",
@@ -81318,7 +81357,7 @@
       "volume": 0,
       "change_value": 1.25,
       "change_rate": 6.55,
-      "last_updated": "2024-11-11T08:16:57.307000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-24",
@@ -81331,7 +81370,7 @@
       "volume": 0,
       "change_value": -0.15999984741210938,
       "change_rate": -0.83,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-23",
@@ -81344,7 +81383,7 @@
       "volume": 0,
       "change_value": 1.039999008178711,
       "change_rate": 5.71,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-22",
@@ -81357,7 +81396,7 @@
       "volume": 0,
       "change_value": -0.1700000762939453,
       "change_rate": -0.93,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-21",
@@ -81370,7 +81409,7 @@
       "volume": 0,
       "change_value": 0.3400001525878906,
       "change_rate": 1.89,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-18",
@@ -81383,7 +81422,7 @@
       "volume": 0,
       "change_value": -1.0799999237060547,
       "change_rate": -5.65,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-17",
@@ -81396,7 +81435,7 @@
       "volume": 0,
       "change_value": -0.4699993133544922,
       "change_rate": -2.4,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-16",
@@ -81409,7 +81448,7 @@
       "volume": 0,
       "change_value": -1.0599994659423828,
       "change_rate": -5.14,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-15",
@@ -81422,7 +81461,7 @@
       "volume": 0,
       "change_value": 0.9399986267089844,
       "change_rate": 4.77,
-      "last_updated": "2024-11-11T08:16:57.303000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-14",
@@ -81435,7 +81474,7 @@
       "volume": 0,
       "change_value": -0.7599983215332031,
       "change_rate": -3.71,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-11",
@@ -81448,7 +81487,7 @@
       "volume": 0,
       "change_value": -0.470001220703125,
       "change_rate": -2.25,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-10",
@@ -81461,7 +81500,7 @@
       "volume": 0,
       "change_value": 0.06999969482421875,
       "change_rate": 0.34,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.140000"
     },
     {
       "trading_date": "2024-10-09",
@@ -81474,7 +81513,7 @@
       "volume": 0,
       "change_value": -0.5599994659423828,
       "change_rate": -2.61,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-10-08",
@@ -81487,7 +81526,7 @@
       "volume": 0,
       "change_value": -1.2199993133544922,
       "change_rate": -5.39,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-10-07",
@@ -81500,7 +81539,7 @@
       "volume": 0,
       "change_value": 3.4300003051757812,
       "change_rate": 17.86,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-10-04",
@@ -81513,7 +81552,7 @@
       "volume": 0,
       "change_value": -1.2800006866455078,
       "change_rate": -6.25,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-10-03",
@@ -81526,7 +81565,7 @@
       "volume": 0,
       "change_value": 1.5900001525878906,
       "change_rate": 8.41,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-10-02",
@@ -81539,7 +81578,7 @@
       "volume": 0,
       "change_value": -0.3600006103515625,
       "change_rate": -1.87,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-10-01",
@@ -81552,7 +81591,7 @@
       "volume": 0,
       "change_value": 2.530000686645508,
       "change_rate": 15.12,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-30",
@@ -81565,7 +81604,7 @@
       "volume": 0,
       "change_value": -0.22999954223632812,
       "change_rate": -1.36,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-27",
@@ -81578,7 +81617,7 @@
       "volume": 0,
       "change_value": 1.5899991989135742,
       "change_rate": 10.34,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-26",
@@ -81591,7 +81630,7 @@
       "volume": 0,
       "change_value": -0.039999961853027344,
       "change_rate": -0.26,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-25",
@@ -81604,7 +81643,7 @@
       "volume": 0,
       "change_value": 0.01999950408935547,
       "change_rate": 0.13,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-24",
@@ -81617,7 +81656,7 @@
       "volume": 0,
       "change_value": -0.5,
       "change_rate": -3.15,
-      "last_updated": "2024-11-11T08:16:57.300000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-23",
@@ -81630,7 +81669,7 @@
       "volume": 0,
       "change_value": -0.25999927520751953,
       "change_rate": -1.61,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-20",
@@ -81643,7 +81682,7 @@
       "volume": 0,
       "change_value": -0.18000030517578125,
       "change_rate": -1.1,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-19",
@@ -81656,7 +81695,7 @@
       "volume": 0,
       "change_value": -1.8999996185302734,
       "change_rate": -10.42,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-18",
@@ -81669,7 +81708,7 @@
       "volume": 0,
       "change_value": 0.6199989318847656,
       "change_rate": 3.52,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.137000"
     },
     {
       "trading_date": "2024-09-17",
@@ -81682,7 +81721,7 @@
       "volume": 0,
       "change_value": 0.470001220703125,
       "change_rate": 2.74,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-16",
@@ -81695,7 +81734,7 @@
       "volume": 0,
       "change_value": 0.5799999237060547,
       "change_rate": 3.5,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-13",
@@ -81708,7 +81747,7 @@
       "volume": 0,
       "change_value": -0.5100002288818359,
       "change_rate": -2.99,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-12",
@@ -81721,7 +81760,7 @@
       "volume": 0,
       "change_value": -0.6200008392333984,
       "change_rate": -3.5,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-11",
@@ -81734,7 +81773,7 @@
       "volume": 0,
       "change_value": -1.3899993896484375,
       "change_rate": -7.29,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-10",
@@ -81747,7 +81786,7 @@
       "volume": 0,
       "change_value": -0.37000083923339844,
       "change_rate": -1.9,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-09",
@@ -81760,7 +81799,7 @@
       "volume": 0,
       "change_value": -2.9299983978271484,
       "change_rate": -13.09,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-06",
@@ -81773,7 +81812,7 @@
       "volume": 0,
       "change_value": 2.479999542236328,
       "change_rate": 12.46,
-      "last_updated": "2024-11-11T08:16:57.297000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-05",
@@ -81786,7 +81825,7 @@
       "volume": 0,
       "change_value": -1.4200000762939453,
       "change_rate": -6.66,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-04",
@@ -81799,7 +81838,7 @@
       "volume": 0,
       "change_value": 0.6000003814697266,
       "change_rate": 2.9,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-09-03",
@@ -81812,7 +81851,7 @@
       "volume": 0,
       "change_value": null,
       "change_rate": null,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-08-30",
@@ -81825,7 +81864,7 @@
       "volume": 0,
       "change_value": -0.6499996185302734,
       "change_rate": -4.15,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-08-29",
@@ -81838,7 +81877,7 @@
       "volume": 0,
       "change_value": -1.460000991821289,
       "change_rate": -8.53,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-08-28",
@@ -81851,7 +81890,7 @@
       "volume": 0,
       "change_value": 1.6800003051757812,
       "change_rate": 10.89,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-08-27",
@@ -81864,7 +81903,7 @@
       "volume": 0,
       "change_value": -0.7199993133544922,
       "change_rate": -4.46,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-08-26",
@@ -81877,7 +81916,7 @@
       "volume": 0,
       "change_value": 0.28999996185302734,
       "change_rate": 1.83,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.133000"
     },
     {
       "trading_date": "2024-08-23",
@@ -81890,7 +81929,7 @@
       "volume": 0,
       "change_value": -1.6899995803833008,
       "change_rate": -9.63,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.130000"
     },
     {
       "trading_date": "2024-08-22",
@@ -81903,7 +81942,7 @@
       "volume": 0,
       "change_value": 1.279998779296875,
       "change_rate": 7.87,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.130000"
     },
     {
       "trading_date": "2024-08-21",
@@ -81916,7 +81955,7 @@
       "volume": 0,
       "change_value": 0.3900003433227539,
       "change_rate": 2.46,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.130000"
     },
     {
       "trading_date": "2024-08-20",
@@ -81929,7 +81968,7 @@
       "volume": 0,
       "change_value": 1.2300004959106445,
       "change_rate": 8.4,
-      "last_updated": "2024-11-11T08:16:57.293000"
+      "last_updated": "2024-11-14T08:01:04.130000"
     },
     {
       "trading_date": "2024-08-19",
@@ -81942,7 +81981,7 @@
       "volume": 0,
       "change_value": -0.15000057220458984,
       "change_rate": -1.01,
-      "last_updated": "2024-11-11T08:16:57.290000"
+      "last_updated": "2024-11-14T08:01:04.130000"
     },
     {
       "trading_date": "2024-08-16",
@@ -81955,46 +81994,7 @@
       "volume": 0,
       "change_value": -0.42999935150146484,
       "change_rate": -2.82,
-      "last_updated": "2024-11-11T08:16:57.290000"
-    },
-    {
-      "trading_date": "2024-08-15",
-      "index_code": "VIX",
-      "index_name": "VIX",
-      "opening_price": 16.270000457763672,
-      "high_price": 16.68000030517578,
-      "low_price": 14.770000457763672,
-      "closing_price": 15.229999542236328,
-      "volume": 0,
-      "change_value": -0.9600009918212891,
-      "change_rate": -5.93,
-      "last_updated": "2024-11-11T08:16:57.290000"
-    },
-    {
-      "trading_date": "2024-08-14",
-      "index_code": "VIX",
-      "index_name": "VIX",
-      "opening_price": 18.40999984741211,
-      "high_price": 18.489999771118164,
-      "low_price": 16.1200008392334,
-      "closing_price": 16.190000534057617,
-      "volume": 0,
-      "change_value": -1.9300003051757812,
-      "change_rate": -10.65,
-      "last_updated": "2024-11-11T08:16:57.290000"
-    },
-    {
-      "trading_date": "2024-08-13",
-      "index_code": "VIX",
-      "index_name": "VIX",
-      "opening_price": 20.059999465942383,
-      "high_price": 20.790000915527344,
-      "low_price": 17.950000762939453,
-      "closing_price": 18.1200008392334,
-      "volume": 0,
-      "change_value": -2.589998245239258,
-      "change_rate": -12.51,
-      "last_updated": "2024-11-11T08:16:57.290000"
+      "last_updated": "2024-11-14T08:01:04.130000"
     }
   ]
 }
